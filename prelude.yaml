@@ -1905,12 +1905,12 @@ globals:
 
 ## &requiresMCM_X
 # Skyrim
-  - &requiresMCM
+  - &requiresMCM_SkyUI
     <<: *requiresMCM_X
     subs: [ '[SkyUI](https://www.nexusmods.com/skyrim/mods/3863/)' ]
     condition: 'not active("SkyUI.esp")'
 # SSE
-  - &requiresMCM
+  - &requiresMCM_SkyUISE
     <<: *requiresMCM_X
     subs: [ '[SkyUI SE](https://www.nexusmods.com/skyrimspecialedition/mods/12604/)' ]
     condition: 'file("../SkyrimSE.exe") and not file("SkyrimVR.esm") and not active("SkyUI_SE.esp")'
