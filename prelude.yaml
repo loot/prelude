@@ -2385,8 +2385,7 @@ globals:
         text: 'У цій версії LOOT плагіни Creation Club обробляються гірше. Тому їх підтримка обмежена до версії LOOT 0.13.1. Рекомендується оновити якомога швидше.'
       - lang: zh_CN
         text: '这个版本的LOOT对Creation Club插件的处理较差。因此，在LOOT 0.13.1之前的版本中，对这些的支持是有限的。建议尽快更新。'
-    condition: 'file("LOOT") and version("LOOT", "0.13.1.0", <) and file("cc[A-Z]{3}SSE[0-9]{3}.*\.es(l|m)")'
-    condition: 'file("LOOT") and version("LOOT", "0.13.1.0", <) and file("cc[A-Z]{3}F(O|0)4[0-9]{3}.*\.es(l|m)")'
+    condition: 'file("LOOT") and version("LOOT", "0.13.1.0", <) and (file("cc[A-Z]{3}SSE[0-9]{3}.*\.es(l|m)") or file("cc[A-Z]{3}F(O|0)4[0-9]{3}.*\.es(l|m)"))'
 
 # Dynamically Created Plugin
   - type: say
