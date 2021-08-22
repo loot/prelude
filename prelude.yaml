@@ -1531,10 +1531,6 @@ globals:
     <<: *alreadyInX
     condition: 'file("Pretty Followers.esm")'
     subs: [ 'Pretty Followers' ]
-  - &alreadyInSexierHousecarls
-    <<: *alreadyInX
-    condition: 'file("Sexier Housecarls.esp")'
-    subs: [ 'Sexier Housecarls.esp' ]
   - &alreadyInSIDTComplete
     <<: *alreadyInX
     condition: 'file("SIDT - Complete.esp")'
