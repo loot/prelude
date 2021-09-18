@@ -1064,6 +1064,43 @@ common:
       - lang: zh_CN
         text: '如果您添加、删除或更新修改了WRLD/CELL记录的插件时，记得使用**xLODGen**更新此模块。'
 
+  - &scriptExtenderMissing
+    type: error
+    content:
+      - lang: en
+        text: 'You have installed an %1% plugin but %1% was not found! See %1% download page: %2%.'
+      - lang: bg
+        text: 'Инсталирали сте приставката %1%, но %1% липсва! Отворете Интернет страницата на %1%: %2%.'
+      - lang: da
+        text: 'Du har installeret an %1% plugin men %1% blev ikke fundet! Se %1%-downloadsiden: %2%.'
+      - lang: de
+        text: 'Sie haben ein %1% Plugin installiert, aber %1% wurde nicht gefunden! %1% kann hier heruntergeladen werden: %2%.'
+      - lang: es
+        text: '!Tiene un %1% plugin instalado pero %1% no se pudo encontrar! Véase %1% la página de descarga: %2%.'
+      - lang: it
+        text: 'Hai installato un plugin %1% ma %1% non è stato trovato! Consulta %1% nella pagina di download: %2%.'
+      - lang: ja
+        text: 'an %1% pluginはインストールされていますが、%1%が見つかりません！%1%のダウンロードページを確認してください。%2%。'
+      - lang: ko
+        text: '%1% 플러그인이 설치되었지만 %1%를 찾을 수 없습니다! %1% 다운로드 페이지를 참조하십시오: %2%.'
+      - lang: pl
+        text: 'Zainstalowałeś an %1% plugin ale nie odnaleziono %1%! Odwiedź stronę pobierania %1%: %2%.'
+      - lang: pt_BR
+        text: 'Você tem um plugin do %1% instalado mas o %1% não foi encontrado! Veja a página de download do %1%: %2%.'
+      - lang: pt_PT
+        text: 'Você instalou an %1% plugin mas o %1% não foi encontrado! Veja a página de download do %1%: %2%.'
+      - lang: ru
+        text: 'У вас установлен %1% плагин, но %1% не найден! Смотрите страницу загрузки: %2%.'
+      - lang: sv
+        text: 'Du har installerat an %1% plugin men %1% kunde inte hittas! Läs mer på %1%:s nedladdningssisda: %2%.'
+      - lang: uk_UA
+        text: 'У вас встановлено %1% плагін, але %1% не знайдено! Дивіться сторінку завантаження: %2%.'
+      - lang: zh_CN
+        text: '您已经安装了%1%插件，但是未发现%1%！请查看%1%的下载页面:%2%。'
+    subs:
+      - Script Extender
+      - '[Script Extender](http://silverlock.org/)'
+
   - &sortMasters
     type: say
     content:
@@ -2569,66 +2606,6 @@ globals:
       - 'Fallout 4 Script Extender'
       - '[F4SE](https://f4se.silverlock.org)'
     condition: 'not file("scripts/F4SE.pex") and ((file("../Fallout4.exe") and file("../f4se_loader.exe")) or (file("../Fallout4VR.exe") and file("../f4sevr_loader.exe")))'
-
-# Script Extender - Plugin Requirements
-  - type: error
-    content:
-      - lang: en
-        text: 'You have installed an %1% plugin but %1% was not found! See %1% download page: %2%.'
-      - lang: bg
-        text: 'Инсталирали сте приставката %1%, но %1% липсва! Отворете Интернет страницата на %1%: %2%.'
-      - lang: da
-        text: 'Du har installeret an %1% plugin men %1% blev ikke fundet! Se %1%-downloadsiden: %2%.'
-      - lang: de
-        text: 'Sie haben ein %1% Plugin installiert, aber %1% wurde nicht gefunden! %1% kann hier heruntergeladen werden: %2%.'
-      - lang: es
-        text: '!Tiene un %1% plugin instalado pero %1% no se pudo encontrar! Véase %1% la página de descarga: %2%.'
-      - lang: fr
-        text: 'Vous avez installé un %1% plugin mais %1% ne fut pas détécté ! Veuillez consultez la page de téléchargement de %1% : %2%.'
-      - lang: it
-        text: 'Hai installato un plugin %1% ma %1% non è stato trovato! Consulta %1% nella pagina di download: %2%.'
-      - lang: ja
-        text: 'an %1% pluginはインストールされていますが、%1%が見つかりません！%1%のダウンロードページを確認してください。%2%。'
-      - lang: ko
-        text: '%1% 플러그인이 설치되었지만 %1%를 찾을 수 없습니다! %1% 다운로드 페이지를 참조하십시오: %2%.'
-      - lang: pl
-        text: 'Zainstalowałeś an %1% plugin ale nie odnaleziono %1%! Odwiedź stronę pobierania %1%: %2%.'
-      - lang: pt_BR
-        text: 'Você tem um plugin do %1% instalado mas o %1% não foi encontrado! Veja a página de download do %1%: %2%.'
-      - lang: pt_PT
-        text: 'Você instalou an %1% plugin mas o %1% não foi encontrado! Veja a página de download do %1%: %2%.'
-      - lang: ru
-        text: 'У вас установлен %1% плагин, но %1% не найден! Смотрите страницу загрузки: %2%.'
-      - lang: sv
-        text: 'Du har installerat an %1% plugin men %1% kunde inte hittas! Läs mer på %1%:s nedladdningssisda: %2%.'
-      - lang: uk_UA
-        text: 'У вас встановлено %1% плагін, але %1% не знайдено! Дивіться сторінку завантаження: %2%.'
-      - lang: zh_CN
-        text: '您已经安装了%1%插件，但是未发现%1%！请查看%1%的下载页面:%2%。'
-    subs:
-      - 'SKSE'
-      - '[SKSE](https://skse.silverlock.org)'
-    condition: 'file("SKSE/Plugins/([^\.]+\.dll)") and not file("../skse_loader.exe")'
-    subs:
-      - 'SKSE'
-      - '[SKSE](https://skse.silverlock.org)'
-    condition: 'file("SKSE/Plugins/([^\.]+\.dll)") and not file("../skse(64|vr)_loader\.exe")'
-    subs:
-      - 'OBSE'
-      - '[OBSE](https://obse.silverlock.org)'
-    condition: 'file("OBSE/Plugins/([^\.]+\.dll)") and not file("../obse_1_2_416.dll")'
-    subs:
-      - 'FOSE'
-      - '[FOSE](https://fose.silverlock.org)'
-    condition: 'file("FOSE/Plugins/([^\.]+\.dll)") and not file("../fose_loader.exe")'
-    subs:
-      - 'F4SE'
-      - '[F4SE](https://f4se.silverlock.org)'
-    condition: 'file("F4SE/Plugins/([^\.]+\.dll)") and not file("../f4se(vr)?_loader\.exe")'
-    subs:
-      - 'NVSE'
-      - '[NVSE](http://nvse.silverlock.org)'
-    condition: 'file("NVSE/Plugins/([^\.]+\.dll)") and not file("../nvse_loader.exe")'
 
 # Script Extender - NVAC
   - type: warn
