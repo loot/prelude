@@ -504,6 +504,40 @@ common:
       - lang: zh_CN
         text: '这个插件是一个mod开发资源，不应该在游戏中使用。'
 
+  - &moveNVAC
+    type: warn
+    content:
+      - lang: en
+        text: 'NVAC is installed under **NVSE/Plugins** but needs to be moved to **%1%/Plugins** for %1% to pick it up for %2%.'
+      - lang: bg
+        text: 'Приставката "NVAC" е инсталирана в **NVSE/Plugins**, но трябва да бъде преместена в **%1%/Plugins** за да може %1% да използва нейните функции в %2%.'
+      - lang: de
+        text: 'NVAC ist unter **NVSE/Plugins** installiert aber es muss nach **%1%/Plugins** verschoben werden um von %1% erkannt zu werden für %2%.'
+      - lang: es
+        text: 'NVAC se encuentra instalado bajo **NVSE/Plugins** pero debe ser trasladado a **%1%/Plugins** para que %1% pueda ser reconocido por %2%.'
+      - lang: fr
+        text: 'NVAC est installé dans **NVSE/Plugins** mais doit être déplace à **%1%/Plguins** afin que %1% puisse l''utiliser pour %2%.'
+      - lang: it
+        text: 'NVAC è installato in **NVSE/Plugins** ma deve essere spostato in **%1%/Plugins** per permettere a %1% di essere usato da %2%.'
+      - lang: ja
+        text: 'NVAC は **NVSE/Plugins** の下にインストールされていますが、%1% が %2% に引き上げるために **%1%/Plugins** に移動する必要があります。'
+      - lang: ko
+        text: 'NVAC는 **NVSE/플러그인** 아래에 설치되지만 %2%에 대해 선택하려면 %1%에 대해 **%1%/Plugins**로 이동해야합니다.'
+      - lang: pt_BR
+        text: 'O NVAC está instalado em **NVSE/Plugins** porém precisa ser movido para **%1%/Plugins** para que o %1% o reconheça para o %2%.'
+      - lang: pt_PT
+        text: 'O NVAC está instalado em **NVSE/Plugins** porém precisa ser movido para **%1%/Plugins** para que o %1% o reconheça para o %2%.'
+      - lang: ru
+        text: 'NVAC установлен в **NVSE/Plugins**, но его необходимо переместить в **%1%/Plugins**, чтобы %1% использовал его для %2%.'
+      - lang: uk_UA
+        text: 'NVAC встановлено у **NVSE/Plugins**, але його необхідно перемістити до **%1%/Plugins**, щоб %1% використовував його для %2%.'
+      - lang: zh_CN
+        text: 'NVAC安装在**NVSE/Plugins**下，但需要移动到**%1%/Plugins**来让%1%获取%2%。'
+    subs:
+      - '<Script Extender>'
+      - 'your game'
+    condition: 'file("NVSE/Plugins/nvac.dll")'
+
   - &moveXFromYToZ
     type: say
     content:
@@ -2608,41 +2642,3 @@ globals:
       - 'Fallout 4 Script Extender'
       - '[F4SE](https://f4se.silverlock.org)'
     condition: 'not file("scripts/F4SE.pex") and ((file("../Fallout4.exe") and file("../f4se_loader.exe")) or (file("../Fallout4VR.exe") and file("../f4sevr_loader.exe")))'
-
-# Script Extender - NVAC
-  - type: warn
-    content:
-      - lang: en
-        text: 'NVAC is installed under **NVSE/Plugins** but needs to be moved to **%1%/Plugins** for %1% to pick it up for %2%.'
-      - lang: bg
-        text: 'Приставката "NVAC" е инсталирана в **NVSE/Plugins**, но трябва да бъде преместена в **%1%/Plugins** за да може %1% да използва нейните функции в %2%.'
-      - lang: de
-        text: 'NVAC ist unter **NVSE/Plugins** installiert aber es muss nach **%1%/Plugins** verschoben werden um von %1% erkannt zu werden für %2%.'
-      - lang: es
-        text: 'NVAC se encuentra instalado bajo **NVSE/Plugins** pero debe ser trasladado a **%1%/Plugins** para que %1% pueda ser reconocido por %2%.'
-      - lang: fr
-        text: 'NVAC est installé dans **NVSE/Plugins** mais doit être déplace à **%1%/Plguins** afin que %1% puisse l''utiliser pour %2%.'
-      - lang: it
-        text: 'NVAC è installato in **NVSE/Plugins** ma deve essere spostato in **%1%/Plugins** per permettere a %1% di essere usato da %2%.'
-      - lang: ja
-        text: 'NVAC は **NVSE/Plugins** の下にインストールされていますが、%1% が %2% に引き上げるために **%1%/Plugins** に移動する必要があります。'
-      - lang: ko
-        text: 'NVAC는 **NVSE/플러그인** 아래에 설치되지만 %2%에 대해 선택하려면 %1%에 대해 **%1%/Plugins**로 이동해야합니다.'
-      - lang: pt_BR
-        text: 'O NVAC está instalado em **NVSE/Plugins** porém precisa ser movido para **%1%/Plugins** para que o %1% o reconheça para o %2%.'
-      - lang: pt_PT
-        text: 'O NVAC está instalado em **NVSE/Plugins** porém precisa ser movido para **%1%/Plugins** para que o %1% o reconheça para o %2%.'
-      - lang: ru
-        text: 'NVAC установлен в **NVSE/Plugins**, но его необходимо переместить в **%1%/Plugins**, чтобы %1% использовал его для %2%.'
-      - lang: uk_UA
-        text: 'NVAC встановлено у **NVSE/Plugins**, але його необхідно перемістити до **%1%/Plugins**, щоб %1% використовував його для %2%.'
-      - lang: zh_CN
-        text: 'NVAC安装在**NVSE/Plugins**下，但需要移动到**%1%/Plugins**来让%1%获取%2%。'
-    subs:
-      - 'OBSE'
-      - 'Oblivion'
-    condition: 'file("NVSE/Plugins/nvac.dll")'
-    subs:
-      - 'FOSE'
-      - 'Fallout 3'
-    condition: 'file("NVSE/Plugins/nvac.dll")'
