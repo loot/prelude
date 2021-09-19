@@ -1,6 +1,8 @@
 # Prelude for LOOT masterlists
 common:
-# Message Anchors
+##### Condition Anchors #####
+
+##### Message Anchors #####
   - &alreadyInX
     type: error
     content:
@@ -1552,7 +1554,7 @@ common:
         text: '这个插件包含[随意编辑](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits)，可能需要额外的手动清理，以免干扰其他mod。%1%'
     subs: [ '' ]
 
-# Cleaning Data Anchors
+##### Cleaning Data Anchors #####
   - &quickClean
     util: '[TES5Edit](https://www.nexusmods.com/skyrim/mods/25859)'
     info:
@@ -1621,7 +1623,7 @@ common:
       - lang: zh_CN
         text: '强烈建议不要使用包含已删除navmeshes的mod，因为它们会导致崩溃。**已删除navmeshes**必须手动修正(一个复杂的过程，应该由mod作者完成)。更多关于**已删除navmeshes**的信息已提供[这里](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)。'
 
-# Deprecated Anchors #
+##### Deprecated Anchors #####
   - &dirtyPlugin
     util: '[TES5Edit](https://www.nexusmods.com/skyrim/mods/25859)'
     info:
@@ -1641,9 +1643,9 @@ common:
         text: 'Объяснение по грязным правкам доступно [здесь](https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#AppendixA).'
 
 globals:
-### Sub-Anchors
+##### Sub-Anchors #####
 
-## &alreadyInX
+### &alreadyInX ###
 # Oblivion
   - &alreadyInMMM
     <<: *alreadyInX
@@ -1723,12 +1725,12 @@ globals:
     <<: *alreadyInX
     subs: [ 'Ultimate Follower Overhaul' ]
     condition: 'file("UFO - Ultimate Follower Overhaul.esp")'
-# SSE
+# Skyrim Special Edition
   - &alreadyInLotD
     <<: *alreadyInX
     subs: [ '[Legacy of the Dragonborn](https://www.nexusmods.com/skyrimspecialedition/mods/11802/)' ]
     condition: 'active("LegacyoftheDragonborn.esm")'
-# FO3
+# Fallout 3
   - &alreadyInFOOK2
     <<: *alreadyInX
     subs: [ 'FOOK 2 (Fallout Overhaul Kit)' ]
@@ -1737,7 +1739,7 @@ globals:
     <<: *alreadyInX
     subs: [ 'FO3 Wanderers Edition' ]
     condition: 'file("FO3 Wanderers Edition - Main File.esm")'
-# FO4
+# Fallout 4
   - &alreadyInUFO4P
     <<: *alreadyInX
     subs: [ 'Unofficial Fallout 4 Patch' ]
@@ -1755,7 +1757,7 @@ globals:
     subs: [ 'WeaponSmith Extended 2 - Better Locational Damage Patch **BLD - Merged - WSE Edition.esp**' ]
     condition: 'active("BLD - Merged - WSE Edition.esp")'
 
-## &alreadyInOrFixedByX
+### &alreadyInOrFixedByX ###
 # Oblivion
   - &alreadyInOrFixedByUOP
     <<: *alreadyInOrFixedByX
@@ -1802,7 +1804,7 @@ globals:
     <<: *alreadyInOrFixedByX
     subs: [ 'Unofficial High Resolution Patch.esp' ]
     condition: 'active("Unofficial High Resolution Patch.esp")'
-# SSE
+# Skyrim Special Edition
   - &alreadyInOrFixedByBDSv3_0
     <<: *alreadyInOrFixedByX
     subs: [ 'Better Dynamic Snow v3.0+' ]
@@ -1812,7 +1814,7 @@ globals:
     type: say
     subs: [ 'Scrambled Bugs' ]
     condition: 'file("NetScriptFramework/Plugins/ScrambledBugs.dll")'
-# FO3
+# Fallout 3
   - &alreadyInOrFixedByUFO3P
     <<: *alreadyInOrFixedByX
     subs: [ 'Unofficial Fallout 3 Patch' ]
@@ -1820,7 +1822,7 @@ globals:
   - &alreadyInOrFixedByUFO3Pv1_7
     <<: *alreadyInOrFixedByUFO3P
     condition: 'active("Unofficial Fallout 3 Patch.esm") and version("Unofficial Fallout 3 Patch.esm", "1.7", >=)'
-# FO4
+# Fallout 4
   - &alreadyInOrFixedByFO4
     <<: *alreadyInOrFixedByX
     subs: [ 'Fallout 4' ]
@@ -1833,7 +1835,7 @@ globals:
     subs: [ 'Fallout 4 v1.4.132.0' ]
     condition: 'version("../Fallout4.exe", "1.4.132.0", >=)'
 
-## &alsoUseX
+### &alsoUseX ###
 # Oblivion
   - &alsoUseEngineBugFixes
     <<: *alsoUseX
@@ -1844,13 +1846,11 @@ globals:
     subs: [ '[**Elys Universal Silent Voice**](https://www.nexusmods.com/oblivion/mods/16622/) or [**VoiceFile Redirector**](https://github.com/ponyrider0/voicefile-redirector/releases/)' ]
     condition: 'not file("OBSE/Plugins/Elys_USV.dll") and not file("OBSE/Plugins/voicefile_redirector.dll")'
 
-## &compatIssuesWithX
+### &compatIssuesWithX ###
+### &compatNotes ###
+### &corrupt ###
 
-## &compatNotes
-
-## &corrupt
-
-## &deleteOrDeactivateX
+### &deleteOrDeactivateX ###
 # Oblivion
   - &deleteUseFransSeparateOptions
     <<: *deleteOrDeactivateX
@@ -1858,16 +1858,16 @@ globals:
     subs: [ 'This plugin should not be used. Reinstall Fran''s and select "Separate Files" when the option is presented.' ]
     condition: *FCOMCond
 
-## &deletePlugin
+### &deletePlugin ###
 
-## &includesX
-# SSE
+### &includesX ###
+# Skyrim Special Edition
   - &includesMBBF
     <<: *includesX
     subs: [ '[ Modern Brawl Bug Fix ](https://www.nexusmods.com/skyrimspecialedition/mods/1473/)' ]
     condition: 'file("Modern Brawl Bug Fix.esp")'
 
-## &languageX
+### &languageX ###
   - &languageEnglish
     <<: *languageX
     subs: [ '**en**' ]
@@ -1923,9 +1923,9 @@ globals:
     <<: *languageX
     subs: [ '**uk_UA**' ]
 
-## &mainQuestCompleted
+### &mainQuestCompleted ###
 
-## &masterReassign
+### &masterReassign ###
 # Oblivion
   - &masterReassignNehrim
     <<: *masterReassign
@@ -1934,20 +1934,19 @@ globals:
       - 'Nehrim.esm'
     condition: *nehrimCond
 
-## &missingRequirementXforY
+### &missingRequirementXforY ###
 
-## &missingRequirementXforPlugin
-# SSE
+### &missingRequirementXforPlugin ###
+# Skyrim Special Edition
   - &missingRequirementAddrLibforPlugin
     <<: *missingRequirementXforPlugin
     subs: [ '[Address Library](https://www.nexusmods.com/skyrimspecialedition/mods/32444/)' ]
     condition: '(not file("SKSE/Plugins/version-1-5-16-0.bin") and product_version("../SkyrimSE.exe", "1.5.16.0", ==)) or (not file("SKSE/Plugins/version-1-5-23-0.bin") and product_version("../SkyrimSE.exe", "1.5.23.0", ==)) or (not file("SKSE/Plugins/version-1-5-3-0.bin") and product_version("../SkyrimSE.exe", "1.5.3.0", ==)) or (not file("SKSE/Plugins/version-1-5-39-0.bin") and product_version("../SkyrimSE.exe", "1.5.39.0", ==)) or (not file("SKSE/Plugins/version-1-5-50-0.bin") and product_version("../SkyrimSE.exe", "1.5.50.0", ==)) or (not file("SKSE/Plugins/version-1-5-53-0.bin") and product_version("../SkyrimSE.exe", "1.5.53.0", ==)) or (not file("SKSE/Plugins/version-1-5-62-0.bin") and product_version("../SkyrimSE.exe", "1.5.62.0", ==)) or (not file("SKSE/Plugins/version-1-5-73-0.bin") and product_version("../SkyrimSE.exe", "1.5.73.0", ==)) or (not file("SKSE/Plugins/version-1-5-80-0.bin") and product_version("../SkyrimSE.exe", "1.5.80.0", ==)) or (not file("SKSE/Plugins/version-1-5-97-0.bin") and product_version("../SkyrimSE.exe", "1.5.97.0", ==))'
 
-## &moddingPlugin
+### &moddingPlugin ###
+### &moveXFromYToZ ###
 
-## &moveXFromYToZ
-
-## &obsolete
+### &obsolete ###
 # Oblivion
   - &obsoleteUseFCOM
     <<: *obsolete
@@ -1957,11 +1956,10 @@ globals:
     <<: *obsolete
     subs: [ '[Sharlikran''s Compatibility Patches](https://www.nexusmods.com/skyrim/mods/26230/)' ]
 
-## &onlyUseSmashOrBash
+### &onlyUseSmashOrBash ###
+### &optional ###
 
-## &optional
-
-## &patch3rdParty
+### &patch3rdParty ###
 # Skyrim
   - &patch3rdParty_Requiem_RPC
     <<: *patch3rdParty
@@ -1973,7 +1971,7 @@ globals:
     subs:
       - 'Requiem'
       - '[Seg''s Requiem Patches](https://www.nexusmods.com/skyrim/mods/95859/)'
-# SSE
+# Skyrim Special Edition
   - &patch3rdParty_AOOPH
     <<: *patch3rdParty
     subs:
@@ -2056,32 +2054,28 @@ globals:
       - '[Vokrii - Minimalistic Perks of Skyrim](https://www.nexusmods.com/skyrimspecialedition/mods/26176/)'
       - '[Umgak''s Vokrii Compatibility Patch Compendium](https://www.nexusmods.com/skyrimspecialedition/mods/26278/)'
 
-## &patcherScriptAvailable
+### &patcherScriptAvailable ###
+### &patchIncluded ###
+### &patchProvided ###
 
-## &patchIncluded
-
-## &patchProvided
-
-## &patchUnavailable
+### &patchUnavailable ###
 # Skyrim
   - &patchUnavailableRequiem
     <<: *patchUnavailable
     subs: [ 'Requiem' ]
     condition: 'active("Requiem.esp")'
 
-## &patchUpdateAvailable
+### &patchUpdateAvailable ###
+### &renameFile ###
+### &renameXtoY ###
 
-## &renameFile
-
-## &renameXtoY
-
-## &requiresMCM_X
+### &requiresMCM_X ###
 # Skyrim
   - &requiresMCM_SkyUI
     <<: *requiresMCM_X
     subs: [ '[SkyUI](https://www.nexusmods.com/skyrim/mods/3863/)' ]
     condition: 'not active("SkyUI.esp")'
-# SSE
+# Skyrim Special Edition
   - &requiresMCM_SkyUISE
     <<: *requiresMCM_X
     subs: [ '[SkyUI SE](https://www.nexusmods.com/skyrimspecialedition/mods/12604/)' ]
@@ -2091,14 +2085,14 @@ globals:
     subs: [ '[SkyUI VR](https://github.com/Odie/skyui-vr/releases/)' ]
     condition: 'file("../SkyrimVR.exe") and file("SkyrimVR.esm") and not active("SkyUI_SE.esp")'
 
-## &requiresResources
-# FNV
+### &requiresResources ###
+# Fallout New Vegas
   - &requiresResourcesType3
     <<: *requiresResources
     type: say
     subs: [ '[BEWARE OF GIRL Type 3 Replacer](https://www.nexusmods.com/newvegas/mods/34702/)' ]
 
-## &requiresX
+### &requiresX ###
 # Oblivion
   - &requiresBashedPatch
     <<: *requiresX
@@ -2130,24 +2124,19 @@ globals:
     <<: *requiresX
     type: say
     subs: [ '[UNPB](https://www.nexusmods.com/skyrim/mods/37900)' ]
-# SSE
+# Skyrim Special Edition
   - &requiresBashOrSmash
     <<: *requiresX
     subs: [ '[Wrye Bash](https://www.nexusmods.com/skyrimspecialedition/mods/6837) or [Smash](https://github.com/matortheeternal/smash/releases)' ]
     condition: 'not file("Bashed Patch.*\.esp") and not file("Smashed Patch.esp")'
 
-## &runAnimFramework
+### &runAnimFramework ###
+### &runxLODGen ###
+### &sortMasters ###
+### &useBashTweakInstead ###
+### &useINITweakInstead ###
 
-## &runxLODGen
-
-## &sortMasters
-
-
-## &useBashTweakInstead
-
-## &useINITweakInstead
-
-## &useInstead
+### &useInstead ###
 # Oblivion
   - &useInsteadUOP
     <<: *useInstead
@@ -2162,9 +2151,9 @@ globals:
     <<: *useInstead
     subs: [ '[ReProccer - Automated SkyRe Patch Generator](https://www.nexusmods.com/skyrim/mods/28467/)' ]
 
-## &useOnlyOneX
+### &useOnlyOneX ###
 
-## &useVersion
+### &useVersion ###
 # Oblivion
   - &useVersionHorseArmor
     <<: *useVersion
@@ -2227,7 +2216,7 @@ globals:
     <<: *useVersion
     subs: [ 'HearthFires' ]
     condition: 'active("HearthFires.esm")'
-# FO3
+# Fallout 3
   - &useVersionAnchorage
     <<: *useVersion
     subs: [ 'Anchorage' ]
@@ -2248,7 +2237,7 @@ globals:
     <<: *useVersion
     subs: [ 'Zeta' ]
     condition: 'active("Zeta.esm")'
-# FO4
+# Fallout 4
   - &useVersionAutomatron
     <<: *useVersion
     subs: [ 'Automatron' ]
@@ -2273,7 +2262,7 @@ globals:
     <<: *useVersion
     subs: [ 'Nuka-World' ]
     condition: 'active("DLCNukaWorld.esm")'
-# FNV
+# Fallout New Vegas
   - &useVersionDeadMoney
     <<: *useVersion
     subs: [ 'Dead Money' ]
@@ -2311,7 +2300,7 @@ globals:
     subs: [ 'Gun Runners Arsenal' ]
     condition: 'active("GunRunnersArsenal.esm")'
 
-## &useVersionNon
+### &useVersionNon ###
 # Oblivion
   - &useVersionNonHorseArmor
     <<: *useVersionNon
@@ -2366,7 +2355,7 @@ globals:
     <<: *useVersionNon
     subs: [ 'HearthFires' ]
     condition: 'not active("HearthFires.esm")'
-# FO3
+# Fallout 3
   - &useVersionNonAnchorage
     <<: *useVersionNon
     subs: [ 'Anchorage' ]
@@ -2387,7 +2376,7 @@ globals:
     <<: *useVersionNon
     subs: [ 'Zeta' ]
     condition: 'not active("Zeta.esm")'
-# FO4
+# Fallout 4
   - &useVersionNonAutomatron
     <<: *useVersionNon
     subs: [ 'Automatron' ]
@@ -2412,7 +2401,7 @@ globals:
     <<: *useVersionNon
     subs: [ 'Nuka-World' ]
     condition: 'not active("DLCNukaWorld.esm")'
-# FNV
+# Fallout New Vegas
   - &useVersionNonDeadMoney
     <<: *useVersionNon
     subs: [ 'Dead Money' ]
@@ -2450,12 +2439,11 @@ globals:
     subs: [ 'Gun Runners Arsenal' ]
     condition: 'not active("GunRunnersArsenal.esm")'
 
-## &versionOldX
+### &versionOldX ###
+### &versionUpToDateX ###
 
-## &versionUpToDateX
-
-## &versionXIncY
-# SSE
+### &versionXIncY ###
+# Skyrim Special Edition
   - &versionSkseIncSSE
     <<: *versionXIncY
     subs:
@@ -2466,7 +2454,7 @@ globals:
     subs:
       - '**[Skyrim VR Script Extender](https://skse.silverlock.org)**'
       - '**Skyrim VR**'
-# FO4
+# Fallout 4
   - &versionF4SEIncFO4
     <<: *versionXIncY
     subs:
@@ -2478,19 +2466,14 @@ globals:
       - '**[Fallout 4 VR Script Extender](https://f4se.silverlock.org)**'
       - '**Fallout 4 VR**'
 
-## &versionXofYorGreaterRequired
-
-## &wildEdits
-
-## &quickClean
-
-## &reqManualFix
-
-## &dirtyPlugin
+### &versionXofYorGreaterRequired ###
+### &wildEdits ###
+### &quickClean ###
+### &reqManualFix ###
 
 
-### General Messages
-# Latest LOOT Thread
+##### General Messages #####
+### Latest LOOT Thread ###
   - type: say
     content:
       - lang: en
@@ -2527,7 +2510,7 @@ globals:
         text: '[最新的LOOT版本](%1%)。'
     subs: [ 'https://loot.github.io/latest-thread/' ]
 
-# Creation Club plugins
+### Creation Club plugins ###
   - type: warn
     content:
       - lang: en
@@ -2564,7 +2547,7 @@ globals:
         text: '这个版本的LOOT对Creation Club插件的处理较差。因此，在LOOT 0.13.1之前的版本中，对这些的支持是有限的。建议尽快更新。'
     condition: 'file("LOOT") and version("LOOT", "0.13.1.0", <) and (file("cc[A-Z]{3}SSE[0-9]{3}.*\.es(l|m)") or file("cc[A-Z]{3}F(O|0)4[0-9]{3}.*\.es(l|m)"))'
 
-# Dynamically Created Plugin
+### Dynamically Created Plugin ###
   - type: say
     content:
       - lang: en
@@ -2597,7 +2580,7 @@ globals:
         text: '您安装了动态创建的插件。请参阅作者给出的最佳排序。'
     condition: 'file("ASIS(-Dependency)?\.esp") or file("Automatic (Spells|Variations|Variants)\.esp")'
 
-# Script Extender - Required Scripts
+### Script Extender - Required Scripts ###
   - type: warn
     content:
       - lang: en
