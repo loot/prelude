@@ -1570,6 +1570,43 @@ common:
         text: '强烈建议不要使用包含已删除navmeshes的mod，因为它们会导致崩溃。**已删除navmeshes**必须手动修正(一个复杂的过程，应该由mod作者完成)。更多关于**已删除navmeshes**的信息已提供[这里](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)。'
 
 ##### Global Anchors #####
+  - &latestLOOTThread
+    type: say
+    content:
+      - lang: en
+        text: '[Latest LOOT thread](%1%).'
+      - lang: bg
+        text: '[Форумът на "LOOT"](%1%).'
+      - lang: da
+        text: '[Seneste LOOT-tråd](%1%).'
+      - lang: de
+        text: '[Aktueller LOOT-Thread](%1%).'
+      - lang: es
+        text: '[Forum de LOOT](%1%).'
+      - lang: fr
+        text: '[Récent post sur le forum LOOT](%1%).'
+      - lang: it
+        text: '[Ultimo thread di LOOT](%1%).'
+      - lang: ja
+        text: '[LOOTの最新スレッドを開く](%1%)（英語）。'
+      - lang: ko
+        text: '[최신 LOOT 스레드](%1%).'
+      - lang: pl
+        text: '[Ostatni wątek LOOT](%1%).'
+      - lang: pt_BR
+        text: '[Thread mais recento do LOOT](%1%).'
+      - lang: pt_PT
+        text: '[Postagem mais recente do LOOT](%1%).'
+      - lang: ru
+        text: '[Обсуждение LOOT "(Eng)"](%1%).'
+      - lang: sv
+        text: '[Senaste LOOT-tråd](%1%).'
+      - lang: uk_UA
+        text: '[Обговорення LOOT "(Eng)"](%1%).'
+      - lang: zh_CN
+        text: '[最新的LOOT版本](%1%)。'
+    subs: [ 'https://loot.github.io/latest-thread/' ]
+
   - &moveNVAC
     type: warn
     content:
@@ -2495,42 +2532,7 @@ globals:
 
 
 ##### General Messages #####
-### Latest LOOT Thread ###
-  - type: say
-    content:
-      - lang: en
-        text: '[Latest LOOT thread](%1%).'
-      - lang: bg
-        text: '[Форумът на "LOOT"](%1%).'
-      - lang: da
-        text: '[Seneste LOOT-tråd](%1%).'
-      - lang: de
-        text: '[Aktueller LOOT-Thread](%1%).'
-      - lang: es
-        text: '[Forum de LOOT](%1%).'
-      - lang: fr
-        text: '[Récent post sur le forum LOOT](%1%).'
-      - lang: it
-        text: '[Ultimo thread di LOOT](%1%).'
-      - lang: ja
-        text: '[LOOTの最新スレッドを開く](%1%)（英語）。'
-      - lang: ko
-        text: '[최신 LOOT 스레드](%1%).'
-      - lang: pl
-        text: '[Ostatni wątek LOOT](%1%).'
-      - lang: pt_BR
-        text: '[Thread mais recento do LOOT](%1%).'
-      - lang: pt_PT
-        text: '[Postagem mais recente do LOOT](%1%).'
-      - lang: ru
-        text: '[Обсуждение LOOT "(Eng)"](%1%).'
-      - lang: sv
-        text: '[Senaste LOOT-tråd](%1%).'
-      - lang: uk_UA
-        text: '[Обговорення LOOT "(Eng)"](%1%).'
-      - lang: zh_CN
-        text: '[最新的LOOT版本](%1%)。'
-    subs: [ 'https://loot.github.io/latest-thread/' ]
+
 
 ### Creation Club plugins ###
   - type: warn
