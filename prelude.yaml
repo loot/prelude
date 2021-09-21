@@ -1714,7 +1714,7 @@ common:
       - lang: zh_CN
         text: '您已经安装了%1%插件，但是未发现%1%！请查看%1%的下载页面:%2%。'
     subs:
-      - Script Extender
+      - 'Script Extender'
       - '[Script Extender](http://silverlock.org/)'
 
   - &scriptExtenderRequiredScripts
