@@ -2333,6 +2333,11 @@ globals:
     <<: *useVersion
     subs: [ 'Nehrim' ]
     condition: *nehrimCond
+  - &useVersionFCOM
+    <<: *useVersion
+    type: warn
+    subs: [ 'FCOM' ]
+    condition: 'active("FCOM_Convergence.esm")'
   - &useVersionOOO_FCOM
     <<: *useVersion
     subs: [ 'FCOM/OOO' ]
