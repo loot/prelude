@@ -2371,6 +2371,10 @@ globals:
     <<: *useVersion
     subs: [ 'Zeta' ]
     condition: 'active("Zeta.esm")'
+  - &useVersionFWE
+    <<: *useVersion
+    subs: [ 'FWE - FO3 Wanderers Edition' ]
+    condition: 'active("FO3 Wanderers Edition - Main File.esm")'
 # Fallout 4
   - &useVersionAutomatron
     <<: *useVersion
