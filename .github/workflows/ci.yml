@@ -25,7 +25,26 @@ jobs:
       - name: Install parser
         run: npm install -g js-yaml
 
-      - name: Run metadata validator
+      - name: Run js-yaml to check YAML parsing
+        run: js-yaml $GITHUB_WORKSPACE/prelude.yaml > /dev/null
+
+      - name: Run metadata validator against each game's masterlist
         run: |
-          ./metadata_validator $GITHUB_WORKSPACE/prelude.yaml
-          js-yaml $GITHUB_WORKSPACE/prelude.yaml > /dev/null
+          # Run validation against the latest version of each game's masterlist
+          # to catch integration issues.
+          games=(
+            morrowind
+            oblivion
+            skyrim
+            skyrimse
+            fallout3
+            falloutnv
+            fallout4
+            enderal
+          )
+
+          for game in "${games[@]}"
+          do
+            wget --no-verbose -O masterlist.yaml https://raw.githubusercontent.com/loot/$game/v0.15/masterlist.yaml
+            ./metadata_validator masterlist.yaml $GITHUB_WORKSPACE/prelude.yaml
+          done
