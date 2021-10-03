@@ -45,6 +45,6 @@ jobs:
 
           for game in "${games[@]}"
           do
-            wget --no-verbose -O masterlist.yaml https://raw.githubusercontent.com/loot/$game/v0.15/masterlist.yaml
+            wget --no-verbose -O masterlist.yaml https://raw.githubusercontent.com/loot/$game/test-with-prelude/masterlist.yaml
             ./metadata_validator masterlist.yaml $GITHUB_WORKSPACE/prelude.yaml
           done
