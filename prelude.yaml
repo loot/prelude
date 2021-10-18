@@ -1,26 +1,5 @@
 # Prelude for LOOT masterlists
 common:
-##### Condition Anchors #####
-# Oblivion
-  - &OOOCond
-    active("Oscuro's_Oblivion_Overhaul.esm")
-
-  - &FCOMCond
-    active("FCOM_Convergence.esm")
-
-  - &nehrimCond
-    active("Nehrim.esm")
-
-  - &tes4Cond
-    active("Oblivion.esm")
-
-# Fallout New Vegas
-  - &condFileTTW
-    file("TaleOfTwoWastelands.esm")
-
-  - &condNotFileTTW
-    not file("TaleOfTwoWastelands.esm")
-
 ##### Message Anchors #####
   - &alreadyInX
     type: error
