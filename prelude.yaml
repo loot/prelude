@@ -1492,7 +1492,7 @@ common:
 ##### Cleaning Data Anchors #####
   - &quickClean
     util: '[TES5Edit](https://www.nexusmods.com/skyrim/mods/25859)'
-    info:
+    detail:
       - lang: en
         text: 'A guide to cleaning plugins using xEdit can be found [here](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: bg
@@ -1526,7 +1526,7 @@ common:
 
   - &reqManualFix
     util: '[TES5Edit](https://www.nexusmods.com/skyrim/mods/25859)'
-    info:
+    detail:
       - lang: en
         text: 'It is strongly recommended not to use mods that contain **deleted navmeshes** as they''re known to cause crashes. **Deleted navmeshes** must be corrected manually (a complex process that should be done by the mod author). More information on **deleted navmeshes** is provided [here](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: bg
@@ -1747,7 +1747,7 @@ common:
 ##### Deprecated Anchors #####
   - &dirtyPlugin
     util: '[TES5Edit](https://www.nexusmods.com/skyrim/mods/25859)'
-    info:
+    detail:
       - lang: en
         text: 'An explanation of Dirty Edits is available [here](https://tes5edit.github.io/docs/6-mod-cleaning-and-error-checking.html#AppendixA).'
       - lang: de
