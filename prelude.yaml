@@ -1418,7 +1418,7 @@ common:
       - lang: sv
         text: 'Din installerade version av %1% är inte kombatibel med din version av %2%.'
       - lang: uk_UA
-        text: 'Встановлена ​​у вас версія %1% несумісна з вашою версією %2%.'
+        text: 'Встановлена у вас версія %1% несумісна з вашою версією %2%.'
       - lang: zh_CN
         text: '您安装的%1%版本与%2%版本不兼容。'
 
@@ -1591,7 +1591,7 @@ common:
       - lang: sv
         text: 'Denna version av LOOT har sämre hantering av Creation Club plugins. Stöd för dessa är därför begränsad i versionen tidigare än LOOT 0.13.1. Du rekommenderas att uppdatera så snart som möjligt.'
       - lang: uk_UA
-        text: 'У цій версії LOOT плагіни Creation Club обробляються гірше. Тому їх підтримка обмежена до версії LOOT 0.13.1. Рекомендується оновити якомога швидше.'
+        text: 'У цій версії LOOT плагіни Creation Club обробляються гірше. Їх підтримка обмежена у LOOT 0.13.1 та більш ранніх версіях. Рекомендується оновити якомога швидше.'
       - lang: zh_CN
         text: '这个版本的LOOT对Creation Club插件的处理较差。因此，在LOOT 0.13.1之前的版本中，对这些的支持是有限的。建议尽快更新。'
     condition: 'file("LOOT") and version("LOOT", "0.13.1.0", <)'
