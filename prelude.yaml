@@ -744,6 +744,10 @@ common:
         text: 'Тази кръпка е стара и може да не е съвместима с последната версия на този мод.'
       - lang: de
         text: 'Dieser Patch ist veraltet und ist möglicherweise nicht kompatibel mit der aktuellen Version der gepatchten Mod.'
+      - lang: ru
+        text: 'Патч устарел и может быть несовместим с последней версией пропатченного мода.'
+      - lang: uk_UA
+        text: 'Патч застарів і може бути несумісним з останньою версією виправленого моду.'
 
   - &patchProvided
     type: say
