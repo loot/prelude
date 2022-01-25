@@ -175,6 +175,12 @@ common:
       - lang: zh_CN
         text: '建议您阅读这个mod的[兼容性说明](%1%)。'
 
+  - &compatPatch
+    type: say
+    content:
+      - lang: en
+        text: 'It is recommended that you check the following compatibility patch compilation for this mod: %1%'
+
   - &corrupt
     type: warn
     content:
