@@ -180,6 +180,10 @@ common:
     content:
       - lang: en
         text: 'It is recommended that you check the following compatibility patch compilation for this mod: %1%'
+      - lang: bg
+        text: 'Препоръчва се да проверите следните кръпки за съвместимост за този мод: %1%'
+      - lang: de
+        text: 'Es wird empfohlen, dass Sie die folgende Kompatibilitäts-Patch Zusammenstellung für diese Mod überprüfen: %1%'
 
   - &corrupt
     type: warn
