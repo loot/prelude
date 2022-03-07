@@ -6,21 +6,16 @@ on: [push, pull_request]
 jobs:
 
   build:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-20.04
 
     steps:
       - uses: actions/checkout@v2
-
-      - name: Install Dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libstdc++6 libhttp-parser-dev libssh2-1-dev
 
       - name: Set up Node
         uses: actions/setup-node@v1
 
       - name: Install metadata validator
-        run: wget https://github.com/loot/metadata-validator/releases/download/0.17.0/metadata-validator-0.17.0-0-gf29ef61_0.17.0-Linux.tar.xz -O - | tar -xJ --strip-components=1
+        run: wget https://github.com/loot/metadata-validator/releases/download/0.18.0/metadata-validator-0.18.0-0-g143cb72_0.18.0-Linux.tar.xz -O - | tar -xJ --strip-components=1
 
       - name: Install parser
         run: npm install -g js-yaml
@@ -47,6 +42,6 @@ jobs:
 
           for game in "${games[@]}"
           do
-            wget --no-verbose -O masterlist.yaml https://raw.githubusercontent.com/loot/$game/v0.17/masterlist.yaml
+            wget --no-verbose -O masterlist.yaml https://raw.githubusercontent.com/loot/$game/v0.18/masterlist.yaml
             ./metadata_validator masterlist.yaml $GITHUB_WORKSPACE/prelude.yaml
           done
