@@ -184,6 +184,10 @@ common:
         text: 'Препоръчва се да проверите следните кръпки за съвместимост за този мод: %1%'
       - lang: de
         text: 'Es wird empfohlen, dass Sie die folgende Kompatibilitäts-Patch Zusammenstellung für diese Mod überprüfen: %1%'
+      - lang: fr
+        text: 'Il est recommendé que vous vérifiez la compatibilité du patch pour ce mod: %1%'
+      - lang: it
+        text: 'Si raccomanda di controllare la seguente compatibility patch compilation per questa mod: %1%'
 
   - &corrupt
     type: warn
