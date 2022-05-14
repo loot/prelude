@@ -188,6 +188,8 @@ common:
         text: 'Il est recommendé que vous vérifiez la compatibilité du patch pour ce mod: %1%'
       - lang: it
         text: 'Si raccomanda di controllare la seguente compatibility patch compilation per questa mod: %1%'
+      - lang: uk_UA
+        text: 'Радимо перевірити наступну колекцію патчів сумісності для цього моду: %1%'
 
   - &corrupt
     type: warn
