@@ -313,10 +313,14 @@ common:
     content:
       - lang: en
         text: 'Another mod seems to be overwriting one of this mod''s essential files. Please ensure you''re using this mod''s version of %1% or a compatible version if available.'
+      - lang: bg
+        text: 'Някои от файловете на този мод са презаписани. Моля, използвайте %1% или друга съвместима версия.'
       - lang: de
         text: 'Eine andere Mod scheint eine der essenziellen Dateien dieser Modifikation zu überschreiben. Bitte stellen Sie sicher, dass Sie die Version dieser Modifikation von %1% oder eine kompatible Version verwenden, falls verfügbar.'
       - lang: it
         text: 'Sembra che ci sia una mod che sovrascrive uno dei file fondamentali di questa mod. Assicurati di usare questa versione della mod %1% o una versione compatibile, se disponibile.'
+      - lang: uk_UA
+        text: 'Інший мод може переписувати один із критичних файлів. Будь ласка впевніться, що ви використовуєте версію %1% із цього моду, або сумісну за її навності.'
 
   - &includesX
     type: say
