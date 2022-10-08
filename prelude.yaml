@@ -1214,7 +1214,7 @@ common:
       - lang: bg
         text: 'Ако добавите, премахнете или обновите приставки, които променят записите WRLD и CELL, трябва да обновите този модул с **"xLODGen"**.'
       - lang: da
-        text: 'Hvis du tilføjer, fjerner eller opdaterer plugins, der ændrer WRLD/CELL-poster, skal du huske at opdatere dette modul med **xLODGen**..'
+        text: 'Hvis du tilføjer, fjerner eller opdaterer plugins, der ændrer WRLD/CELL-poster, skal du huske at opdatere dette modul med **xLODGen**.'
       - lang: de
         text: 'Wenn Sie Plugins hinzufügen, entfernen oder aktualisieren die WRLD/CELL Einträge verändern, denken Sie daran dieses Modul mit **xLODGen** zu aktualisieren.'
       - lang: es
