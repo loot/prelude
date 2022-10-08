@@ -44,6 +44,8 @@ common:
     content:
       - lang: en
         text: 'Delete. Already included or otherwise fixed in %1%.'
+      - lang: da
+        text: 'Slet. Allerede inkluderet eller på anden måde rettet i %1%.'
       - lang: bg
         text: 'За изтриване. Приложена е в %1%.'
       - lang: de
@@ -80,6 +82,8 @@ common:
     content:
       - lang: en
         text: 'It''s highly recommended that you also use %1%.'
+      - lang: da
+        text: 'Det anbefales kraftigt, at du også bruger %1%.'
       - lang: bg
         text: 'Препоръчва се да използвате %1%.'
       - lang: de
@@ -116,6 +120,8 @@ common:
     content:
       - lang: en
         text: 'This plugin has compatibility issues with %1%. For more information, read this mod''s compatibility notes.'
+      - lang: da
+        text: 'Dette plugin har kompatibilitetsproblemer med %1%. For mere information, læs dette mod''s kompatibilitetsnoter.'
       - lang: bg
         text: 'Тази приставка не е съвместима с %1%. За повече информация, прочетете бележките за съвместимост.'
       - lang: de
@@ -150,6 +156,8 @@ common:
     content:
       - lang: en
         text: 'It is recommended that you read this mod''s [Compatibility Notes](%1%).'
+      - lang: da
+        text: 'Det anbefales, at du læser dette mod''s [Kompatibilitetsnoter](%1%).'
       - lang: bg
         text: 'Препоръчва се да прочетете [бележките за съвместимост](%1%).'
       - lang: de
@@ -186,6 +194,8 @@ common:
     content:
       - lang: en
         text: 'It is recommended that you check the following compatibility patch compilation for this mod: %1%'
+      - lang: da
+        text: 'Vi anbefaler, at du tjekker følgende kompilering af kompatibilitetspatches til dette mod: %1%.'
       - lang: bg
         text: 'Препоръчва се да проверите следните кръпки за съвместимост за този мод: %1%'
       - lang: de
@@ -204,6 +214,8 @@ common:
     content:
       - lang: en
         text: 'This file is corrupt and should not be used.'
+      - lang: da
+        text: 'Denne fil er beskadiget og bør ikke anvendes.'
       - lang: bg
         text: 'Този файл е повреден и не трябва да се използва.'
       - lang: de
@@ -240,6 +252,8 @@ common:
     content:
       - lang: en
         text: 'Delete or deactivate. %1%'
+      - lang: da
+        text: 'Slet eller deaktiver. %1%'
       - lang: bg
         text: 'За изтриване или деактивиране. %1%'
       - lang: de
@@ -277,6 +291,8 @@ common:
     content:
       - lang: en
         text: 'When using **%1%**, it''s recommended that you deactivate or delete this ESP file but keep the resources (e.g. meshes, textures) installed with this mod.'
+      - lang: da
+        text: 'Når du bruger **%1%**, anbefales det, at du deaktiverer eller sletter denne ESP-fil, men beholder ressourcerne (f.eks. meshes, teksturer), der er installeret med dette mod.'
       - lang: bg
         text: 'Когато използвате приставката **%1%**, трябва да деактивирате или изтриете този ESP файл, но да запазите неговите ресурси (триизмерни модели, текстури и други).'
       - lang: de
@@ -313,6 +329,8 @@ common:
     content:
       - lang: en
         text: 'Another mod seems to be overwriting one of this mod''s essential files. Please ensure you''re using this mod''s version of %1% or a compatible version if available.'
+      - lang: da
+        text: 'Det ser ud til at et andet mod overskriver dette mods kernefiler. Sørg venligst for at du bruger denne mod''s version af %1% eller en kompatibel version, hvis den er tilgængelig.'
       - lang: bg
         text: 'Някои от файловете на този мод са презаписани. Моля, използвайте %1% или друга съвместима версия.'
       - lang: de
@@ -329,6 +347,8 @@ common:
     content:
       - lang: en
         text: '%1% is included with this mod.'
+      - lang: da
+        text: '%1% er inkluderet i dette mod.'
       - lang: bg
         text: 'Приставката %1% е включена в този мод.'
       - lang: de
@@ -365,6 +385,8 @@ common:
     content:
       - lang: en
         text: 'Language: %1%'
+      - lang: da
+        text: 'Sprog: %1%'
       - lang: bg
         text: 'Език: %1%'
       - lang: de
@@ -397,6 +419,8 @@ common:
     content:
       - lang: en
         text: 'Only use this plugin once the main quest of the game has been completed.'
+      - lang: da
+        text: 'Brug kun dette plugin, når hovedmissionen i spillet er fuldført.'
       - lang: bg
         text: 'Използвайте тази приставка само след завършване на основната мисия на играта.'
       - lang: de
@@ -427,6 +451,8 @@ common:
     content:
       - lang: en
         text: 'The **%1%** master must be reassigned to **%2%**.'
+      - lang: da
+        text: '**%1%**-masteren skal overdrages til **%2%**.'
       - lang: bg
         text: '**%1%** трябва да бъде преназначен като **%2%**.'
       - lang: de
@@ -459,6 +485,8 @@ common:
     content:
       - lang: en
         text: 'It appears you have installed **%2%**, but some of its requirements seem to be missing. Please ensure you have correctly installed **%1%**.'
+      - lang: da
+        text: 'Det ser ud til, at du har installeret **%2%**, men at nogle af kravene ikke er opfyldt. Sørg for, at du har installeret **%1%**.'
       - lang: bg
         text: 'Инсталирали сте **%2%**, но някои от нейните изисквания не са изпълнени. Моля, инсталирайте **%1%** отново.'
       - lang: de
@@ -495,6 +523,8 @@ common:
     content:
       - lang: en
         text: 'Some of this plugins requirements seem to be missing. Please ensure you have correctly installed **%1%**.'
+      - lang: da
+        text: 'Nogle af kravene til dette plugin mangles. Kontroller venligst, at du har installeret **%1%** korrekt.'
       - lang: bg
         text: 'Някои от изискванията на приставката не са изпълнени. Моля, инсталирайте **%1%** отново.'
       - lang: de
@@ -531,6 +561,8 @@ common:
     content:
       - lang: en
         text: 'This plugin is a modding resource and should not be used in-game.'
+      - lang: da
+        text: 'Dette plugin er en moddingressource og bør ikke bruges i spillet.'
       - lang: bg
         text: 'Тази приставка е ресурс за модифициране и не трябва да се използва по време на игра.'
       - lang: de
@@ -565,6 +597,8 @@ common:
     content:
       - lang: en
         text: 'Move %1% from %2% to %3%.'
+      - lang: da
+        text: 'Flyt %1% fra %2% til %3%.'
       - lang: bg
         text: 'Преместете %1% от %2% в %3%.'
       - lang: de
@@ -674,6 +708,8 @@ common:
     content:
       - lang: en
         text: 'This plugin is optional.'
+      - lang: da
+        text: 'Dette plugin er valgfrit.'
       - lang: bg
         text: 'Тази приставка не е задължителна.'
       - lang: de
@@ -708,6 +744,8 @@ common:
     content:
       - lang: en
         text: 'You seem to be using **%1%**, but you have not enabled a compatibility patch for this mod. A third party patch is available here: %2%'
+      - lang: da
+        text: 'Det ser ud til, at du bruger **%1%**, men du har ikke aktiveret en kompatibilitetspatch for dette mod. En tredjepartspatch er tilgængelig her: %2%'
       - lang: bg
         text: 'Използвате **%1%**, но се изисква кръпка за съвместимост. Тя е налична от: %2%'
       - lang: de
@@ -744,6 +782,8 @@ common:
     content:
       - lang: en
         text: '%1% patcher script available here: %2%'
+      - lang: da
+        text: '%1% patcher-scriptet er tilgængeligt her: %2%'
       - lang: bg
         text: 'Скриптът за кръпки %1% е наличен от: %2%'
       - lang: de
@@ -774,6 +814,8 @@ common:
     content:
       - lang: en
         text: 'You seem to be using **%1%**, but you have not enabled a compatibility patch for this mod. A compatibility patch is included with this plugin''s installer.'
+      - lang: da
+        text: "Det ser ud til, at du bruger **%1%**, men du har ikke aktiveret en kompatibilitetspatch for dette mod. En kompatibilitetspatch er inkluderet i dette plugin''s installationsprogram."
       - lang: bg
         text: 'Използвате **%1%**, но се изисква кръпка за съвместимост. Тя е налична от инсталационния файл на приставката.'
       - lang: de
@@ -810,6 +852,8 @@ common:
     content:
       - lang: en
         text: 'This patch is outdated and may not be compatible with the latest version of the patched mod.'
+      - lang: da
+        text: 'Denne patch er forældet og er muligvis ikke kompatibel med den nyeste version af det patched mod.'
       - lang: bg
         text: 'Тази кръпка е стара и може да не е съвместима с последната версия на този мод.'
       - lang: de
@@ -832,6 +876,8 @@ common:
     content:
       - lang: en
         text: 'You seem to be using **%1%**, but you have not enabled a compatibility patch for this mod. A compatibility patch is provided on this plugin''s mod page.'
+      - lang: da
+        text: 'Det ser ud til, at du bruger **%1%**, men du har ikke aktiveret en kompatibilitetspatch for dette mod. Der findes en kompatibilitetspatch på dette plugin''s mod-side.'
       - lang: bg
         text: 'Използвате **%1%**, но се изисква кръпка за съвместимост. Тя е налична от Интернет страницата на приставката.'
       - lang: de
@@ -868,6 +914,8 @@ common:
     content:
       - lang: en
         text: 'A patch is required to make this mod fully compatible with %1%. None is currently available for download.'
+      - lang: da
+        text: 'Der kræves en patch for at gøre dette mod fuldt kompatibelt med %1%. Der er ingen tilgængelig til download i øjeblikket.'
       - lang: bg
         text: 'Този мод изисква кръпка за съвместимост с приставката %1%. Няма налична кръпка за съвместимост.'
       - lang: de
@@ -902,6 +950,8 @@ common:
     content:
       - lang: en
         text: 'Update Patch available: %1%'
+      - lang: da
+        text: 'Opdateringspatch tilgængelig: %1%'
       - lang: bg
         text: 'Налична е обновена кръпка: %1%'
       - lang: de
@@ -938,6 +988,8 @@ common:
     content:
       - lang: en
         text: 'Rename this file to %1%.'
+      - lang: da
+        text: 'Omdøb denne fil til %1%.'
       - lang: bg
         text: 'Преименувайте този файл на %1%.'
       - lang: de
@@ -972,6 +1024,8 @@ common:
     content:
       - lang: en
         text: 'You need to rename %1% to %2% or this mod won''t work.'
+      - lang: da
+        text: 'Du skal omdøbe %1% til %2%, ellers vil dette mod ikke fungere.'
       - lang: bg
         text: 'Трябва да преименувате %1% на %2%, в противен случай този мод няма да работи.'
       - lang: de
@@ -1007,6 +1061,8 @@ common:
     content:
       - lang: en
         text: 'A **Mod Configuration Menu** is required for this mod to be fully functional. An **MCM** can be added by installing %1%.'
+      - lang: da
+        text: 'En **Mod-konfigurationsmenu** er nødvendig for at dette mod kan fungere korrekt. En **MCM** kan opnås ved at installere %1%.'
       - lang: bg
         text: 'Този мод изисква **меню за конфигуриране на модовете** за някои от неговите функции. Може да добавите **МКМ** с инсталиране на %1%.'
       - lang: de
@@ -1043,6 +1099,8 @@ common:
     content:
       - lang: en
         text: 'Requires resources (e.g. meshes, textures; not plugins) from %1%.'
+      - lang: da
+        text: 'Kræver ressourcer (f.eks. meshes, teksturer; ikke plugins) fra %1%.'
       - lang: bg
         text: 'Изисква ресурси (триизмерни модели и текстури, без приставки) от %1%.'
       - lang: de
@@ -1077,6 +1135,8 @@ common:
     content:
       - lang: en
         text: 'Requires: %1%'
+      - lang: da
+        text: 'Kræver: %1%'
       - lang: bg
         text: 'Изисква: %1%'
       - lang: de
@@ -1113,6 +1173,8 @@ common:
     content:
       - lang: en
         text: 'It appears you have **%1%** installed. Remember to run **%2%** every time you have installed or uninstalled %3%, or a %3%-based mod.'
+      - lang: da
+        text: 'Det ser ud til, at du har **%1%** installeret. Husk at køre **%2%** hver gang du har installeret eller afinstalleret %3% eller en %3%-baseret mod.'
       - lang: bg
         text: 'Инсталирали сте **%1%**. Използвайте **%2%** всеки път, когато променяте %3% или модове, свързани с %3%.'
       - lang: de
@@ -1149,6 +1211,8 @@ common:
     content:
       - lang: en
         text: 'If you add, remove, or update plugins that alter WRLD/CELL records, remember to update this module with **xLODGen**.'
+      - lang: da
+        text: 'Hvis du tilføjer, fjerner eller opdaterer plugins, der ændrer WRLD/CELL-poster, skal du huske at opdatere dette modul med **xLODGen**..'
       - lang: bg
         text: 'Ако добавите, премахнете или обновите приставки, които променят записите WRLD и CELL, трябва да обновите този модул с **"xLODGen"**.'
       - lang: de
@@ -1179,6 +1243,8 @@ common:
     content:
       - lang: en
         text: 'Plugin''s Masters require sorting. %1%'
+      - lang: da
+        text: 'Plugin''s Masters kræver sortering. %1%'
       - lang: bg
         text: 'Трябва да сортирате основния списък с приставките. %1%'
       - lang: de
@@ -1216,6 +1282,8 @@ common:
     content:
       - lang: en
         text: 'A Bashed Patch tweak can be used instead of this plugin. %1%'
+      - lang: da
+        text: 'Du kan bruge en Bashed Patch tweak i stedet for dette plugin. %1%'
       - lang: bg
         text: 'Може да използвате кръпка на "Bash" вместо тази приставка. %1%'
       - lang: de
@@ -1252,6 +1320,8 @@ common:
     content:
       - lang: en
         text: 'An INI tweak can be used instead of this plugin. %1%'
+      - lang: da
+        text: 'Der kan bruges en INI-indstilling i stedet for dette plugin. %1%'
       - lang: bg
         text: 'Може да използвате параметрите на INI файла вместо тази приставка. %1%'
       - lang: de
@@ -1287,6 +1357,8 @@ common:
     content:
       - lang: en
         text: 'Use %1% instead.'
+      - lang: da
+        text: 'Brug %1% i stedet.'
       - lang: bg
         text: 'Може да използвате %1%.'
       - lang: de
@@ -1359,6 +1431,8 @@ common:
     content:
       - lang: en
         text: 'Use %1% version.'
+      - lang: da
+        text: 'Brug %1% version.'
       - lang: bg
         text: 'Използвайте версията %1%.'
       - lang: de
@@ -1395,6 +1469,8 @@ common:
     content:
       - lang: en
         text: 'Use non-%1% version.'
+      - lang: da
+        text: 'Brug en ikke-%1% version.'
       - lang: bg
         text: 'Използвайте версията, която не е за %1%.'
       - lang: de
@@ -1431,6 +1507,8 @@ common:
     content:
       - lang: en
         text: 'It appears you do not have the latest version of %1%. Some mods may require functionality added in the latest version of %1% to work.'
+      - lang: da
+        text: 'Det ser ud til, at du ikke har den nyeste version af %1%. Nogle mods kan kræve funktionalitet, der er tilføjet i den nyeste version af %1%, for at fungere.'
       - lang: bg
         text: 'Инсталирайте последната версия на %1%. Някои модове може да изискват последната версия на %1% за да работят.'
       - lang: de
@@ -1543,6 +1621,8 @@ common:
     content:
       - lang: en
         text: 'Requires version **%1%** or greater of **%2%**.'
+      - lang: da
+        text: 'Kræver version **%1%** eller en højere version af **%2%**.'
       - lang: bg
         text: 'Изисква версия **%1%** или всяка следваща на **%2%**.'
       - lang: de
@@ -1613,6 +1693,8 @@ common:
     detail:
       - lang: en
         text: 'A guide to cleaning plugins using xEdit can be found [here](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
+      - lang: da
+        text: 'En vejledning i rensning af plugins med xEdit kan findes [her](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: bg
         text: 'Информация за почистване на приставките в "xEdit" може да намерите [тук](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: de
@@ -1647,6 +1729,8 @@ common:
     detail:
       - lang: en
         text: 'It is strongly recommended not to use mods that contain **deleted navmeshes** as they''re known to cause crashes. **Deleted navmeshes** must be corrected manually (a complex process that should be done by the mod author). More information on **deleted navmeshes** is provided [here](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
+      - lang: da
+        text: 'Det anbefales kraftigt, at du ikke bruger mods, der indeholder **deleted navmeshes**, da de er kendt for at forårsage nedbrud. **Deleted navmeshes** skal rettes manuelt (en kompleks proces, som bør udføres af mod forfatteren). Der findes flere oplysninger om **deleted navmeshes** [her](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: bg
         text: 'Препоръчва се да избягвате модове, които съдържат **изтрити навигационни обекти**, защото те могат да причинят проблеми. **Изтритите навигационни обекти** трябва да бъдат коригирани ръчно (това е сложен процес и не се препоръчва за начинаещи). Повече информация за **тях** може да намерите [тук](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: de
@@ -1762,6 +1846,8 @@ common:
     content:
       - lang: en
         text: 'NVAC is installed under **NVSE/Plugins** but needs to be moved to **%1%/Plugins** for %1% to pick it up for %2%.'
+      - lang: da
+        text: 'NVAC er installeret under **NVSE/Plugins**, men skal flyttes til **%1%/Plugins** for at %1% kan hente det til %2%.'
       - lang: bg
         text: 'Приставката NVAC е инсталирана в **NVSE/Plugins**, но трябва да бъде преместена в **%1%/Plugins** за да може %1% да използва нейните функции в %2%.'
       - lang: de
@@ -1801,7 +1887,7 @@ common:
       - lang: bg
         text: 'Инсталирали сте приставката %1%, но %1% липсва! Отворете Интернет страницата на %1%: %2%.'
       - lang: da
-        text: 'Du har installeret an %1% plugin men %1% blev ikke fundet! Se %1%-downloadsiden: %2%.'
+        text: 'Du har installeret et %1% plugin, men %1% blev ikke fundet! Se %1% download-siden: %2%.'
       - lang: de
         text: 'Sie haben ein %1% Plugin installiert, aber %1% wurde nicht gefunden! %1% kann hier heruntergeladen werden: %2%.'
       - lang: es
@@ -1839,6 +1925,8 @@ common:
     content:
       - lang: en
         text: 'It appears you have installed **%1%**, but its required scripts seem to be missing. Please ensure you have correctly installed the scripts bundled with the **%2%** installation archive.'
+      - lang: da
+        text: 'Det ser ud til, at du har installeret **%1%**, men de scripts, som det kræver, mangles tilsyneladende. Sørg for, at du har installeret de scripts, der er vedhæftet **%2%** installationsarkivet, korrekt.'
       - lang: bg
         text: 'Инсталирали сте **%1%**, но неговите скриптове липсват. Моля, инсталирайте **%2%** отново.'
       - lang: de
