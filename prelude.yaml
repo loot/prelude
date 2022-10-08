@@ -83,7 +83,7 @@ common:
       - lang: en
         text: 'It''s highly recommended that you also use %1%.'
       - lang: da
-        text: 'Det anbefales kraftigt, at du også bruger %1%.'
+        text: 'Det er stærkt anbefalet, at du også bruger %1%.'
       - lang: bg
         text: 'Препоръчва се да използвате %1%.'
       - lang: de
@@ -1730,7 +1730,7 @@ common:
       - lang: en
         text: 'It is strongly recommended not to use mods that contain **deleted navmeshes** as they''re known to cause crashes. **Deleted navmeshes** must be corrected manually (a complex process that should be done by the mod author). More information on **deleted navmeshes** is provided [here](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: da
-        text: 'Det anbefales kraftigt, at du ikke bruger mods, der indeholder **deleted navmeshes**, da de er kendt for at forårsage nedbrud. **Deleted navmeshes** skal rettes manuelt (en kompleks proces, som bør udføres af mod forfatteren). Der findes flere oplysninger om **deleted navmeshes** [her](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
+        text: 'Det er stærkt anbefalet, at du ikke bruger mods, der indeholder **deleted navmeshes**, da de er kendt for at forårsage nedbrud. **Deleted navmeshes** skal rettes manuelt (en kompleks proces, som bør udføres af mod forfatteren). Der findes flere oplysninger om **deleted navmeshes** [her](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: bg
         text: 'Препоръчва се да избягвате модове, които съдържат **изтрити навигационни обекти**, защото те могат да причинят проблеми. **Изтритите навигационни обекти** трябва да бъдат коригирани ръчно (това е сложен процес и не се препоръчва за начинаещи). Повече информация за **тях** може да намерите [тук](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: de
