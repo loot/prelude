@@ -337,6 +337,8 @@ common:
         text: 'Det ser ud til at et andet mod overskriver dette mods kernefiler. Sørg venligst for at du bruger denne mod''s version af %1% eller en kompatibel version, hvis den er tilgængelig.'
       - lang: de
         text: 'Eine andere Mod scheint eine der essenziellen Dateien dieser Modifikation zu überschreiben. Bitte stellen Sie sicher, dass Sie die Version dieser Modifikation von %1% oder eine kompatible Version verwenden, falls verfügbar.'
+      - lang: fi
+        text: 'Toinen lisäosa on kirjoittanut yhden tämän lisäosan kriittisen tiedoston päälle. Varmistathan, että käytössä on tämän lisäosan %1% tai muutoin yhteensopiva versio.'
       - lang: fr
         text: 'Un autre mod semble écraser l''un des fichiers essentiels de ce mod. Assurez-vous d''utiliser la version %1% de ce mod ou une version compatible si disponible.'
       - lang: it
