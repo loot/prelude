@@ -326,6 +326,14 @@ common:
       - lang: zh_CN
         text: '当使用**%1%**时，建议您禁用或删除这个ESP文件，但保留与此mod一起安装的资源(如网格，纹理等)。'
 
+  - &deprecated
+    type: warn
+    content:
+      - lang: en
+        text: 'This file is deprecated and should no longer be used.'
+      - lang: bg
+        text: 'Тази приставка е остаряла и не трябва да се използва.'
+
   - &essentialFiles
     type: warn
     content:
