@@ -195,7 +195,7 @@ common:
       - lang: en
         text: 'It is recommended that you check the following compatibility patch compilation for this mod: %1%'
       - lang: bg
-        text: 'Препоръчва се да проверите следните кръпки за съвместимост за този мод: %1%'
+        text: 'Препоръчва се да проверите следните кръпки за съвместимост за тази модификация: %1%'
       - lang: da
         text: 'Vi anbefaler, at du tjekker følgende kompilering af kompatibilitetspatches til dette mod: %1%.'
       - lang: de
@@ -340,7 +340,7 @@ common:
       - lang: en
         text: 'Another mod seems to be overwriting one of this mod''s essential files. Please ensure you''re using this mod''s version of %1% or a compatible version if available.'
       - lang: bg
-        text: 'Някои от файловете на този мод са презаписани. Моля, използвайте %1% или друга съвместима версия.'
+        text: 'Някои от файловете на тази модификация са презаписани. Моля, използвайте %1% или друга съвместима версия.'
       - lang: da
         text: 'Det ser ud til at et andet mod overskriver dette mods kernefiler. Sørg venligst for at du bruger denne mod''s version af %1% eller en kompatibel version, hvis den er tilgængelig.'
       - lang: de
@@ -362,7 +362,7 @@ common:
       - lang: en
         text: '%1% is included with this mod.'
       - lang: bg
-        text: 'Приставката %1% е включена в този мод.'
+        text: 'Приставката %1% е включена в тази модификация.'
       - lang: da
         text: '%1% er inkluderet i dette mod.'
       - lang: de
@@ -867,7 +867,7 @@ common:
       - lang: en
         text: 'This patch is outdated and may not be compatible with the latest version of the patched mod.'
       - lang: bg
-        text: 'Тази кръпка е стара и може да не е съвместима с последната версия на този мод.'
+        text: 'Тази кръпка е остаряла и може да не е съвместима с последната версия на модификацията.'
       - lang: da
         text: 'Denne patch er forældet og er muligvis ikke kompatibel med den nyeste version af det patched mod.'
       - lang: de
@@ -931,7 +931,7 @@ common:
       - lang: en
         text: 'A patch is required to make this mod fully compatible with %1%. None is currently available for download.'
       - lang: bg
-        text: 'Този мод изисква кръпка за съвместимост с приставката %1%. Няма налична кръпка за съвместимост.'
+        text: 'Тази модификация изисква кръпка за съвместимост с приставката %1%. Няма налична кръпка за съвместимост.'
       - lang: da
         text: 'Der kræves en patch for at gøre dette mod fuldt kompatibelt med %1%. Der er ingen tilgængelig til download i øjeblikket.'
       - lang: de
@@ -1041,7 +1041,7 @@ common:
       - lang: en
         text: 'You need to rename %1% to %2% or this mod won''t work.'
       - lang: bg
-        text: 'Трябва да преименувате %1% на %2%, в противен случай този мод няма да работи.'
+        text: 'Трябва да преименувате %1% на %2%, в противен случай модификацията няма да работи.'
       - lang: da
         text: 'Du skal omdøbe %1% til %2%, ellers vil dette mod ikke fungere.'
       - lang: de
@@ -1078,7 +1078,7 @@ common:
       - lang: en
         text: 'A **Mod Configuration Menu** is required for this mod to be fully functional. An **MCM** can be added by installing %1%.'
       - lang: bg
-        text: 'Този мод изисква **меню за конфигуриране на модовете** за някои от неговите функции. Може да добавите **МКМ** с инсталиране на %1%.'
+        text: 'Тази модификация изисква **меню за конфигуриране на модификациите** за някои от неговите функции. Може да добавите **МКМ** с инсталиране на %1%.'
       - lang: da
         text: 'En **Mod-konfigurationsmenu** er nødvendig for at dette mod kan fungere korrekt. En **MCM** kan opnås ved at installere %1%.'
       - lang: de
@@ -1190,7 +1190,7 @@ common:
       - lang: en
         text: 'It appears you have **%1%** installed. Remember to run **%2%** every time you have installed or uninstalled %3%, or a %3%-based mod.'
       - lang: bg
-        text: 'Инсталирали сте **%1%**. Използвайте **%2%** всеки път, когато променяте %3% или модове, свързани с %3%.'
+        text: 'Инсталирали сте **%1%**. Използвайте **%2%** всеки път, когато променяте %3% или модификации, свързани с %3%.'
       - lang: da
         text: 'Det ser ud til, at du har **%1%** installeret. Husk at køre **%2%** hver gang du har installeret eller afinstalleret %3% eller en %3%-baseret mod.'
       - lang: de
@@ -1524,7 +1524,7 @@ common:
       - lang: en
         text: 'It appears you do not have the latest version of %1%. Some mods may require functionality added in the latest version of %1% to work.'
       - lang: bg
-        text: 'Инсталирайте последната версия на %1%. Някои модове може да изискват последната версия на %1% за да работят.'
+        text: 'Инсталирайте последната версия на %1%. Някои модификации може да изискват последната версия на %1% за да работят.'
       - lang: da
         text: 'Det ser ud til, at du ikke har den nyeste version af %1%. Nogle mods kan kræve funktionalitet, der er tilføjet i den nyeste version af %1%, for at fungere.'
       - lang: de
@@ -1746,7 +1746,7 @@ common:
       - lang: en
         text: 'It is strongly recommended not to use mods that contain **deleted navmeshes** as they''re known to cause crashes. **Deleted navmeshes** must be corrected manually (a complex process that should be done by the mod author). More information on **deleted navmeshes** is provided [here](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: bg
-        text: 'Препоръчва се да избягвате модове, които съдържат **изтрити навигационни обекти**, защото те могат да причинят проблеми. **Изтритите навигационни обекти** трябва да бъдат коригирани ръчно (това е сложен процес и не се препоръчва за начинаещи). Повече информация за **тях** може да намерите [тук](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
+        text: 'Препоръчва се да избягвате модификации, които съдържат **изтрити навигационни обекти**, защото те могат да причинят проблеми. **Изтритите навигационни обекти** трябва да бъдат коригирани ръчно (това е сложен процес и не се препоръчва за начинаещи). Повече информация за **тях** може да намерите [тук](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: da
         text: 'Det er stærkt anbefalet, at du ikke bruger mods, der indeholder **deleted navmeshes**, da de er kendt for at forårsage nedbrud. **Deleted navmeshes** skal rettes manuelt (en kompleks proces, som bør udføres af mod forfatteren). Der findes flere oplysninger om **deleted navmeshes** [her](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: de
