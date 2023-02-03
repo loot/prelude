@@ -333,6 +333,14 @@ common:
         text: 'This file is deprecated and should no longer be used.'
       - lang: bg
         text: 'Тази приставка е остаряла и не трябва да се използва.'
+      - lang: de
+        text: 'Diese Datei ist veraltet und sollte nicht mehr verwendet werden.'
+      - lang: fi
+        text: 'Tämä tiedosto on poistumassa ja sen käyttäminen pitäisi lopettaa.'
+      - lang: it
+        text: 'Questo file è obsoleto e non dovrebbe essere più usato.'
+      - lang: uk_UA
+        text: 'Цей файл застарілий та не має використовуватися.'
 
   - &essentialFiles
     type: warn
