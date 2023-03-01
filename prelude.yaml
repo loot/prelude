@@ -138,6 +138,8 @@ common:
         text: 'このプラグインには%1%との互換性の問題があります。詳細についてはこのmodの互換性に関する注意事項をお読みください。'
       - lang: ko
         text: '이 플러그인은 %1%와의 호환성 문제가 있습니다. 자세한 내용은 이 모드의 호환성 정보를 확인해주세요.'
+      - lang: pl
+        text: 'Ta wtyczka ma problemy ze kompatybilnością z %1%. Aby uzyskać więcej informacji, przeczytaj uwagi dotyczące zgodności tego moda.'
       - lang: pt_BR
         text: 'Este plugin tem problemas de compatibilidade com %1%. Para mais informações, leia as notas de compatibilidade deste mod.'
       - lang: pt_PT
@@ -208,6 +210,8 @@ common:
         text: 'Si raccomanda di controllare la seguente compatibility patch compilation per questa mod: %1%'
       - lang: ja
         text: '次の互換性パッチを確認することをお勧めします: %1%'
+      - lang: pl
+        text: 'Jest rekomendowane żebyś sprawdził następujące kompatybilności patchu kompilacji dla tego moda: %1%'
       - lang: uk_UA
         text: 'Радимо перевірити наступну колекцію патчів сумісності для цього моду: %1%'
 
@@ -339,6 +343,8 @@ common:
         text: 'Tämä tiedosto on poistumassa ja sen käyttäminen pitäisi lopettaa.'
       - lang: it
         text: 'Questo file è obsoleto e non dovrebbe essere più usato.'
+      - lang: pl
+        text: 'Ten plik jest przestarzały i nie powinien być już używany.'
       - lang: uk_UA
         text: 'Цей файл застарілий та не має використовуватися.'
 
@@ -361,6 +367,8 @@ common:
         text: 'Sembra che ci sia una mod che sovrascrive uno dei file fondamentali di questa mod. Assicurati di usare questa versione della mod %1% o una versione compatibile, se disponibile.'
       - lang: ja
         text: '必須ファイルが別のModによって上書きされているようです。このModの%1%バージョン、あるいは互換バージョンがある場合、必ずそちらを使用してください。'
+      - lang: pl
+        text: 'Inny mod wydaje się nadpisywać jeden z podstawowych plików tego moda. Upewnij się, że używasz wersji %1% tego moda lub wersji kompatybilnej, jeśli jest dostępna.'
       - lang: uk_UA
         text: 'Інший мод може переписувати один із критичних файлів. Будь ласка впевніться, що ви використовуєте версію %1% із цього моду, або сумісну за її навності.'
 
@@ -425,6 +433,8 @@ common:
         text: '言語: %1%'
       - lang: ko
         text: '언어: %1%'
+      - lang: pl
+        text: 'Język: %1%'
       - lang: pt_BR
         text: 'Língua: %1%'
       - lang: pt_PT
@@ -459,6 +469,8 @@ common:
         text: 'このプラグインはゲームのメインクエスト完了後に使用してください。'
       - lang: ko
         text: '이 플러그인은 게임의 메인 퀘스트가 완료된 후에만 사용하십시오.'
+      - lang: pl
+        text: 'Używaj tej wtyczki dopiero po ukończeniu głównego zadania gry.'
       - lang: pt_PT
         text: 'Apenas utilize este plugin quando a missão principal do jogo estiver completada.'
       - lang: ru
@@ -491,6 +503,8 @@ common:
         text: '**%1%**のマスターは**%2%**に割り当て直す必要があります。'
       - lang: ko
         text: '**%1%** 마스터는 **%2%**에 다시 할당되어야합니다.'
+      - lang: pl
+        text: 'Wzorzec **%1%** musi zostać ponownie przypisany do wartości **%2%**.'
       - lang: pt_BR
         text: 'O mestre **%1%** deve ser realocado para **%2%**.'
       - lang: pt_PT
@@ -601,6 +615,8 @@ common:
         text: 'このプラグインはMod製作用のリソースです。ゲーム内で使用するものではありません。'
       - lang: ko
         text: '이 플러그인은 모딩 리소스이며 게임 내에서 사용해서는 안 됩니다.'
+      - lang: pl
+        text: 'Ta wtyczka jest zasobem modowania i nie powinna być używana w grze.'
       - lang: pt_BR
         text: 'Este plugin é um recurso para a criação de mods e não deve ser usado no jogo.'
       - lang: pt_PT
@@ -637,6 +653,8 @@ common:
         text: '%1%を%2%から%3%に移動します。'
       - lang: ko
         text: '%1%를 %2%에서 %3%로 이동합니다.'
+      - lang: pl
+        text: 'Przesuń %1% do %2% do %3%.'
       - lang: pt_PT
         text: 'Mova %1% de %2% para %3%.'
       - lang: ru
@@ -748,6 +766,8 @@ common:
         text: 'このプラグインは任意で使うオプションファイルです。'
       - lang: ko
         text: '이 플러그인은 선택 사항입니다.'
+      - lang: pl
+        text: 'Ta wtyczka jest opcjonalna.'
       - lang: pt_BR
         text: 'Este plugin é opcional.'
       - lang: pt_PT
@@ -822,6 +842,8 @@ common:
         text: '%1%のパッチスクリプトをこちらから入手できます: %2%'
       - lang: ko
         text: '%1%의 패쳐 스크립트는 %2%에서 사용이 가능합니다.'
+      - lang: pl
+        text: '%1% skrypt patchera dostępny tutaj: %2%'
       - lang: pt_PT
         text: 'O script de atualização para %1% está disponível aqui: %2%'
       - lang: ru
@@ -890,6 +912,8 @@ common:
         text: 'Questa patch è obsoleta e potrebbe non essere compatibile con l''ultima versione della mod patchata.'
       - lang: ja
         text: '旧式のパッチです。パッチが適用されたModの最新版とは両立できない可能性があります。'
+      - lang: pl
+        text: 'Ten patch jest nieaktualny i może nie być kompatybilny z najnowszą wersją poprawionego moda.'
       - lang: ru
         text: 'Патч устарел и может быть несовместим с последней версией пропатченного мода.'
       - lang: uk_UA
@@ -956,6 +980,8 @@ common:
         text: 'このModを%1%に完全対応させるにはパッチが必要です。現在ダウンロードできるパッチはありません。'
       - lang: ko
         text: '이 모드가 %1%와 완전히 호환되도록하려면 패치가 필요합니다. 현재 다운로드 할 수있는 항목이 없습니다.'
+      - lang: pl
+        text: 'Wymagana jest patch, aby ten mod był w pełni kompatybilny z %1%. Żaden nie jest obecnie dostępny do pobrania.'
       - lang: pt_BR
         text: 'Um patch é necessário para fazer esse mod ser totalmente compatível com %1%. No entanto, não há nenhum patch atualmente disponível para download.'
       - lang: pt_PT
@@ -1030,6 +1056,8 @@ common:
         text: 'ファイル名を%1%に変更してください。'
       - lang: ko
         text: '이 파일의 이름을 %1%로 바꿉니다.'
+      - lang: pl
+        text: 'Zmień nazwę tego pliku do %1%.'
       - lang: pt_BR
         text: 'Renomeie este arquivo para %1%.'
       - lang: pt_PT
@@ -1066,6 +1094,8 @@ common:
         text: '%1%を%2%にリネームしないと機能しません。'
       - lang: ko
         text: '%1%의 이름을 %2%로 변경하지 않으면 이 모드가 작동하지 않습니다.'
+      - lang: pl
+        text: 'Musisz zmienić nazwę %1% na %2% lub ten mod nie będzie działać.'
       - lang: pt_BR
         text: 'Você precisa renomear %1% para %2%, caso contrário esse mod não irá funcionar.'
       - lang: pt_PT
@@ -1141,6 +1171,8 @@ common:
         text: '%1%のリソース（プラグインではなくメッシュやテクスチャなど）が必要です。'
       - lang: ko
         text: '%1%의 리소스(플러그인이 아닌, 메쉬 및 질감 등)가 필요합니다.'
+      - lang: pl
+        text: 'Wymaga zasobów (np. siatek, tekstur; nie wtyczek) od %1%.'
       - lang: pt_BR
         text: 'Requer recursos (ex: meshes, texturas; não plugins) vindos de %1%.'
       - lang: pt_PT
@@ -1253,6 +1285,8 @@ common:
         text: 'WRLD/CELLレコードを変更するプラグインを追加、削除、または更新する場合は、このモジュールを **xLODGen** で更新することを忘れないでください。'
       - lang: ko
         text: 'WRLD/CELL 레코드를 변경하는 플러그인을 추가, 제거 또는 업데이트하는 경우 **xLODGen**으로 이 모듈을 업데이트해야 합니다.'
+      - lang: pl
+        text: 'Jeśli dodasz, usuniesz lub zaktualizujesz wtyczki, które zmieniają rekordy WRLD/CELL, pamiętaj, aby zaktualizować ten moduł za pomocą **xLODGen**.'
       - lang: pt_PT
         text: 'Se você adicionar, remover, ou atualizar plugins que alterem registos WRLD/CELL, lembre-se de atualizar este módulo com **xLODGen**.'
       - lang: ru
@@ -1285,6 +1319,8 @@ common:
         text: 'このプラグインは、Bashed Patchの調整機能（Tweak）で代用できます。%1%'
       - lang: ko
         text: '이 플러그인 대신 Bashed Patch의 트윅을 사용할 수 있습니다. %1%'
+      - lang: pl
+        text: 'Zamiast tej wtyczki można użyć poprawki Bashed Patch. %1%'
       - lang: pt_BR
         text: 'Uma tweak do Bashed Patch pode ser utilizada no lugar deste plugin. %1%'
       - lang: pt_PT
@@ -1323,6 +1359,8 @@ common:
         text: 'このプラグインは、INIの調整機能（INI Tweak）で代用できます。%1%'
       - lang: ko
         text: '이 플러그인 대신 INI 조정을 사용할 수 있습니다. %1%'
+      - lang: pl
+        text: 'Zamiast tej wtyczki można użyć ulepszenia INI. %1%'
       - lang: pt_BR
         text: 'Uma INI Tweak pode ser usada ao invés deste plugin. %1%'
       - lang: pt_PT
@@ -1360,6 +1398,8 @@ common:
         text: '代わりに%1%を使用してください。'
       - lang: ko
         text: '대신 %1%를 사용하십시오.'
+      - lang: pl
+        text: 'Użyj %1% zamiast tego.'
       - lang: pt_BR
         text: 'Use %1% ao invés disso.'
       - lang: pt_PT
@@ -1624,6 +1664,8 @@ common:
         text: 'バージョン**%1%**以上の**%2%**が必要です。'
       - lang: ko
         text: '**%1%** 혹은 **%2%** 이상의 버전이 필요합니다.'
+      - lang: pl
+        text: 'Wymaga wersji **%1%** lub lepszej od **%2%**.'
       - lang: pt_PT
         text: 'Necessita a versão **%1%** ou maior de **%2%**.'
       - lang: ru
@@ -1696,6 +1738,8 @@ common:
         text: 'xEditを使ったプラグインのクリーニング方法についてのガイドは[こちら](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)にあります。'
       - lang: ko
         text: 'xEdit을 사용한 플러그인 정리에 대한 가이드는 [여기](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)에서 찾을 수 있습니다.'
+      - lang: pl
+        text: 'Przewodnik po czyszczeniu wtyczek za pomocą xEdit można znaleźć [tutaj](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: pt_BR
         text: 'Um guia para limpar plugins utilizando o xEdit pode ser encontrado [aqui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: pt_PT
@@ -1849,6 +1893,8 @@ common:
         text: 'NVACが**NVSE/Plugins**以下にインストールされています。%2%の%1%で利用するには**%1%/Plugins**に移さなくてはなりません。'
       - lang: ko
         text: 'NVAC는 **NVSE/플러그인** 아래에 설치되지만 %2%에 대해 선택하려면 %1%에 대해 **%1%/Plugins**로 이동해야합니다.'
+      - lang: pl
+        text: 'NVAC jest instalowany w **NVSE/Plugins**, ale musi zostać przeniesiony do **%1%/Plugins** dla %1%, aby pobrać go za %2%.'
       - lang: pt_BR
         text: 'O NVAC está instalado em **NVSE/Plugins** porém precisa ser movido para **%1%/Plugins** para que o %1% o reconheça para o %2%.'
       - lang: pt_PT
