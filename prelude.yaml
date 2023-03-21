@@ -343,6 +343,8 @@ common:
         text: 'Tämä tiedosto on poistumassa ja sen käyttäminen pitäisi lopettaa.'
       - lang: it
         text: 'Questo file è obsoleto e non dovrebbe essere più usato.'
+      - lang: ja
+        text: '非推奨のファイルです。使用しないでください。'
       - lang: pl
         text: 'Ten plik jest przestarzały i nie powinien być już używany.'
       - lang: uk_UA
