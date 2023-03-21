@@ -21,7 +21,7 @@ common:
       - lang: it
         text: 'Cancella. Già incluso in %1%.'
       - lang: ja
-        text: '削除してください。既に%1%に含まれています。'
+        text: '削除してください。既に %1% に含まれています。'
       - lang: ko
         text: '삭제하십시오. 이미 %1%에 포함되어 있습니다.'
       - lang: pl
@@ -59,7 +59,7 @@ common:
       - lang: it
         text: 'Cancella. Già incluso o corretto in %1%.'
       - lang: ja
-        text: '削除してください。%1%にすでに含まれているか修正されています。'
+        text: '削除してください。%1% にすでに含まれているか修正されています。'
       - lang: ko
         text: '삭제하십시오. 이미 %1%에 포함되었거나 수정되었습니다.'
       - lang: pl
@@ -97,7 +97,7 @@ common:
       - lang: it
         text: 'Si consiglia vivamente di usare anche %1%.'
       - lang: ja
-        text: '%1%の併用を強く推奨します。'
+        text: '%1% の併用を強く推奨します。'
       - lang: ko
         text: '%1%도 함께 사용하는 것을 매우 권장합니다.'
       - lang: pl
@@ -135,7 +135,7 @@ common:
       - lang: it
         text: 'Questo plugin ha problemi di compatibilità con %1%. Per maggiori informazioni, leggi le note sulla compatibilità di questa mod.'
       - lang: ja
-        text: 'このプラグインには%1%との互換性の問題があります。詳細についてはこのmodの互換性に関する注意事項をお読みください。'
+        text: 'このプラグインには %1% との互換性の問題があります。詳細についてはこの Mod の互換性に関する注意事項をお読みください。'
       - lang: ko
         text: '이 플러그인은 %1%와의 호환성 문제가 있습니다. 자세한 내용은 이 모드의 호환성 정보를 확인해주세요.'
       - lang: pl
@@ -273,7 +273,7 @@ common:
       - lang: it
         text: 'Elimina o disattiva. %1%'
       - lang: ja
-        text: '%1%を削除するか非アクティブにしてください。'
+        text: '%1% を削除するか非アクティブにしてください。'
       - lang: ko
         text: '%1%을 제거하거나 비활성화하십시오.'
       - lang: pl
@@ -312,7 +312,7 @@ common:
       - lang: it
         text: 'Quando si utilizza **%1%**, è fortemente consigliato disattivare o eliminare questo file ESP ma mantenerne le risorse (ad es. mesh, texture) installate con questa mod.'
       - lang: ja
-        text: '**%1%**を使用する場合、このEspファイルを無効化あるいは削除することをお勧めします。ただしこのModによってインストールされたリソース（メッシュ、テクスチャなど）はそのままにしておいてください。'
+        text: '**%1%** を使用する場合、この Esp ファイルを無効化あるいは削除することをお勧めします。ただしこの Mod によってインストールされたリソース（メッシュ、テクスチャなど）はそのままにしておいてください。'
       - lang: ko
         text: '**%1%**를 사용할 때 이 ESP 파일을 비활성화하거나 삭제하되, 이 모드와 함께 설치된 리소스(예: 메쉬, 텍스쳐)는 유지하는 것을 권장합니다.'
       - lang: pl
@@ -343,6 +343,8 @@ common:
         text: 'Tämä tiedosto on poistumassa ja sen käyttäminen pitäisi lopettaa.'
       - lang: it
         text: 'Questo file è obsoleto e non dovrebbe essere più usato.'
+      - lang: ja
+        text: '非推奨のファイルです。使用しないでください。'
       - lang: pl
         text: 'Ten plik jest przestarzały i nie powinien być już używany.'
       - lang: uk_UA
@@ -366,7 +368,7 @@ common:
       - lang: it
         text: 'Sembra che ci sia una mod che sovrascrive uno dei file fondamentali di questa mod. Assicurati di usare questa versione della mod %1% o una versione compatibile, se disponibile.'
       - lang: ja
-        text: '必須ファイルが別のModによって上書きされているようです。このModの%1%バージョン、あるいは互換バージョンがある場合、必ずそちらを使用してください。'
+        text: '必須ファイルが別の Mod によって上書きされているようです。この Mod の %1% バージョン、あるいは互換バージョンがある場合、必ずそちらを使用してください。'
       - lang: pl
         text: 'Inny mod wydaje się nadpisywać jeden z podstawowych plików tego moda. Upewnij się, że używasz wersji %1% tego moda lub wersji kompatybilnej, jeśli jest dostępna.'
       - lang: uk_UA
@@ -392,7 +394,7 @@ common:
       - lang: it
         text: '%1% è incluso in questa mod.'
       - lang: ja
-        text: '%1%はこのmodに含まれています。'
+        text: '%1% はこの Mod に含まれています。'
       - lang: ko
         text: '%1% 모드가 포함되어 있습니다.'
       - lang: pl
@@ -500,7 +502,7 @@ common:
       - lang: it
         text: 'Il file **%1%** master deve essere riassegnato al file **%2%**.'
       - lang: ja
-        text: '**%1%**のマスターは**%2%**に割り当て直す必要があります。'
+        text: '**%1%** のマスターは **%2%** に割り当て直す必要があります。'
       - lang: ko
         text: '**%1%** 마스터는 **%2%**에 다시 할당되어야합니다.'
       - lang: pl
@@ -536,7 +538,7 @@ common:
       - lang: it
         text: 'Sembra che tu abbia installato **%2%**, ma mancano alcuni dei suoi requisiti. Assicurati di aver installato correttamente **%1%**.'
       - lang: ja
-        text: '**%2%**がインストールされましたが、必要なものの一部が不足しているようです。**%1%**が正しくインストールされていることを確認してください。'
+        text: '**%2%** がインストールされましたが、必要なものの一部が不足しているようです。**%1%** が正しくインストールされていることを確認してください。'
       - lang: ko
         text: '**%2%** 모드를 실행하기 위한 필요 모드가 빠져 있습니다. **%1%** 모드를 제대로 설치하십시오.'
       - lang: pl
@@ -574,7 +576,7 @@ common:
       - lang: it
         text: 'Sembra che manchino alcuni requisiti di questi plugin. Assicurati di avere installato correttamente **%1%**.'
       - lang: ja
-        text: 'このプラグインに必要なものの一部が不足しているようです。**%1%**が正しくインストールされていることを確認してください。'
+        text: 'このプラグインに必要なものの一部が不足しているようです。**%1%** が正しくインストールされていることを確認してください。'
       - lang: ko
         text: '이 플러그인의 일부 요구사항이 빠져 있습니다. **%1%** 모드를 제대로 설치하십시오.'
       - lang: pl
@@ -612,7 +614,7 @@ common:
       - lang: it
         text: 'Questo Plugin è una risorsa di modding e non dovrebbe essere usato in gioco.'
       - lang: ja
-        text: 'このプラグインはMod製作用のリソースです。ゲーム内で使用するものではありません。'
+        text: 'このプラグインは Mod 製作用のリソースです。ゲーム内で使用するものではありません。'
       - lang: ko
         text: '이 플러그인은 모딩 리소스이며 게임 내에서 사용해서는 안 됩니다.'
       - lang: pl
@@ -650,7 +652,7 @@ common:
       - lang: it
         text: 'Sposta %1% da %2% a %3%.'
       - lang: ja
-        text: '%1%を%2%から%3%に移動します。'
+        text: '%1% を %2% から %3% に移動します。'
       - lang: ko
         text: '%1%를 %2%에서 %3%로 이동합니다.'
       - lang: pl
@@ -686,7 +688,7 @@ common:
       - lang: it
         text: 'Obsoleto. Aggiorna all''ultima versione. %1%'
       - lang: ja
-        text: '旧式のプラグインです。最新版に更新してください。 %1%'
+        text: '旧式のプラグインです。最新版に更新してください。%1%'
       - lang: ko
         text: '폐기된 플러그인입니다. 최신 버전으로 업데이트하십시오. %1%'
       - lang: pl
@@ -725,7 +727,7 @@ common:
       - lang: it
         text: 'Può essere usato con un %1% ma richiederebbe del lavoro aggiuntivo. Una Smashed Patch o una Bash Patch dovrebbero essere usate indipendentemente l''una dall''altra.'
       - lang: ja
-        text: '%1%と同時に使用できますが、追加作業が必要となります。Smashed PatchかBash Patchはそれぞれ単独で使用してください。'
+        text: '%1% と同時に使用できますが、追加作業が必要となります。Smashed Patch か Bash Patch はそれぞれ単独で使用してください。'
       - lang: ko
         text: '%1%와 함께 사용할 수 있지만 추가적인 작업이 필요합니다. Smashed Patch나 Bash Patch는 서로 독립적으로 사용해야합니다.'
       - lang: pl
@@ -801,7 +803,7 @@ common:
       - lang: it
         text: 'Sembra che tu stia utilizzando **%1%**, ma non hai attivato la patch di compatibilità per questa mod. E'' disponibile una patch esterna qui: %2%'
       - lang: ja
-        text: '**%1%**を使用しているようですが、このModの互換性パッチが有効になっていません。サードパーティのパッチはこちらで入手できます: %2%'
+        text: '**%1%** を使用しているようですが、この Mod の互換性パッチが有効になっていません。サードパーティのパッチはこちらで入手できます: %2%'
       - lang: ko
         text: '**%1%** 모드와 사용하기 위한 호환성 패치가 작동 중이지 않습니다. 제3자 제공 호환성 패치는 여기에서 다운로드 가능합니다: %2%'
       - lang: pl
@@ -839,7 +841,7 @@ common:
       - lang: it
         text: '%1% patcher script disponibile qui: %2%'
       - lang: ja
-        text: '%1%のパッチスクリプトをこちらから入手できます: %2%'
+        text: '%1% のパッチスクリプトをこちらから入手できます: %2%'
       - lang: ko
         text: '%1%의 패쳐 스크립트는 %2%에서 사용이 가능합니다.'
       - lang: pl
@@ -873,7 +875,7 @@ common:
       - lang: it
         text: 'Sembra che tu stia utilizzando **%1%**, ma non hai attivato patch di compatibilità per questa mod. Una patch di compatibilità è inclusa nell''installer di questo plugin.'
       - lang: ja
-        text: '**%1%**を使用しているようですが、このmodの互換性パッチが有効になっていません。互換性パッチは、このプラグインのインストーラーに含まれています。'
+        text: '**%1%** を使用しているようですが、この Mod の互換性パッチが有効になっていません。互換性パッチは、このプラグインのインストーラーに含まれています。'
       - lang: ko
         text: '**%1%** 모드와 사용하기 위한 호환성 패치가 작동 중이지 않습니다. 호환성 패치는 이 플러그인의 인스톨러에 포함되어 있습니다.'
       - lang: pl
@@ -911,7 +913,7 @@ common:
       - lang: it
         text: 'Questa patch è obsoleta e potrebbe non essere compatibile con l''ultima versione della mod patchata.'
       - lang: ja
-        text: '旧式のパッチです。パッチが適用されたModの最新版とは両立できない可能性があります。'
+        text: '旧式のパッチです。パッチが適用された Mod の最新版とは両立できない可能性があります。'
       - lang: pl
         text: 'Ten patch jest nieaktualny i może nie być kompatybilny z najnowszą wersją poprawionego moda.'
       - lang: ru
@@ -939,7 +941,7 @@ common:
       - lang: it
         text: 'Sembra che tu stia utilizzando **%1%**, ma non hai attivato patch di compatibilità per questa mod. Una patch di compatibilità è presente in questa pagina.'
       - lang: ja
-        text: '**%1%**を使用しているようですが、このmodの互換性パッチが有効になっていません。互換性パッチは、このプラグインのModページにあります。'
+        text: '**%1%** を使用しているようですが、この Mod の互換性パッチが有効になっていません。互換性パッチは、このプラグインの Mod ページにあります。'
       - lang: ko
         text: '**%1%** 모드와 사용하기 위한 호환성 패치가 작동 중이지 않습니다. 호환성 패치는 이 플러그인의 모드 페이지에서 제공 중입니다.'
       - lang: pl
@@ -977,7 +979,7 @@ common:
       - lang: it
         text: 'E'' necessaria una patch che renda questa mod totalmente compatibile con %1%. Al momento non ne è disponibile nessuna che possa essere scaricata.'
       - lang: ja
-        text: 'このModを%1%に完全対応させるにはパッチが必要です。現在ダウンロードできるパッチはありません。'
+        text: 'この Mod を %1% に完全対応させるにはパッチが必要です。現在ダウンロードできるパッチはありません。'
       - lang: ko
         text: '이 모드가 %1%와 완전히 호환되도록하려면 패치가 필요합니다. 현재 다운로드 할 수있는 항목이 없습니다.'
       - lang: pl
@@ -1053,7 +1055,7 @@ common:
       - lang: it
         text: 'Rinomina questo file in %1%.'
       - lang: ja
-        text: 'ファイル名を%1%に変更してください。'
+        text: 'ファイル名を %1% に変更してください。'
       - lang: ko
         text: '이 파일의 이름을 %1%로 바꿉니다.'
       - lang: pl
@@ -1091,7 +1093,7 @@ common:
       - lang: it
         text: 'Devi rinominare %1% in %2% o questa mod non funzionerà.'
       - lang: ja
-        text: '%1%を%2%にリネームしないと機能しません。'
+        text: '%1% を %2% にリネームしないと機能しません。'
       - lang: ko
         text: '%1%의 이름을 %2%로 변경하지 않으면 이 모드가 작동하지 않습니다.'
       - lang: pl
@@ -1130,7 +1132,7 @@ common:
       - lang: it
         text: 'È necessario un **Menu di configurazione Mod** per rendere questa mod completamente funzionante. È possibile aggiungere un **MCM** installando %1%.'
       - lang: ja
-        text: 'このModを完全に機能させるには、**MCM** (Mod Configuration Menu) が必要です。**MCM**を追加するには%1%を導入してください。'
+        text: 'この Mod を完全に機能させるには、**MCM** (Mod Configuration Menu) が必要です。**MCM** を追加するには %1% を導入してください。'
       - lang: ko
         text: '모드가 정상 작동하기 위해서는 **모드 설정 메뉴**가필요합니다. %1%를 설치하면 **MCM** 메뉴를 추가할 수 있습니다.'
       - lang: pl
@@ -1168,7 +1170,7 @@ common:
       - lang: it
         text: 'Richiede risorse (ad es. mesh, texture; non plugin) da %1%.'
       - lang: ja
-        text: '%1%のリソース（プラグインではなくメッシュやテクスチャなど）が必要です。'
+        text: '%1% のリソース（プラグインではなくメッシュやテクスチャなど）が必要です。'
       - lang: ko
         text: '%1%의 리소스(플러그인이 아닌, 메쉬 및 질감 등)가 필요합니다.'
       - lang: pl
@@ -1244,7 +1246,7 @@ common:
       - lang: it
         text: 'Sembra che tu abbia installato **%1%**. Ricorda di eseguire **%2%** ogni volta che installi o disinstalli %3%, o una mod basata su %3%.'
       - lang: ja
-        text: '**%1%**がインストールされているようです。%3%本体、また%3%に準拠するModをインストール/アンインストールする際は、必ず**%2%**を実行し直すようにしてください。'
+        text: '**%1%** がインストールされているようです。%3% 本体、また %3% に準拠する Mod をインストール/アンインストールする際は、必ず **%2%** を実行し直すようにしてください。'
       - lang: ko
         text: '**%1%**가 설치되어 있습니다. %3% 또는 %3% 기반 모드를 설치하거나 제거할 때마다 **%2%**를 실행하는 것을 잊지 마십시오.'
       - lang: pl
@@ -1282,7 +1284,7 @@ common:
       - lang: it
         text: 'Se aggiungi, rimuovi o aggiorni i plugin che modificano i record WRLD/CELL, ricorda di aggiornare questo modulo con **xLODGen**.'
       - lang: ja
-        text: 'WRLD/CELLレコードを変更するプラグインを追加、削除、または更新する場合は、このモジュールを **xLODGen** で更新することを忘れないでください。'
+        text: 'WRLD/CELL レコードを変更するプラグインを追加、削除、または更新する場合は、このモジュールを **xLODGen** で更新することを忘れないでください。'
       - lang: ko
         text: 'WRLD/CELL 레코드를 변경하는 플러그인을 추가, 제거 또는 업데이트하는 경우 **xLODGen**으로 이 모듈을 업데이트해야 합니다.'
       - lang: pl
@@ -1316,7 +1318,7 @@ common:
       - lang: it
         text: 'Puoi usare una Bashed Patch modificata invece di questo plugin. %1%'
       - lang: ja
-        text: 'このプラグインは、Bashed Patchの調整機能（Tweak）で代用できます。%1%'
+        text: 'このプラグインは、Bashed Patch の調整機能（Tweak）で代用できます。%1%'
       - lang: ko
         text: '이 플러그인 대신 Bashed Patch의 트윅을 사용할 수 있습니다. %1%'
       - lang: pl
@@ -1356,7 +1358,7 @@ common:
       - lang: it
         text: 'Puoi usare un INI modificato invece di questo plugin. %1%'
       - lang: ja
-        text: 'このプラグインは、INIの調整機能（INI Tweak）で代用できます。%1%'
+        text: 'このプラグインは、INI の調整機能（INI Tweak）で代用できます。%1%'
       - lang: ko
         text: '이 플러그인 대신 INI 조정을 사용할 수 있습니다. %1%'
       - lang: pl
@@ -1395,7 +1397,7 @@ common:
       - lang: it
         text: 'Utilizza %1% al suo posto.'
       - lang: ja
-        text: '代わりに%1%を使用してください。'
+        text: '代わりに %1% を使用してください。'
       - lang: ko
         text: '대신 %1%를 사용하십시오.'
       - lang: pl
@@ -1433,7 +1435,7 @@ common:
       - lang: it
         text: 'Usa solo un %1%.'
       - lang: ja
-        text: '%1%は一つだけ使用してください。'
+        text: '%1% は一つだけ使用してください。'
       - lang: ko
         text: '%1%을 한 개만 사용하십시오.'
       - lang: pl
@@ -1471,7 +1473,7 @@ common:
       - lang: it
         text: 'Usa la versione %1%.'
       - lang: ja
-        text: '%1%バージョンを使用してください。'
+        text: '%1% バージョンを使用してください。'
       - lang: ko
         text: '%1% 버전을 사용하십시오.'
       - lang: pl
@@ -1509,7 +1511,7 @@ common:
       - lang: it
         text: 'Non usare la versione-%1%.'
       - lang: ja
-        text: '%1%バージョン以外を使用してください。'
+        text: '%1% バージョン以外を使用してください。'
       - lang: ko
         text: '%1%가 아닌 버전을 사용하십시오.'
       - lang: pl
@@ -1547,7 +1549,7 @@ common:
       - lang: it
         text: 'Sembra che tu non abbia l''ultima versione di %1%. Alcune modifiche potrebbero richiedere funzionalità aggiunte nell''ultima versione di %1% per funzionare.'
       - lang: ja
-        text: '%1%が最新版ではないようです。一部のModを動作させるには最新版の%1%で追加された機能が必要となる場合があります。'
+        text: '%1% が最新版ではないようです。一部の Mod を動作させるには最新版の %1% で追加された機能が必要となる場合があります。'
       - lang: ko
         text: '%1%의 최신 버전이없는 것 같습니다. 일부 모드가 동작하려면 %1%의 최신 버전에 추가 된 기능이 필요할 수 있습니다.'
       - lang: pl
@@ -1585,7 +1587,7 @@ common:
       - lang: it
         text: 'La tua %1% è aggiornata.'
       - lang: ja
-        text: '%1%は最新版です。'
+        text: '%1% は最新版です。'
       - lang: ko
         text: '%1%가 최신 버전입니다.'
       - lang: pl
@@ -1623,7 +1625,7 @@ common:
       - lang: it
         text: 'La tua versione installata di %1% non è compatibile con la tua versione di %2%.'
       - lang: ja
-        text: 'インストールされている%1%は使用中のバージョンの%2%との互換性がありません。'
+        text: 'インストールされている %1% は使用中のバージョンの %2% との互換性がありません。'
       - lang: ko
         text: '현재 설치된 %1%의 버전은 %2%의 버전과 호환되지 않습니다.'
       - lang: pl
@@ -1661,7 +1663,7 @@ common:
       - lang: it
         text: 'Richiede la versione **%1%** o superiore di **%2%**.'
       - lang: ja
-        text: 'バージョン**%1%**以上の**%2%**が必要です。'
+        text: 'バージョン **%1%** 以上の **%2%** が必要です。'
       - lang: ko
         text: '**%1%** 혹은 **%2%** 이상의 버전이 필요합니다.'
       - lang: pl
@@ -1695,7 +1697,7 @@ common:
       - lang: it
         text: 'Questo plugin contiene [pesanti modifiche](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) e potrebbe richiedere una pulizia manuale aggiuntiva, in modo da non interferire con altre mod. %1%'
       - lang: ja
-        text: 'このプラグインには[Wild Edit](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits)（不用意な編集）が含まれています。他のModに干渉しないようにするには、追加で手動クリーニングを行う必要があるでしょう。%1%'
+        text: 'このプラグインには [Wild Edit](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits)（不用意な編集）が含まれています。他の Mod に干渉しないようにするには、追加で手動クリーニングを行う必要があるでしょう。%1%'
       - lang: ko
         text: '이 플러그인에는 [잘못된 편집](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits)이 포함되어 있으며 다른 모드와 간섭되지 않도록 추가적인 수동 청소가 필요할 수 있습니다. %1%'
       - lang: pl
@@ -1735,7 +1737,7 @@ common:
       - lang: it
         text: 'Puoi trovare una guida per la pulizia dei plugin tramite xEdit [qui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: ja
-        text: 'xEditを使ったプラグインのクリーニング方法についてのガイドは[こちら](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)にあります。'
+        text: 'xEdit を使ったプラグインのクリーニング方法についてのガイドは[こちら](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)にあります。'
       - lang: ko
         text: 'xEdit을 사용한 플러그인 정리에 대한 가이드는 [여기](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)에서 찾을 수 있습니다.'
       - lang: pl
@@ -1773,7 +1775,7 @@ common:
       - lang: it
         text: 'Si raccomanda vivamente di non utilizzare mod che contengono **navmesh cancellate** che sono note come causa di Crash. **Navmesh cancellate** devono essere corrette manualmente (un processo complesso che dovrebbe essere fatto dall''autore della mod). Puoi trovare maggiori informazioni su **deleted navmeshes** [qui](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: ja
-        text: '**削除されたnavmesh**（deleted navmeshes）が含まれているModは使用しないことを強く推奨します。こうしたModはクラッシュの原因となるからです。**削除されたnavmesh**は手動で修正しなくてはなりません（本来ならModの製作者が行わなくてはならない複雑な手順です）。**削除されたnavmesh**については[こちら](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)から詳しい情報を確認できます。'
+        text: '**削除された navmesh**（deleted navmeshes）が含まれている Mod は使用しないことを強く推奨します。こうした Mod はクラッシュの原因となるからです。**削除された navmesh** は手動で修正しなくてはなりません（本来なら Mod の製作者が行わなくてはならない複雑な手順です）。**削除された navmesh** については[こちら](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)から詳しい情報を確認できます。'
       - lang: ko
         text: '**삭제된 Navmesh**가 포함된 모드는 크래시를 유발하는 것으로 알려져 있으므로 사용하지 않는 것이 좋습니다. **삭제된 Navmesh**는 수동으로 수정해야합니다(모드 작성자가 수행해야하는 복잡한 프로세스). **삭제된 Navmesh**에 대한 자세한 정보는 [여기](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)에서 제공됩니다.'
       - lang: pl
@@ -1812,7 +1814,7 @@ common:
       - lang: it
         text: 'Questa versione di LOOT ha una minore capacità di gestione dei plugin del Creation Club. Il supporto per questi plugin è limitato nelle versioni precedenti a LOOT 0.13.1. Si consiglia di aggiornare il più presto possibile.'
       - lang: ja
-        text: 'このバージョンのLOOTではCreation Clubプラグインをうまく扱えません。そのため、LOOT 0.13.1より前のバージョンではサポートが制限されます。できるだけ早くアップデートすることをおすすめします。'
+        text: 'このバージョンの LOOT では Creation Club プラグインをうまく扱えません。そのため、LOOT 0.13.1 より前のバージョンではサポートが制限されます。できるだけ早くアップデートすることをおすすめします。'
       - lang: ko
         text: '이 버전의 LOOT는 Creation Club 플러그인의 처리 성능이 떨어집니다. 따라서 이들에 대한 지원은 LOOT 0.13.1 이전 버전에서 제한됩니다. 가능한 한 빨리 업데이트하는 것이 좋습니다.'
       - lang: pl
@@ -1851,7 +1853,7 @@ common:
       - lang: it
         text: '[Ultimo thread di LOOT](%1%).'
       - lang: ja
-        text: '[LOOTの最新スレッドを開く](%1%)（英語）。'
+        text: '[LOOT の最新スレッドを開く](%1%)（英語）。'
       - lang: ko
         text: '[최신 LOOT 스레드](%1%).'
       - lang: pl
@@ -1890,7 +1892,7 @@ common:
       - lang: it
         text: 'NVAC è installato in **NVSE/Plugins** ma deve essere spostato in **%1%/Plugins** per permettere a %1% di essere usato da %2%.'
       - lang: ja
-        text: 'NVACが**NVSE/Plugins**以下にインストールされています。%2%の%1%で利用するには**%1%/Plugins**に移さなくてはなりません。'
+        text: 'NVAC が **NVSE/Plugins** 以下にインストールされています。%2% の %1% で利用するには **%1%/Plugins** に移さなくてはなりません。'
       - lang: ko
         text: 'NVAC는 **NVSE/플러그인** 아래에 설치되지만 %2%에 대해 선택하려면 %1%에 대해 **%1%/Plugins**로 이동해야합니다.'
       - lang: pl
@@ -1930,7 +1932,7 @@ common:
       - lang: it
         text: 'Hai installato un plugin %1% ma %1% non è stato trovato! Consulta %1% nella pagina di download: %2%.'
       - lang: ja
-        text: '%1%プラグインがインストールされていますが、%1%が見つかりません！%1%のダウンロードページはこちら: %2%'
+        text: '%1% プラグインがインストールされていますが、%1% が見つかりません！%1% のダウンロードページはこちら: %2%'
       - lang: ko
         text: '%1% 플러그인이 설치되었지만 %1%를 찾을 수 없습니다! %1% 다운로드 페이지를 참조하십시오: %2%.'
       - lang: pl
@@ -1971,7 +1973,7 @@ common:
       - lang: it
         text: 'Sembra che tu abbia installato **%1%**, ma i suoi script di base non sembrano essere presenti. Assicurati di aver installato correttamente gli script dall''archivio di installazione presenti in **%2%**.'
       - lang: ja
-        text: '**%1%**がインストールされているようですが、必要なスクリプトが見つかりません。**%2%**に付属するスクリプトが正しくインストールされているかを確認してください。'
+        text: '**%1%** がインストールされているようですが、必要なスクリプトが見つかりません。**%2%** に付属するスクリプトが正しくインストールされているかを確認してください。'
       - lang: ko
         text: '**%1%**를 설치한것으로 보이지만 필수 스크립트가 누락된 것같습니다. **%2%** 설치 아카이브와 함께 번들로 제공되는 스크립트를 올바르게 설치했는지 확인하십시오.'
       - lang: pl
