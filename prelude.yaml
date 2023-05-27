@@ -560,7 +560,7 @@ common:
     type: warn
     content:
       - lang: en
-        text: 'Some of this plugins requirements seem to be missing. Please ensure you have correctly installed **%1%**.'
+        text: 'Some of this plugin''s requirements seem to be missing. Please ensure you have correctly installed **%1%**.'
       - lang: bg
         text: 'Някои от изискванията на приставката не са изпълнени. Моля, инсталирайте **%1%** отново.'
       - lang: da
