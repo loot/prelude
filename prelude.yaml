@@ -215,6 +215,12 @@ common:
       - lang: uk_UA
         text: 'Радимо перевірити наступну колекцію патчів сумісності для цього моду: %1%'
 
+  - &compatPatchForX
+    type: say
+    content:
+      - lang: en
+        text: 'It is recommended that you check the following compatibility patch compilation for %1%: %2%'
+
   - &corrupt
     type: warn
     content:
