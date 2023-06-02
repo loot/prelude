@@ -220,6 +220,8 @@ common:
     content:
       - lang: en
         text: 'It is recommended that you check the following compatibility patch compilation for %1%: %2%'
+      - lang: de
+        text: 'Es wird empfohlen, dass Sie die folgende Kompatibilitäts-Patch Zusammenstellung für %1% überprüfen: %2%'
 
   - &corrupt
     type: warn
