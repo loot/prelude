@@ -220,10 +220,14 @@ common:
     content:
       - lang: en
         text: 'It is recommended that you check the following compatibility patch compilation for %1%: %2%'
+      - lang: bg
+        text: 'Препоръчва се да проверите следните кръпки за съвместимост за %1%: %2%'
       - lang: de
         text: 'Es wird empfohlen, dass Sie die folgende Kompatibilitäts-Patch Zusammenstellung für %1% überprüfen: %2%'
       - lang: it
         text: 'Si raccomanda di controllare la seguente compatibility patch compilation per %1%: %2%'
+      - lang: uk_UA
+        text: 'Радимо перевірити наступну колекцію патчів сумісності для %1%: %2%'
 
   - &corrupt
     type: warn
