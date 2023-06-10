@@ -212,6 +212,8 @@ common:
         text: '次の互換性パッチを確認することをお勧めします: %1%'
       - lang: pl
         text: 'Jest rekomendowane żebyś sprawdził następujące kompatybilności patchu kompilacji dla tego moda: %1%'
+      - lang: pt_BR
+        text: 'É recomendado que você verifique a seguinte compilação do patch de compatibilidade para este mod: %1%'
       - lang: uk_UA
         text: 'Радимо перевірити наступну колекцію патчів сумісності для цього моду: %1%'
 
@@ -226,6 +228,8 @@ common:
         text: 'Es wird empfohlen, dass Sie die folgende Kompatibilitäts-Patch Zusammenstellung für %1% überprüfen: %2%'
       - lang: it
         text: 'Si raccomanda di controllare la seguente compatibility patch compilation per %1%: %2%'
+      - lang: pt_BR
+        text: 'É recomendado que você verifique a seguinte compilação do patch de compatibilidade para %1%: %2%'
       - lang: uk_UA
         text: 'Радимо перевірити наступну колекцію патчів сумісності для %1%: %2%'
 
@@ -361,6 +365,8 @@ common:
         text: '非推奨のファイルです。使用しないでください。'
       - lang: pl
         text: 'Ten plik jest przestarzały i nie powinien być już używany.'
+      - lang: pt_BR
+        text: 'Este arquivo está obsoleto e não deve mais ser usado.'
       - lang: uk_UA
         text: 'Цей файл застарілий та не має використовуватися.'
 
@@ -385,6 +391,8 @@ common:
         text: '必須ファイルが別の Mod によって上書きされているようです。この Mod の %1% バージョン、あるいは互換バージョンがある場合、必ずそちらを使用してください。'
       - lang: pl
         text: 'Inny mod wydaje się nadpisywać jeden z podstawowych plików tego moda. Upewnij się, że używasz wersji %1% tego moda lub wersji kompatybilnej, jeśli jest dostępna.'
+      - lang: pt_BR
+        text: 'Aparentemente outro mod está sobrescrevendo um dos arquivos essenciais deste mod. Por favor certifique-se que você está usando a versão do mod %1% ou uma versão compatível, se disponível.'
       - lang: uk_UA
         text: 'Інший мод може переписувати один із критичних файлів. Будь ласка впевніться, що ви використовуєте версію %1% із цього моду, або сумісну за її навності.'
 
@@ -487,6 +495,8 @@ common:
         text: '이 플러그인은 게임의 메인 퀘스트가 완료된 후에만 사용하십시오.'
       - lang: pl
         text: 'Używaj tej wtyczki dopiero po ukończeniu głównego zadania gry.'
+      - lang: pt_BR
+        text: 'Só use este plugin após finalizar a história principal do jogo.'
       - lang: pt_PT
         text: 'Apenas utilize este plugin quando a missão principal do jogo estiver completada.'
       - lang: ru
@@ -671,6 +681,8 @@ common:
         text: '%1%를 %2%에서 %3%로 이동합니다.'
       - lang: pl
         text: 'Przesuń %1% do %2% do %3%.'
+      - lang: pt_BR
+        text: 'Mover %1% de %2% para %3%.'
       - lang: pt_PT
         text: 'Mova %1% de %2% para %3%.'
       - lang: ru
@@ -860,6 +872,8 @@ common:
         text: '%1%의 패쳐 스크립트는 %2%에서 사용이 가능합니다.'
       - lang: pl
         text: '%1% skrypt patchera dostępny tutaj: %2%'
+      - lang: pt_BR
+        text: '%1% script patcher disponível aqui: %2%'
       - lang: pt_PT
         text: 'O script de atualização para %1% está disponível aqui: %2%'
       - lang: ru
@@ -930,6 +944,8 @@ common:
         text: '旧式のパッチです。パッチが適用された Mod の最新版とは両立できない可能性があります。'
       - lang: pl
         text: 'Ten patch jest nieaktualny i może nie być kompatybilny z najnowszą wersją poprawionego moda.'
+      - lang: pt_BR
+        text: 'Este patch está desatualizado e pode não ser compatível com a versão mais recente do mod corrigido.'
       - lang: ru
         text: 'Патч устарел и может быть несовместим с последней версией пропатченного мода.'
       - lang: uk_UA
@@ -1303,6 +1319,8 @@ common:
         text: 'WRLD/CELL 레코드를 변경하는 플러그인을 추가, 제거 또는 업데이트하는 경우 **xLODGen**으로 이 모듈을 업데이트해야 합니다.'
       - lang: pl
         text: 'Jeśli dodasz, usuniesz lub zaktualizujesz wtyczki, które zmieniają rekordy WRLD/CELL, pamiętaj, aby zaktualizować ten moduł za pomocą **xLODGen**.'
+      - lang: pt_BR
+        text: 'Se você adicionar, remover, ou atualizar plugins que alteram registros WRLD/CELL, lembre-se de atualizar esse módulo com **xLODGen**.'
       - lang: pt_PT
         text: 'Se você adicionar, remover, ou atualizar plugins que alterem registos WRLD/CELL, lembre-se de atualizar este módulo com **xLODGen**.'
       - lang: ru
@@ -1682,6 +1700,8 @@ common:
         text: '**%1%** 혹은 **%2%** 이상의 버전이 필요합니다.'
       - lang: pl
         text: 'Wymaga wersji **%1%** lub lepszej od **%2%**.'
+      - lang: pt_BR
+        text: 'Requer versão **%1%** ou mais recente que **%2%**.'
       - lang: pt_PT
         text: 'Necessita a versão **%1%** ou maior de **%2%**.'
       - lang: ru
