@@ -271,6 +271,14 @@ common:
       - lang: zh_CN
         text: '该文件已损坏，不应使用。'
 
+  - &deactivateAfterCharacterCreation
+    type: say
+    content:
+      - lang: en
+        text: 'Deactivate and/or uninstall this mod after character creation.'
+      - lang: de
+        text: 'Deaktivieren und/oder deinstallieren Sie diese Mod nach der Charaktererstellung.'
+
   - &deleteOrDeactivateX
     type: error
     content:
