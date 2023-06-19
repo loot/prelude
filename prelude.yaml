@@ -276,8 +276,14 @@ common:
     content:
       - lang: en
         text: 'Deactivate and/or uninstall this mod after character creation.'
+      - lang: bg
+        text: 'Деактивирайте или премахнете тази модификация след създаването на героя.'
       - lang: de
         text: 'Deaktivieren und/oder deinstallieren Sie diese Mod nach der Charaktererstellung.'
+      - lang: it
+        text: 'Disattiva e/o disinstalla questa mod dopo la creazione del personaggio.'
+      - lang: uk_UA
+        text: 'Деактивуйте та/або видаліть цей мод після створення персонажу.'
 
   - &deleteOrDeactivateX
     type: error
@@ -1612,8 +1618,14 @@ common:
     content:
       - lang: en
         text: 'Delete %1% from %2%. %3%''s version must take precedence.'
+      - lang: bg
+        text: 'Изтрийте %1% от %2%. Версията на %3% е с предимство.'
       - lang: de
         text: 'Löschen Sie %1% von %2%. Die Version von %3% muss Vorrang haben.'
+      - lang: it
+        text: 'Elimina %1% da %2%. La versione di %3% deve avere la precedenza.'
+      - lang: uk_UA
+        text: 'Видаліть %1% з %2%. Версія %3% повинна мати пріоритет.'
 
   - &versionUpToDateX
     type: say
