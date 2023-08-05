@@ -1627,7 +1627,7 @@ common:
       - lang: it
         text: 'Elimina %1% da %2%. La versione di %3% deve avere la precedenza.'
       - lang: pt_BR
-        text: 'Delete %1% de %2%. A versão de %3%' deve ter precedência.'
+        text: 'Delete %1% de %2%. A versão de %3% deve ter precedência.'
       - lang: uk_UA
         text: 'Видаліть %1% з %2%. Версія %3% повинна мати пріоритет.'
 
