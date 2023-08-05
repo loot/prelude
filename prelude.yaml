@@ -73,7 +73,7 @@ common:
       - lang: sv
         text: 'Ta bort. Redan inkluderat eller fixat i %1%.'
       - lang: uk_UA
-        text: 'Видаліть. Уже включено або іншим чином виправлено у %1%.'
+        text: 'Видаліть. Уже додано або іншим чином виправлено у %1%.'
       - lang: zh_CN
         text: '删除。在%1%中已包含或修复。'
 
@@ -149,7 +149,7 @@ common:
       - lang: sv
         text: 'Det här pluginet är inte helt kompatibelt med %1%. För mer information, läs det här moddets kompabilitetsanteckningar.'
       - lang: uk_UA
-        text: 'У цього плагіна наявні проблеми сумісності з %1%. Для отримання додаткової інформації дивіться примітки щодо сумісності цього моду.'
+        text: 'У цього плагіна наявні проблеми сумісності з %1%. Додаткова інформація може міститись у замітках сумісності цього моду.'
       - lang: zh_CN
         text: '这个插件与%1%有兼容性问题。欲了解更多信息，请阅读这个mod的兼容性说明。'
 
@@ -319,7 +319,7 @@ common:
       - lang: sv
         text: 'Ta bort eller avaktivera. %1%'
       - lang: uk_UA
-        text: 'Відключіть чи видаліть. %1%'
+        text: 'Видаліть чи вимкніть. %1%'
       - lang: zh_CN
         text: '删除或禁用。%1%'
     subs: [ '' ]
@@ -893,7 +893,7 @@ common:
       - lang: ru
         text: '%1% скрипт-патчер доступен здесь: %2%'
       - lang: uk_UA
-        text: '%1% патч-скрипт доступний тут: %2%'
+        text: '%1% скрипт-патч доступний тут: %2%'
       - lang: zh_CN
         text: '%1%的补丁在这里: %2%'
 
@@ -963,7 +963,7 @@ common:
       - lang: ru
         text: 'Патч устарел и может быть несовместим с последней версией пропатченного мода.'
       - lang: uk_UA
-        text: 'Патч застарів і може бути несумісним з останньою версією виправленого моду.'
+        text: 'Патч застарів і може бути несумісним з останньою версією моду.'
 
   - &patchProvided
     type: say
@@ -1304,7 +1304,7 @@ common:
       - lang: sv
         text: 'Det verkar som att använder **%1%** installerat. Kom ihåg att köra **%2%** varje gång du har installerat eller avinstallerat %3%, eller en %3%-baserad mod.'
       - lang: uk_UA
-        text: 'У вас встановлений **%1%**. Не забудьте запускати **%2%** кожен раз, коли ви встановите або видалите %3%, або будь-який мод, на основі %3%.'
+        text: 'У вас встановлений **%1%**. Не забудьте запускати **%2%** кожен раз, коли встановите або видалите %3%, або будь-який мод, на основі %3%.'
       - lang: zh_CN
         text: '您安装了**%1%**。每次安装或卸载%3%，以及基于%3%的mod时，记得运行**%2%**。'
 
@@ -1609,7 +1609,7 @@ common:
       - lang: sv
         text: 'Det verkar som att du inte har den senaste versionen av %1%. Några mods kan kräva funktionalitet tillagd i den senaste versionen av %1% för att fungera.'
       - lang: uk_UA
-        text: 'Можливо у вас не встановлена остання версія %1%. Роботи деяких модів може потребувати функціоналу, доданого в останній версії %1%.'
+        text: 'Можливо у вас не встановлена остання версія %1%. Робота деяких модів може потребувати функціоналу, доданого в останній версії %1%.'
       - lang: zh_CN
         text: '您的%1%似乎不是最新的。有些插件可能需要最新的%1%才能工作。'
 
@@ -1890,7 +1890,7 @@ common:
       - lang: sv
         text: 'Denna version av LOOT har sämre hantering av Creation Club plugins. Stöd för dessa är därför begränsad i versionen tidigare än LOOT 0.13.1. Du rekommenderas att uppdatera så snart som möjligt.'
       - lang: uk_UA
-        text: 'У цій версії LOOT плагіни Creation Club обробляються гірше. Їх підтримка обмежена у LOOT 0.13.1 та більш ранніх версіях. Рекомендується оновити якомога швидше.'
+        text: 'У цій версії LOOT плагіни Creation Club обробляються гірше. Їх підтримка обмежена у LOOT старіше за 0.13.1. Рекомендується оновити якомога швидше.'
       - lang: zh_CN
         text: '这个版本的LOOT对Creation Club插件的处理较差。因此，在LOOT 0.13.1之前的版本中，对这些的支持是有限的。建议尽快更新。'
     condition: 'file("LOOT") and version("LOOT", "0.13.1.0", <)'
