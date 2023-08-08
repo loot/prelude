@@ -771,7 +771,7 @@ common:
       - lang: fi
         text: 'Voidaan käyttää samaan aikaan kuin %1%, mutta se vaatii lisätyötä. "Smashed Patch" ja "Bash Patch" tulisi pitää erillään ja käyttää vain yhtä kerrallaan.'
       - lang: fr
-        text: 'Peut être utilisé avec un %1% mais demanderait davantage de travail. Les Smashed Patch et les Bash Patch ne doivent pas être utilisés pour la même cause.'
+        text: 'Peut être utilisé avec un %1% mais demanderait davantage de travail. Les Smashed Patch et les Bash Patch ne doivent pas être utilisés ensemble pour même changement.'
       - lang: it
         text: 'Può essere usato con un %1% ma richiederebbe del lavoro aggiuntivo. Una Smashed Patch o una Bash Patch dovrebbero essere usate indipendentemente l''una dall''altra.'
       - lang: ja
