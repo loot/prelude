@@ -580,7 +580,7 @@ common:
       - lang: fi
         text: '**%2%** on asennettu, mutta osa sen vaatimista lisäosista puuttuu. Varmista, että **%1%** on oikein asennettu.'
       - lang: fr
-        text: 'Il semblerait que vous ayez installé **%2%**, mais certains de ses prérequis semblent manquer. Veuillez vous assurer que vous ayez correctement installé **%1%**.'
+        text: 'Il semble que vous avez installé **%2%**, mais certains de ses prérequis semblent manquer. Veuillez vous assurer que vous ayez correctement installé **%1%**.'
       - lang: it
         text: 'Sembra che tu abbia installato **%2%**, ma mancano alcuni dei suoi requisiti. Assicurati di aver installato correttamente **%1%**.'
       - lang: ja
@@ -847,7 +847,7 @@ common:
       - lang: fi
         text: 'Käytät lisäosaa **%1%**, muttet ole asentanut yhteensopivuuskorjausta tälle lisäosalle. Kolmannen osapuolen korjaus on saatavilla: %2%'
       - lang: fr
-        text: 'Il semblerait que vous utilisiez **%1%**, mais vous n''avez pas activé le patch de compatibilité pour ce mod. Ce patch peut être trouvé ici: %2%'
+        text: 'Il semble que vous utilisez **%1%**, mais vous n''avez pas activé le patch de compatibilité pour ce mod. Ce patch peut être trouvé ici: %2%'
       - lang: it
         text: 'Sembra che tu stia utilizzando **%1%**, ma non hai attivato la patch di compatibilità per questa mod. E'' disponibile una patch esterna qui: %2%'
       - lang: ja
@@ -921,7 +921,7 @@ common:
       - lang: fi
         text: 'Käytät lisäosaa **%1%**, muttet ole asentanut yhteensopivuuskorjausta tälle lisäosalle. Korjaus on saatavilla tämän lisäosan asennusohjelman kautta.'
       - lang: fr
-        text: 'Il semblerait que vous utilisiez **%1%**, mais vous n''avez pas activé le patch de compatibilité pour ce mod. Ce patch est inclus avec l''installeur de ce plugin.'
+        text: 'Il semble que vous utilisez **%1%**, mais vous n''avez pas activé le patch de compatibilité pour ce mod. Ce patch est inclus avec l''installeur de ce plugin.'
       - lang: it
         text: 'Sembra che tu stia utilizzando **%1%**, ma non hai attivato patch di compatibilità per questa mod. Una patch di compatibilità è inclusa nell''installer di questo plugin.'
       - lang: ja
@@ -1294,7 +1294,7 @@ common:
       - lang: fi
         text: 'Käytät lisäosaa **%1%**. Muista ajaa **%2%** aina, kun %3% tai siihen liittyvä lisäosa asennetaan tai poistetaan.'
       - lang: fr
-        text: 'Il semblerait que vous ayez **%1%** d''installé. N''oubliez pas de lancer **%2%** à chaque fois que vous installez ou désinstallez %3%, ou un mod dépendant de %3%.'
+        text: 'Il semble que vous avez **%1%** d''installé. N''oubliez pas de lancer **%2%** à chaque fois que vous installez ou désinstallez %3%, ou un mod dépendant de %3%.'
       - lang: it
         text: 'Sembra che tu abbia installato **%1%**. Ricorda di eseguire **%2%** ogni volta che installi o disinstalli %3%, o una mod basata su %3%.'
       - lang: ja
@@ -1599,7 +1599,7 @@ common:
       - lang: fi
         text: '%1%: käytössä on vanhempi versio. Jotkin lisäosat saattavat vaatia uusimman %1%-version toimiakseen.'
       - lang: fr
-        text: 'Il semblerait que vous n''ayez pas la dernière version de %1%. Certains mods pourraient avoir besoin de fonctionalités disponibles dans la dernière version de %1% pour pouvoir fonctionner.'
+        text: 'Il semble que vous n''avez pas la dernière version de %1%. Certains mods pourraient avoir besoin de fonctionalités disponibles dans la dernière version de %1% pour pouvoir fonctionner.'
       - lang: it
         text: 'Sembra che tu non abbia l''ultima versione di %1%. Alcune modifiche potrebbero richiedere funzionalità aggiunte nell''ultima versione di %1% per funzionare.'
       - lang: ja
@@ -2043,7 +2043,7 @@ common:
       - lang: fi
         text: '**%1%** on asennettu, mutta sen vaatimat skriptit puuttuvat. Tarkista, että olet asentanut **%2%**:n mukana tulleet skriptitiedostot.'
       - lang: fr
-        text: 'Il semblerait que vous ayez installé **%1%**, mais il manque les scripts requis. Veuillez vous assurer que vous ayez correctement installé les scripts de **%2%**, dans l''archive d''installation.'
+        text: 'Il semble que vous avez installé **%1%**, mais il manque les scripts requis. Veuillez vous assurer que vous ayez correctement installé les scripts de **%2%**, dans l''archive d''installation.'
       - lang: it
         text: 'Sembra che tu abbia installato **%1%**, ma i suoi script di base non sembrano essere presenti. Assicurati di aver installato correttamente gli script dall''archivio di installazione presenti in **%2%**.'
       - lang: ja
