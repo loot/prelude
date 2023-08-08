@@ -55,7 +55,7 @@ common:
       - lang: fi
         text: 'Poista. %1% sisältää jo tämän muutoksen tai korjauksen.'
       - lang: fr
-        text: 'Supprimer. Déjà inclus ou corrigé en %1%.'
+        text: 'Supprimer. Déjà inclus ou corrigé dans %1%.'
       - lang: it
         text: 'Cancella. Già incluso o corretto in %1%.'
       - lang: ja
@@ -93,7 +93,7 @@ common:
       - lang: fi
         text: 'On suotavaa käyttää myös lisäosaa %1%.'
       - lang: fr
-        text: 'Il est vivement recommendé que vous utilisiez aussi %1%.'
+        text: 'Il est vivement recommandé que vous utilisiez aussi %1%.'
       - lang: it
         text: 'Si consiglia vivamente di usare anche %1%.'
       - lang: ja
@@ -131,7 +131,7 @@ common:
       - lang: fi
         text: 'Tämä lisäosa ei ole täysin yhteensopiva lisäosan %1% kanssa. Lisätietoja löydät lisäosan yhteensopivuushuomautuksista.'
       - lang: fr
-        text: 'Ce plugin a des problèmes de compatibilités avec %1%. Pour plus d''informations, lisez la liste de compabilité de ce mod.'
+        text: 'Ce plugin a des problèmes de compatibilité avec %1%. Pour plus d''informations, lisez la liste de compabilité de ce mod.'
       - lang: it
         text: 'Questo plugin ha problemi di compatibilità con %1%. Per maggiori informazioni, leggi le note sulla compatibilità di questa mod.'
       - lang: ja
@@ -205,7 +205,7 @@ common:
       - lang: fi
         text: 'On suotavaa katsoa myös tämä kokoelma lisäosan yhteensopivuuskorjauksia: %1%'
       - lang: fr
-        text: 'Il est recommendé que vous vérifiez la compatibilité du patch pour ce mod: %1%'
+        text: 'Il est recommandé que vous alliez consulter le patch de compatibilités pour ce mod: %1%'
       - lang: it
         text: 'Si raccomanda di controllare la seguente compatibility patch compilation per questa mod: %1%'
       - lang: ja
@@ -226,6 +226,8 @@ common:
         text: 'Препоръчва се да проверите следните кръпки за съвместимост за %1%: %2%'
       - lang: de
         text: 'Es wird empfohlen, dass Sie die folgende Kompatibilitäts-Patch Zusammenstellung für %1% überprüfen: %2%'
+      - lang: fr
+        text: 'Il est recommandé que vous alliez consulter le patch de compatibilités pour %1%: %2%'
       - lang: it
         text: 'Si raccomanda di controllare la seguente compatibility patch compilation per %1%: %2%'
       - lang: pt_BR
@@ -280,6 +282,8 @@ common:
         text: 'Деактивирайте или премахнете тази модификация след създаването на героя.'
       - lang: de
         text: 'Deaktivieren und/oder deinstallieren Sie diese Mod nach der Charaktererstellung.'
+      - lang: fr
+        text: 'Désactivez et/ou désinstallez ce mod après la création de votre personnage.'
       - lang: it
         text: 'Disattiva e/o disinstalla questa mod dopo la creazione del personaggio.'
       - lang: pt_BR
@@ -342,7 +346,7 @@ common:
       - lang: fi
         text: '**%1%** ollessa käytössä on suotavaa jättää ESP-tiedosto pois käytöstä, mutta jättää kaikki resurssitiedostot (esim. "meshes", "textures"), jotka tulivat lisäosan mukana.'
       - lang: fr
-        text: 'Lorsque vous utilisez **%1%**, il est recommandé que vous désactivez, ou supprimez, cet ESP mais gardez les ressources (ex : meshes, textures) installés avec ce mod.'
+        text: 'Lorsque vous utilisez **%1%**, il est recommandé que vous désactiviez, ou que vous supprimiez cet ESP mais que vous gardiez les ressources (ex: meshes, textures) installées avec ce mod.'
       - lang: it
         text: 'Quando si utilizza **%1%**, è fortemente consigliato disattivare o eliminare questo file ESP ma mantenerne le risorse (ad es. mesh, texture) installate con questa mod.'
       - lang: ja
@@ -375,6 +379,8 @@ common:
         text: 'Diese Datei ist veraltet und sollte nicht mehr verwendet werden.'
       - lang: fi
         text: 'Tämä tiedosto on poistumassa ja sen käyttäminen pitäisi lopettaa.'
+      - lang: fr
+        text: 'Ce fichier est obsolète et ne devrait plus être utilisé.'
       - lang: it
         text: 'Questo file è obsoleto e non dovrebbe essere più usato.'
       - lang: ja
@@ -400,7 +406,7 @@ common:
       - lang: fi
         text: 'Toinen lisäosa on kirjoittanut yhden tämän lisäosan kriittisen tiedoston päälle. Varmistathan, että käytössä on tämän lisäosan %1% tai muutoin yhteensopiva versio.'
       - lang: fr
-        text: 'Un autre mod semble écraser l''un des fichiers essentiels de ce mod. Assurez-vous d''utiliser la version %1% de ce mod ou une version compatible si disponible.'
+        text: 'Un autre mod semble écraser l''un des fichiers essentiels de ce mod. Assurez-vous d''utiliser la version du fichier %1% de ce mod ou une version compatible si disponible.'
       - lang: it
         text: 'Sembra che ci sia una mod che sovrascrive uno dei file fondamentali di questa mod. Assicurati di usare questa versione della mod %1% o una versione compatibile, se disponibile.'
       - lang: ja
@@ -428,7 +434,7 @@ common:
       - lang: fi
         text: '%1% on tässä lisäosassa.'
       - lang: fr
-        text: '%1% est inclut avec ce mod.'
+        text: '%1% est inclus avec ce mod.'
       - lang: it
         text: '%1% è incluso in questa mod.'
       - lang: ja
@@ -466,7 +472,7 @@ common:
       - lang: fi
         text: 'Kieli: %1%'
       - lang: fr
-        text: 'Langage: %1%'
+        text: 'Langue: %1%'
       - lang: it
         text: 'Lingua: %1%'
       - lang: ja
@@ -502,7 +508,7 @@ common:
       - lang: fi
         text: 'Käytä tätä lisäosaa vasta päätarinan jälkeen.'
       - lang: fr
-        text: 'N''utilisez ce plugin que lorsque la quête principale du jeu a été complétée.'
+        text: 'N''utilisez ce plugin que lorsque la quête principale du jeu aura été complétée.'
       - lang: it
         text: 'Utilizzare questo plugin solo quando la missione principale del gioco è stata completata.'
       - lang: ja
@@ -574,7 +580,7 @@ common:
       - lang: fi
         text: '**%2%** on asennettu, mutta osa sen vaatimista lisäosista puuttuu. Varmista, että **%1%** on oikein asennettu.'
       - lang: fr
-        text: 'Il semblerait que vous ayez installés **%2%**, mais certains de ses prérequis semblent manquer. Veuillez vous assurer que vous ayez correctement installés **%1%**.'
+        text: 'Il semblerait que vous ayez installé **%2%**, mais certains de ses prérequis semblent manquer. Veuillez vous assurer que vous ayez correctement installé **%1%**.'
       - lang: it
         text: 'Sembra che tu abbia installato **%2%**, ma mancano alcuni dei suoi requisiti. Assicurati di aver installato correttamente **%1%**.'
       - lang: ja
@@ -612,7 +618,7 @@ common:
       - lang: fi
         text: 'Osa tämän lisäosan vaatimuksista puuttuu. Varmista, että **%1%** on asennettu oikein.'
       - lang: fr
-        text: 'Certains prérequis de ce plugin semblent manquer. Veuillez vous assurer que vous ayez correctement installés **%1%**.'
+        text: 'Certains prérequis de ce plugin semblent manquer. Veuillez vous assurer que vous ayez correctement installé **%1%**.'
       - lang: it
         text: 'Sembra che manchino alcuni requisiti di questi plugin. Assicurati di avere installato correttamente **%1%**.'
       - lang: ja
@@ -650,7 +656,7 @@ common:
       - lang: fi
         text: 'Tämä lisäosa on tarkoitettu lisäosien kehittäjille eikä sitä tule käyttää pelaamiseen.'
       - lang: fr
-        text: 'Ce plugin est une ressource pour moddeur et ne devrait pas être utilisé en jeu.'
+        text: 'Ce plugin est une ressource pour les créateurs de mods et ne devrait pas être utilisé en jeu.'
       - lang: it
         text: 'Questo Plugin è una risorsa di modding e non dovrebbe essere usato in gioco.'
       - lang: ja
@@ -765,7 +771,7 @@ common:
       - lang: fi
         text: 'Voidaan käyttää samaan aikaan kuin %1%, mutta se vaatii lisätyötä. "Smashed Patch" ja "Bash Patch" tulisi pitää erillään ja käyttää vain yhtä kerrallaan.'
       - lang: fr
-        text: 'Peut-être utilisé avec %1% mais requiert davantage de travail. Un Smashed Patch ou Bash Patch devrait être utilisé, indépendamment des autres.'
+        text: 'Peut être utilisé avec un %1% mais demanderait davantage de travail. Les Smashed Patch et les Bash Patch ne doivent pas être utilisés pour la même cause.'
       - lang: it
         text: 'Può essere usato con un %1% ma richiederebbe del lavoro aggiuntivo. Una Smashed Patch o una Bash Patch dovrebbero essere usate indipendentemente l''una dall''altra.'
       - lang: ja
@@ -841,7 +847,7 @@ common:
       - lang: fi
         text: 'Käytät lisäosaa **%1%**, muttet ole asentanut yhteensopivuuskorjausta tälle lisäosalle. Kolmannen osapuolen korjaus on saatavilla: %2%'
       - lang: fr
-        text: 'Vous utilisez **%1%**, mais vous n''avez pas activé le patch de compatibilité pour ce mod. Ce patch peut être trouvé ici : %2%'
+        text: 'Il semblerait que vous utilisiez **%1%**, mais vous n''avez pas activé le patch de compatibilité pour ce mod. Ce patch peut être trouvé ici: %2%'
       - lang: it
         text: 'Sembra che tu stia utilizzando **%1%**, ma non hai attivato la patch di compatibilità per questa mod. E'' disponibile una patch esterna qui: %2%'
       - lang: ja
@@ -879,7 +885,7 @@ common:
       - lang: fi
         text: '%1% korjauskoodi on saatavilla: %2%'
       - lang: fr
-        text: 'Le script patcher de %1% est disponible ici : %2%'
+        text: 'Un script pour patch %1% est disponible ici: %2%'
       - lang: it
         text: '%1% patcher script disponibile qui: %2%'
       - lang: ja
@@ -915,7 +921,7 @@ common:
       - lang: fi
         text: 'Käytät lisäosaa **%1%**, muttet ole asentanut yhteensopivuuskorjausta tälle lisäosalle. Korjaus on saatavilla tämän lisäosan asennusohjelman kautta.'
       - lang: fr
-        text: 'Vous utilisez **%1%**, mais vous n''avez pas activé le patch de compatibilité pour ce mod. Ce patch est inclut avec l''installeur de ce plugin.'
+        text: 'Il semblerait que vous utilisiez **%1%**, mais vous n''avez pas activé le patch de compatibilité pour ce mod. Ce patch est inclus avec l''installeur de ce plugin.'
       - lang: it
         text: 'Sembra che tu stia utilizzando **%1%**, ma non hai attivato patch di compatibilità per questa mod. Una patch di compatibilità è inclusa nell''installer di questo plugin.'
       - lang: ja
@@ -953,7 +959,7 @@ common:
       - lang: fi
         text: 'Tämä lisäosa on vanhentunut eikä välttämättä ole yhteensopiva uusimman yhteensopivuuskorjatun lisäosan kanssa.'
       - lang: fr
-        text: 'Ce patch est obsolète et peut ne pas être compatible avec la dernière version de ce mod.'
+        text: 'Ce patch est obsolète et pourrait ne pas être compatible avec la dernière version du mod concerné.'
       - lang: it
         text: 'Questa patch è obsoleta e potrebbe non essere compatibile con l''ultima versione della mod patchata.'
       - lang: ja
@@ -1021,7 +1027,7 @@ common:
       - lang: fi
         text: 'Yhteensopivuus lisäosan %1% kanssa vaatii yhteensopivuuskorjauksen, mutta korjausta ei tällä hetkellä ole saatavilla.'
       - lang: fr
-        text: 'Ce mod requiert un patch pour rendre ce mod complètement compatible avec %1%. Aucun patch n''est disponible pour l''instant.'
+        text: 'Ce mod requiert un patch pour être entièrement compatible avec %1%. Aucun patch n''est disponible pour l''instant.'
       - lang: it
         text: 'E'' necessaria una patch che renda questa mod totalmente compatibile con %1%. Al momento non ne è disponibile nessuna che possa essere scaricata.'
       - lang: ja
@@ -1059,7 +1065,7 @@ common:
       - lang: fi
         text: 'Päivitys saatavilla: %1%'
       - lang: fr
-        text: 'Mise à jour du patch disponible : %1%'
+        text: 'Mise à jour du patch disponible: %1%'
       - lang: it
         text: 'Aggiornamento della Patch disponibile: %1%'
       - lang: ja
@@ -1212,7 +1218,7 @@ common:
       - lang: fi
         text: 'Vaatii resursseja (ei itse lisäosaa vaan esim. "meshes", "textures") lisäosasta %1%.'
       - lang: fr
-        text: 'Requiert des ressources (ex : meshes, textures ; pas de plugins) de %1%.'
+        text: 'Requiert des ressources (ex: meshes, textures ; pas de plugins) de %1%.'
       - lang: it
         text: 'Richiede risorse (ad es. mesh, texture; non plugin) da %1%.'
       - lang: ja
@@ -1250,7 +1256,7 @@ common:
       - lang: fi
         text: 'Vaatimus: %1%'
       - lang: fr
-        text: 'Requiert : %1%'
+        text: 'Requiert: %1%'
       - lang: it
         text: 'Richiede: %1%'
       - lang: ja
@@ -1288,7 +1294,7 @@ common:
       - lang: fi
         text: 'Käytät lisäosaa **%1%**. Muista ajaa **%2%** aina, kun %3% tai siihen liittyvä lisäosa asennetaan tai poistetaan.'
       - lang: fr
-        text: 'Il semblerait que vous avez **%1%** d''installer. N''oubliez pas de lancer **%2%** à chaque fois que vous installez ou désinstallez %3%, ou un mod dépendant de %3%.'
+        text: 'Il semblerait que vous ayez **%1%** d''installé. N''oubliez pas de lancer **%2%** à chaque fois que vous installez ou désinstallez %3%, ou un mod dépendant de %3%.'
       - lang: it
         text: 'Sembra che tu abbia installato **%1%**. Ricorda di eseguire **%2%** ogni volta che installi o disinstalli %3%, o una mod basata su %3%.'
       - lang: ja
@@ -1326,7 +1332,7 @@ common:
       - lang: fi
         text: 'Jos lisäät, poistat tai päivität lisäosia, jotka muokkaavat WRLD- tai CELL-tietueita, muista päivittää tämä lisäosa **xLODGenillä**.'
       - lang: fr
-        text: 'Si vous ajoutez, enlevez, ou mettez à jour des plugins qui modifient WRLD/CELL records, n''oubliez pas de mettre à jour ce module avec **xLODGen**.'
+        text: 'Si vous ajoutez, enlevez, ou mettez à jour des plugins qui modifient les WRLD/CELL records, n''oubliez pas de mettre à jour ce module avec **xLODGen**.'
       - lang: it
         text: 'Se aggiungi, rimuovi o aggiorni i plugin che modificano i record WRLD/CELL, ricorda di aggiornare questo modulo con **xLODGen**.'
       - lang: ja
@@ -1362,7 +1368,7 @@ common:
       - lang: fi
         text: 'Tämän lisäosan sijaan voidaan käyttää "Bashed Patch"-pohjaista muokkausta. %1%'
       - lang: fr
-        text: 'Un Bashed Patch tweak peut-être utilisé au lieu de ce plugin. %1%'
+        text: 'Un Bashed Patch tweak peut être utilisé au lieu de ce plugin. %1%'
       - lang: it
         text: 'Puoi usare una Bashed Patch modificata invece di questo plugin. %1%'
       - lang: ja
@@ -1402,7 +1408,7 @@ common:
       - lang: fi
         text: 'Tämän lisäosan sijaan voidaan muokata INI-tiedostoa. %1%'
       - lang: fr
-        text: 'Un INI tweak peut-être utilisé au lieu de ce plugin. %1%'
+        text: 'Un INI tweak peut être utilisé au lieu de ce plugin. %1%'
       - lang: it
         text: 'Puoi usare un INI modificato invece di questo plugin. %1%'
       - lang: ja
@@ -1555,7 +1561,7 @@ common:
       - lang: fi
         text: 'Käytä versiota, jota ei ole tehty lisäosalle %1%.'
       - lang: fr
-        text: 'Utilisez la version sans %1%.'
+        text: 'Utilisez la version du mod sans %1%.'
       - lang: it
         text: 'Non usare la versione-%1%.'
       - lang: ja
@@ -1593,7 +1599,7 @@ common:
       - lang: fi
         text: '%1%: käytössä on vanhempi versio. Jotkin lisäosat saattavat vaatia uusimman %1%-version toimiakseen.'
       - lang: fr
-        text: 'Il semble que vous n''ayez pas la dernière version de %1%. Certains mods pourraient avoir besoin de fonctionalités disponible dans la dernière version de %1% pour fonctionner.'
+        text: 'Il semblerait que vous n''ayez pas la dernière version de %1%. Certains mods pourraient avoir besoin de fonctionalités disponibles dans la dernière version de %1% pour pouvoir fonctionner.'
       - lang: it
         text: 'Sembra che tu non abbia l''ultima versione di %1%. Alcune modifiche potrebbero richiedere funzionalità aggiunte nell''ultima versione di %1% per funzionare.'
       - lang: ja
@@ -1624,6 +1630,8 @@ common:
         text: 'Изтрийте %1% от %2%. Версията на %3% е с предимство.'
       - lang: de
         text: 'Löschen Sie %1% von %2%. Die Version von %3% muss Vorrang haben.'
+      - lang: fr
+        text: 'Supprimez %1% de M2%. La version de %3% doit prendre la priorité.'
       - lang: it
         text: 'Elimina %1% da %2%. La versione di %3% deve avere la precedenza.'
       - lang: pt_BR
@@ -1723,7 +1731,7 @@ common:
       - lang: fi
         text: 'Vaatii version **%1%** tai uudemman lisäosasta **%2%**'
       - lang: fr
-        text: 'Requiert la version **%1%** ou plus de **%2%**.'
+        text: 'Requiert la version **%1%** ou supérieure de **%2%**.'
       - lang: it
         text: 'Richiede la versione **%1%** o superiore di **%2%**.'
       - lang: ja
@@ -1759,7 +1767,7 @@ common:
       - lang: fi
         text: 'Tämä lisäosa sisältää [tarkoituksettomia muutoksia](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits). Manuaalinen puhdistaminen voi olla tarpeen yhteensopivuuden takaamiseksi. %1%'
       - lang: fr
-        text: 'Ce plugin contient [wild edits](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) et peut avoir besoin de nettoyage manuel additionelle pour ne pas interférer avec d''autres mods. %1%'
+        text: 'Ce plugin contient des [wild edits](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) et peut avoir besoin de nettoyage manuel additionel afin de ne pas interférer avec d''autres mods. %1%'
       - lang: it
         text: 'Questo plugin contiene [pesanti modifiche](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) e potrebbe richiedere una pulizia manuale aggiuntiva, in modo da non interferire con altre mod. %1%'
       - lang: ja
@@ -1837,7 +1845,7 @@ common:
       - lang: fi
         text: '**Poistettuja navmeshejä** sisältävien lisäosien käyttö ei ole suotavaa, sillä se aiheuttaa pelin kaatumista. Ne tulee korjata käsin, mikä on monimutkainen toimenpide, joka lisäosan kehittäjän tulisi tehdä. Lisätietoja aiheesta löydät [täältä](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: fr
-        text: 'Il est fortement recommandé de ne pas utilisé de mod contenant **deleted navmeshes**, connu pour provoquer des crash. **Deleted navmeshes** doit être corrigé manuellement (un processus complexe, devant être effectué par l''auteur du mod). Plus d''information sur **Deleted navmeshes** peuvent être trouvées [ici](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
+        text: 'Il est fortement recommandé de ne pas utiliser de mods contenant des **navmeshes supprimées**, ils sont connus pour provoquer des crash. Les **navmeshes supprimées** doivent être corrigées manuellement (un procédé complexe, qui devrait normalement être effectué par l''auteur du mod). Plus d''information sur les **navmeshes supprimées** trouvables [ici](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: it
         text: 'Si raccomanda vivamente di non utilizzare mod che contengono **navmesh cancellate** che sono note come causa di Crash. **Navmesh cancellate** devono essere corrette manualmente (un processo complesso che dovrebbe essere fatto dall''autore della mod). Puoi trovare maggiori informazioni su **deleted navmeshes** [qui](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: ja
@@ -1876,7 +1884,7 @@ common:
       - lang: fi
         text: 'Tämä LOOTin versio ei käsittele täysin oikein Creation Clubin lisäosia. Näiden lisäosien tuki on täten rajoitettu 0.13.1 edeltävissä versioissa. LOOTin päivittäminen on suotavaa.'
       - lang: fr
-        text: 'Cette version de LOOT soutient moins efficacement les plugins du Creation Club. Ceux-ci ne sont donc pas, ou très peu, supporté par les versions de LOOT précédant la 0.13.1. Il est vivement recommandé d''effectuer une mise à jour le plus tôt possible.'
+        text: 'Cette version de LOOT n''est pas appropriée pour les plugins du Creation Club. Ceux-ci ne sont donc pas, ou très peu, supportés par les versions de LOOT précédant la 0.13.1. Il est vivement recommandé d''effectuer une mise à jour le plus tôt possible.'
       - lang: it
         text: 'Questa versione di LOOT ha una minore capacità di gestione dei plugin del Creation Club. Il supporto per questi plugin è limitato nelle versioni precedenti a LOOT 0.13.1. Si consiglia di aggiornare il più presto possibile.'
       - lang: ja
@@ -1915,7 +1923,7 @@ common:
       - lang: fi
         text: '[LOOTin keskustelupalsta](%1%).'
       - lang: fr
-        text: '[Récent post sur le forum LOOT](%1%).'
+        text: '[Dernier thread sur le forum de LOOT](%1%).'
       - lang: it
         text: '[Ultimo thread di LOOT](%1%).'
       - lang: ja
@@ -1954,7 +1962,7 @@ common:
       - lang: fi
         text: 'NVAC on asennettu kansioon **NVSE/Plugins**. Se on siirrettävä kansioon **%1%/Plugins**, jotta %1% voi käyttää sitä peliin %2%.'
       - lang: fr
-        text: 'NVAC est installé dans **NVSE/Plugins** mais doit être déplace à **%1%/Plguins** afin que %1% puisse l''utiliser pour %2%.'
+        text: 'NVAC est installé dans **NVSE/Plugins** mais doit être déplacé dans **%1%/Plugins** afin que %1% puisse l''utiliser pour %2%.'
       - lang: it
         text: 'NVAC è installato in **NVSE/Plugins** ma deve essere spostato in **%1%/Plugins** per permettere a %1% di essere usato da %2%.'
       - lang: ja
@@ -1994,7 +2002,7 @@ common:
       - lang: fi
         text: 'Olet asentanut %1%-lisäosan, mutta %1% ei ole asennettu! Katso %1%:n lataussivu: %2%.'
       - lang: fr
-        text: 'Vous avez installé un %1% plugin mais %1% ne fut pas détécté ! Veuillez consultez la page de téléchargement de %1% : %2%.'
+        text: 'Vous avez installé un plugin de %1%, mais %1% n''a pas été détecté ! Veuillez consulter la page de téléchargement de %1%: %2%.'
       - lang: it
         text: 'Hai installato un plugin %1% ma %1% non è stato trovato! Consulta %1% nella pagina di download: %2%.'
       - lang: ja
@@ -2035,7 +2043,7 @@ common:
       - lang: fi
         text: '**%1%** on asennettu, mutta sen vaatimat skriptit puuttuvat. Tarkista, että olet asentanut **%2%**:n mukana tulleet skriptitiedostot.'
       - lang: fr
-        text: 'Il semblerait que vous ayez installé **%1%**, mais les scripts requis sont manquant. Veuillez vous assurer que vous ayez correctement installé les scripts de **%2%**, dans l''archive d''installation.'
+        text: 'Il semblerait que vous ayez installé **%1%**, mais il manque les scripts requis. Veuillez vous assurer que vous ayez correctement installé les scripts de **%2%**, dans l''archive d''installation.'
       - lang: it
         text: 'Sembra che tu abbia installato **%1%**, ma i suoi script di base non sembrano essere presenti. Assicurati di aver installato correttamente gli script dall''archivio di installazione presenti in **%2%**.'
       - lang: ja
