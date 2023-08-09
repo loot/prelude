@@ -1631,7 +1631,7 @@ common:
       - lang: de
         text: 'Löschen Sie %1% von %2%. Die Version von %3% muss Vorrang haben.'
       - lang: fr
-        text: 'Supprimez %1% de M2%. La version de %3% doit prendre la priorité.'
+        text: 'Supprimez %1% de %2%. La version de %3% doit prendre la priorité.'
       - lang: it
         text: 'Elimina %1% da %2%. La versione di %3% deve avere la precedenza.'
       - lang: pt_BR
