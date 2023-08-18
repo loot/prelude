@@ -1868,45 +1868,6 @@ common:
         text: '强烈建议不要使用包含已删除navmeshes的mod，因为它们会导致崩溃。**已删除navmeshes**必须手动修正(一个复杂的过程，应该由mod作者完成)。更多关于**已删除navmeshes**的信息已提供[这里](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)。'
 
 ##### Global Anchors #####
-  - &creationClubPlugins
-    type: warn
-    content:
-      - lang: en
-        text: 'This version of LOOT has inferior handling of Creation Club plugins. Support for these are therefore limited in versions prior to LOOT 0.13.1. It is recommended to update as soon as possible.'
-      - lang: bg
-        text: 'Тази версия на "LOOT" не работи добре с приставките от "Creation Club". Поддръжката за тях е ограничена във версиите преди "LOOT" 0.13.1. Препоръчва се да обновите Вашата програма.'
-      - lang: da
-        text: 'Denne version af LOOT har begrænset understøttelse af Creation Club-plugins. Det er derfor anbefalet at opdatere til LOOT 0.13.1 eller senere hurtigst muligt.'
-      - lang: de
-        text: 'Diese Version von LOOT kann nicht richtig mit Creation Club-Plugins umgehen. Unterstützung für diese ist daher limitiert in Versionen älter als LOOT 0.13.1. Ein Update ist stark empfohlen.'
-      - lang: es
-        text: 'Esta versión de LOOT tiene un manejo inferior de los plugin del Creation Club. El soporte para estos se encuentra por lo tanto limitado en las versiones previas a LOOT 0.13.1. Se recomienda actualizar lo antes posible.'
-      - lang: fi
-        text: 'Tämä LOOTin versio ei käsittele täysin oikein Creation Clubin lisäosia. Näiden lisäosien tuki on täten rajoitettu 0.13.1 edeltävissä versioissa. LOOTin päivittäminen on suotavaa.'
-      - lang: fr
-        text: 'Cette version de LOOT n''est pas appropriée pour les plugins du Creation Club. Ceux-ci ne sont donc pas, ou très peu, supportés par les versions de LOOT précédant la 0.13.1. Il est vivement recommandé d''effectuer une mise à jour le plus tôt possible.'
-      - lang: it
-        text: 'Questa versione di LOOT ha una minore capacità di gestione dei plugin del Creation Club. Il supporto per questi plugin è limitato nelle versioni precedenti a LOOT 0.13.1. Si consiglia di aggiornare il più presto possibile.'
-      - lang: ja
-        text: 'このバージョンの LOOT では Creation Club プラグインをうまく扱えません。そのため、LOOT 0.13.1 より前のバージョンではサポートが制限されます。できるだけ早くアップデートすることをおすすめします。'
-      - lang: ko
-        text: '이 버전의 LOOT는 Creation Club 플러그인의 처리 성능이 떨어집니다. 따라서 이들에 대한 지원은 LOOT 0.13.1 이전 버전에서 제한됩니다. 가능한 한 빨리 업데이트하는 것이 좋습니다.'
-      - lang: pl
-        text: 'Ta wersja LOOT ma gorszą obsługę wtyczek Creation Club. Wsparcie dla nich będzie limitowane w wersjach LOOT niższych niż 0.13.1. Aktualizacja jest rekomendowana jak najszybciej.'
-      - lang: pt_BR
-        text: 'Esta versão do LOOT tem gerenciamento inferior de plugins do Creation Club. Suporte pare esses, portanto, está limitado a versões do LOOT acima de 0.13.1. É altamente recomendado atualizar o mais rápido possível.'
-      - lang: pt_PT
-        text: 'Esta versão do LOOT contém uma manipulação inferior de plugins do Creation Club. Suporte a estes é então limitado nas versões posteriors a LOOT 0.13.1. É recomendado realizar uma atualização assim que possível.'
-      - lang: ru
-        text: 'В этой версии LOOT плагины Creation Club обрабатываются хуже. Поэтому их поддержка ограничена до версии LOOT 0.13.1. Рекомендуется обновить как можно скорее.'
-      - lang: sv
-        text: 'Denna version av LOOT har sämre hantering av Creation Club plugins. Stöd för dessa är därför begränsad i versionen tidigare än LOOT 0.13.1. Du rekommenderas att uppdatera så snart som möjligt.'
-      - lang: uk_UA
-        text: 'У цій версії LOOT плагіни Creation Club обробляються гірше. Їх підтримка обмежена у LOOT старіше за 0.13.1. Рекомендується оновити якомога швидше.'
-      - lang: zh_CN
-        text: '这个版本的LOOT对Creation Club插件的处理较差。因此，在LOOT 0.13.1之前的版本中，对这些的支持是有限的。建议尽快更新。'
-    condition: 'file("LOOT") and version("LOOT", "0.13.1.0", <)'
-
   - &latestLOOTThread
     type: say
     content:
