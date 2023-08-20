@@ -399,6 +399,8 @@ common:
         text: 'This plugin may be disabled after generating **%1%** with **%2%**.'
       - lang: de
         text: 'Dieses Plugin kann nach der Erzeugung von **%1%** mit **%2%** deaktiviert werden.'
+      - lang: fr
+        text: 'Ce plugin pourra être désactivé après avoir généré des **%1%** avec **%2%**.'
 
   - &essentialFiles
     type: warn
