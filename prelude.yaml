@@ -392,6 +392,14 @@ common:
       - lang: uk_UA
         text: 'Цей файл застарілий та не має використовуватися.'
 
+  - &disableAfterGeneratingXwithY
+    type: say
+    content:
+      - lang: en
+        text: 'This plugin may be disabled after generating **%1%** with **%2%**.'
+      - lang: de
+        text: 'Dieses Plugin kann nach der Erzeugung von **%1%** mit **%2%** deaktiviert werden.'
+
   - &essentialFiles
     type: warn
     content:
