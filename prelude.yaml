@@ -397,6 +397,8 @@ common:
     content:
       - lang: en
         text: 'This plugin may be disabled after generating **%1%** with **%2%**.'
+      - lang: bg
+        text: 'Тази приставка може да е деактивирана след създаването на **%1%** с **"%2%"**.'
       - lang: de
         text: 'Dieses Plugin kann nach der Erzeugung von **%1%** mit **%2%** deaktiviert werden.'
       - lang: fr
