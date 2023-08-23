@@ -226,6 +226,8 @@ common:
         text: 'Препоръчва се да проверите следните кръпки за съвместимост за %1%: %2%'
       - lang: de
         text: 'Es wird empfohlen, dass Sie die folgende Kompatibilitäts-Patch Zusammenstellung für %1% überprüfen: %2%'
+      - lang: fi
+        text: 'On suotavaa katsoa myös tämä kokoelma lisäosan %1% yhteensopivuuskorjauksia: %2%'
       - lang: fr
         text: 'Il est recommandé que vous alliez consulter le patch de compatibilités pour %1%: %2%'
       - lang: it
@@ -282,6 +284,8 @@ common:
         text: 'Деактивирайте или премахнете тази модификация след създаването на героя.'
       - lang: de
         text: 'Deaktivieren und/oder deinstallieren Sie diese Mod nach der Charaktererstellung.'
+      - lang: fi
+        text: 'Poista tämän lisäosan käyttö tai asennus hahmon luotuasi.'
       - lang: fr
         text: 'Désactivez et/ou désinstallez ce mod après la création de votre personnage.'
       - lang: it
@@ -401,6 +405,8 @@ common:
         text: 'Тази приставка може да е деактивирана след създаването на **%1%** с **"%2%"**.'
       - lang: de
         text: 'Dieses Plugin kann nach der Erzeugung von **%1%** mit **%2%** deaktiviert werden.'
+      - lang: fi
+        text: 'Tämä lisäosa voidaan poistaa käytöstä, kun **%1%** on luotu käyttäen **%2%**.'
       - lang: fr
         text: 'Ce plugin pourra être désactivé après avoir généré des **%1%** avec **%2%**.'
       - lang: uk_UA
@@ -1644,6 +1650,8 @@ common:
         text: 'Изтрийте %1% от %2%. Версията на %3% е с предимство.'
       - lang: de
         text: 'Löschen Sie %1% von %2%. Die Version von %3% muss Vorrang haben.'
+      - lang: fi
+        text: 'Poista %1% kohteesta %2%. %3%:n versio on oltava etusijalla.'
       - lang: fr
         text: 'Supprimez %1% de %2%. La version de %3% doit prendre la priorité.'
       - lang: it
