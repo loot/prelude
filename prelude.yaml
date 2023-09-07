@@ -409,6 +409,8 @@ common:
         text: 'Tämä lisäosa voidaan poistaa käytöstä, kun **%1%** on luotu käyttäen **%2%**.'
       - lang: fr
         text: 'Ce plugin pourra être désactivé après avoir généré des **%1%** avec **%2%**.'
+      - lang: it
+        text: 'Questo plugin potrebbe essere disabilitato dopo aver generato **%1%** con **%2%**.'
       - lang: uk_UA
         text: 'Цей плагін можна вимкнути після створення **%1%** за допомогою **%2%**.'
 
