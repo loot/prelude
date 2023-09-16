@@ -38,6 +38,7 @@ jobs:
             fallout4
             fallout4vr
             enderal
+            starfield
           )
 
           for game in "${games[@]}"
