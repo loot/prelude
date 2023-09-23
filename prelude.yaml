@@ -232,6 +232,8 @@ common:
         text: 'Il est recommandé que vous alliez consulter le patch de compatibilités pour %1%: %2%'
       - lang: it
         text: 'Si raccomanda di controllare la seguente compatibility patch compilation per %1%: %2%'
+      - lang: ja
+        text: '%1% の互換性パッチを確認することをお勧めします: %2%'
       - lang: pt_BR
         text: 'É recomendado que você verifique a seguinte compilação do patch de compatibilidade para %1%: %2%'
       - lang: uk_UA
@@ -290,6 +292,8 @@ common:
         text: 'Désactivez et/ou désinstallez ce mod après la création de votre personnage.'
       - lang: it
         text: 'Disattiva e/o disinstalla questa mod dopo la creazione del personaggio.'
+      - lang: ja
+        text: 'キャラクター作成後、この Mod を非アクティブにするかアンインストールしてください。'
       - lang: pt_BR
         text: 'Desative e/ou desinstale este mod após a criação do personagem.'
       - lang: uk_UA
@@ -411,6 +415,8 @@ common:
         text: 'Ce plugin pourra être désactivé après avoir généré des **%1%** avec **%2%**.'
       - lang: it
         text: 'Questo plugin potrebbe essere disabilitato dopo aver generato **%1%** con **%2%**.'
+      - lang: ja
+        text: 'このプラグインは **%2%** で **%1%** を生成すると無効化される場合があります。'
       - lang: uk_UA
         text: 'Цей плагін можна вимкнути після створення **%1%** за допомогою **%2%**.'
 
@@ -1658,6 +1664,8 @@ common:
         text: 'Supprimez %1% de %2%. La version de %3% doit prendre la priorité.'
       - lang: it
         text: 'Elimina %1% da %2%. La versione di %3% deve avere la precedenza.'
+      - lang: ja
+        text: '%2% から %1% を削除してください。%3% のものを優先させる必要があります。'
       - lang: pt_BR
         text: 'Delete %1% de %2%. A versão de %3% deve ter precedência.'
       - lang: uk_UA
@@ -1835,7 +1843,7 @@ common:
       - lang: it
         text: 'Puoi trovare una guida per la pulizia dei plugin tramite xEdit [qui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: ja
-        text: 'xEdit を使ったプラグインのクリーニング方法についてのガイドは[こちら](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)にあります。'
+        text: 'xEdit を使ったプラグインのクリーニング方法を[こちら](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)のガイドから確認できます。'
       - lang: ko
         text: 'xEdit을 사용한 플러그인 정리에 대한 가이드는 [여기](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)에서 찾을 수 있습니다.'
       - lang: pl
