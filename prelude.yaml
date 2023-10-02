@@ -1380,6 +1380,14 @@ common:
       - lang: zh_CN
         text: '如果您添加、删除或更新修改了WRLD/CELL记录的插件时，记得使用**xLODGen**更新此模块。'
 
+  - &supersede
+    type: warn
+    content:
+      - lang: en
+        text: 'You seem to be using **{0}**, but it has been superseded. It is recommended that you use **{1}** instead.'
+      - lang: de
+        text: 'Sie scheinen **{0}** zu verwenden, das jedoch überholt ist. Es wird empfohlen, dass Sie stattdessen **{1}** verwenden.'
+
   - &useBashTweakInstead
     type: say
     content:
