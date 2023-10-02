@@ -1385,8 +1385,12 @@ common:
     content:
       - lang: en
         text: 'You seem to be using **{0}**, but it has been superseded. It is recommended that you use **{1}** instead.'
+      - lang: bg
+        text: 'Използвате **{0}**, но тя е заменена. Препоръчва се да използвате **{1}**.'
       - lang: de
         text: 'Sie scheinen **{0}** zu verwenden, das jedoch überholt ist. Es wird empfohlen, dass Sie stattdessen **{1}** verwenden.'
+      - lang: fi
+        text: 'Vaikuttaa siltä, että **{0}** on käytössä, mutta se on korvattu uudemmalla. Sen sijaan on suositeltavaa käyttää **{1}**.'
 
   - &useBashTweakInstead
     type: say
