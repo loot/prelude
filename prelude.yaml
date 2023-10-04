@@ -73,7 +73,7 @@ common:
       - lang: sv
         text: 'Ta bort. Redan inkluderat eller fixat i {0}.'
       - lang: uk_UA
-        text: 'Видаліть. Уже додано або іншим чином виправлено у {0}.'
+        text: 'Видаліть. Уже додано або виправлено у {0}.'
       - lang: zh_CN
         text: '删除。在{0}中已包含或修复。'
 
@@ -111,7 +111,7 @@ common:
       - lang: sv
         text: 'Det är rekommenderat att du också använder {0}.'
       - lang: uk_UA
-        text: 'Наполегливо рекомендуємо також використати {0}.'
+        text: 'Наполегливо радимо також використати {0}.'
       - lang: zh_CN
         text: '强烈建议您使用{0}。'
 
@@ -187,7 +187,7 @@ common:
       - lang: sv
         text: 'Det är rekommenderat att du läser det här moddets [kompabilitetsanteckningar]({0}).'
       - lang: uk_UA
-        text: 'Рекомендується прочитати [примітки щодо сумісності]({0}) моду.'
+        text: 'Рекомендується прочитати [замітки щодо сумісності]({0}) моду.'
       - lang: zh_CN
         text: '建议您阅读这个mod的[兼容性说明]({0})。'
 
@@ -372,7 +372,7 @@ common:
       - lang: sv
         text: 'När du använder **{0}** är det rekommenderat att du avaktiverar eller tar bort denna ESP-fil, men behåll resurserna (meshar och texturer) installerade med denna mod.'
       - lang: uk_UA
-        text: 'Поки використовується **{0}**, рекомендується відключити чи деактивувати esp цього моду, але залишити встановлені ресурси (меші, текстури і тп).'
+        text: 'Поки використовується **{0}**, радимо відключити чи деактивувати esp цього моду, але залишити встановлені ресурси (меші, текстури і тп).'
       - lang: zh_CN
         text: '当使用**{0}**时，建议您禁用或删除这个ESP文件，但保留与此mod一起安装的资源(如网格，纹理等)。'
 
@@ -929,7 +929,7 @@ common:
       - lang: ru
         text: '{0} скрипт-патчер доступен здесь: {1}'
       - lang: uk_UA
-        text: '{0} скрипт-патч доступний тут: {1}'
+        text: '{0} патчер скрипт доступний тут: {1}'
       - lang: zh_CN
         text: '{0}的补丁在这里: {1}'
 
@@ -1340,7 +1340,7 @@ common:
       - lang: sv
         text: 'Det verkar som att använder **{0}** installerat. Kom ihåg att köra **{1}** varje gång du har installerat eller avinstallerat {2}, eller en {2}-baserad mod.'
       - lang: uk_UA
-        text: 'У вас встановлений **{0}**. Не забудьте запускати **{1}** кожен раз, коли встановите або видалите {2}, або будь-який мод, на основі {2}.'
+        text: 'У вас встановлений **{0}**. Не забудьте запускати **{1}** щоразу, коли встановите або видалите {2}, або мод на його основі.'
       - lang: zh_CN
         text: '您安装了**{0}**。每次安装或卸载{2}，以及基于{2}的mod时，记得运行**{1}**。'
 
@@ -1391,6 +1391,8 @@ common:
         text: 'Sie scheinen **{0}** zu verwenden, das jedoch überholt ist. Es wird empfohlen, dass Sie stattdessen **{1}** verwenden.'
       - lang: fi
         text: 'Vaikuttaa siltä, että **{0}** on käytössä, mutta se on korvattu uudemmalla. Sen sijaan on suositeltavaa käyttää **{1}**.'
+      - lang: uk_UA
+        text: 'Здається, ви використовуєте **{0}**, але його було замінено. Радимо використовувати **{1}** замість нього.'
 
   - &useBashTweakInstead
     type: say
@@ -1657,7 +1659,7 @@ common:
       - lang: sv
         text: 'Det verkar som att du inte har den senaste versionen av {0}. Några mods kan kräva funktionalitet tillagd i den senaste versionen av {0} för att fungera.'
       - lang: uk_UA
-        text: 'Можливо у вас не встановлена остання версія {0}. Робота деяких модів може потребувати функціоналу, доданого в останній версії {0}.'
+        text: 'Можливо, у вас не встановлена остання версія {0}. Робота деяких модів може потребувати функціоналу, доданого в останній версії {0}.'
       - lang: zh_CN
         text: '您的{0}似乎不是最新的。有些插件可能需要最新的{0}才能工作。'
 
@@ -1907,7 +1909,7 @@ common:
       - lang: sv
         text: 'Det är starkt rekommenderat att inte använda mods som innehåller **Borttagna navmeshes** eftersom de kan orsaka krascher. **Borttagna navmeshes** måste korrigeras manuellt (en komplex process som borde göras av modskaparen). Mer information om **Borttagna navmeshes** hittar du [här](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: uk_UA
-        text: 'Наполегливо не рекомендується використовувати моди з **видаленими навмешами** бо відомо, що вони викликають збої. **Видалені навмеші** повинні бути виправлені вручну (складний процес, який повинен бути виконаний автором моду). Більше інформації про **видалені навмеші** можна знайти [тут](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
+        text: 'Наполегливо радимо не використовувати моди з **видаленими навмешами** бо відомо, що вони викликають збої. **Видалені навмеші** повинні бути виправлені вручну (складний процес, який повинен бути виконаний автором моду). Більше інформації про **видалені навмеші** можна знайти [тут](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: zh_CN
         text: '强烈建议不要使用包含已删除navmeshes的mod，因为它们会导致崩溃。**已删除navmeshes**必须手动修正(一个复杂的过程，应该由mod作者完成)。更多关于**已删除navmeshes**的信息已提供[这里](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)。'
 
