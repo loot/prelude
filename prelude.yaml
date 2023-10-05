@@ -1382,22 +1382,6 @@ common:
       - lang: zh_CN
         text: '如果您添加、删除或更新修改了WRLD/CELL记录的插件时，记得使用**xLODGen**更新此模块。'
 
-  - &supersede
-    type: warn
-    content:
-      - lang: en
-        text: 'You seem to be using **{0}**, but it has been superseded. It is recommended that you use **{1}** instead.'
-      - lang: bg
-        text: 'Използвате **{0}**, но тя е заменена. Препоръчва се да използвате **{1}**.'
-      - lang: de
-        text: 'Sie scheinen **{0}** zu verwenden, das jedoch überholt ist. Es wird empfohlen, dass Sie stattdessen **{1}** verwenden.'
-      - lang: fi
-        text: 'Vaikuttaa siltä, että **{0}** on käytössä, mutta se on korvattu uudemmalla. Sen sijaan on suositeltavaa käyttää **{1}**.'
-      - lang: pt_BR
-        text: 'Parece que você está usando **{0}**, mas ele foi substituído. É recomendável que você use **{1}** em vez disso.'
-      - lang: uk_UA
-        text: 'Здається, ви використовуєте **{0}**, але його було замінено. Радимо використовувати **{1}** замість нього.'
-
   - &useBashTweakInstead
     type: say
     content:
@@ -2079,5 +2063,25 @@ common:
       - 'Script Extender'
       - '[Script Extender](http://silverlock.org/)'
     condition: 'not file("scripts/xxse.pex") and file("../xxse_loader.exe")'
+
+  - &supersede
+    type: warn
+    content:
+      - lang: en
+        text: 'You seem to be using **{0}**, but it has been superseded. It is recommended that you use **{1}** instead.'
+      - lang: bg
+        text: 'Използвате **{0}**, но тя е заменена. Препоръчва се да използвате **{1}**.'
+      - lang: de
+        text: 'Sie scheinen **{0}** zu verwenden, das jedoch überholt ist. Es wird empfohlen, dass Sie stattdessen **{1}** verwenden.'
+      - lang: fi
+        text: 'Vaikuttaa siltä, että **{0}** on käytössä, mutta se on korvattu uudemmalla. Sen sijaan on suositeltavaa käyttää **{1}**.'
+      - lang: pt_BR
+        text: 'Parece que você está usando **{0}**, mas ele foi substituído. É recomendável que você use **{1}** em vez disso.'
+      - lang: uk_UA
+        text: 'Здається, ви використовуєте **{0}**, але його було замінено. Радимо використовувати **{1}** замість нього.'
+    subs:
+      - 'xSE Plugin 0'
+      - 'xSE Plugin 1'
+    condition: 'file("xxSE/Plugins/xxse_plugin_0.dll") and not file("xxSE/Plugins/xxse_plugin_1.dll")'
 
 globals: []
