@@ -2075,6 +2075,8 @@ common:
         text: 'Sie scheinen **{0}** zu verwenden, das jedoch überholt ist. Es wird empfohlen, dass Sie stattdessen **{1}** verwenden.'
       - lang: fi
         text: 'Vaikuttaa siltä, että **{0}** on käytössä, mutta se on korvattu uudemmalla. Sen sijaan on suositeltavaa käyttää **{1}**.'
+      - lang: it
+        text: 'Sembra che tu stia utilizzando **{0}**, ma è stato sostitutito. Si raccomanda di usare **{1}** in sostituzione.'
       - lang: pt_BR
         text: 'Parece que você está usando **{0}**, mas ele foi substituído. É recomendável que você use **{1}** em vez disso.'
       - lang: uk_UA
