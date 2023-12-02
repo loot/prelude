@@ -453,7 +453,7 @@ common:
     type: warn
     content:
       - lang: en
-        text: 'This plugin isn't an ESM, but it appears to contain navmeshes. This can lead to problems with NPC pathfinding. It is recommended to flag this plugin as **ESM** to avoid these problems. It might also be necessary to ensure that all references called by scripts in this plugin are flagged as **persistent**.'
+        text: 'This plugin isn''t an ESM, but it appears to contain navmeshes. This can lead to problems with NPC pathfinding. It is recommended to flag this plugin as **ESM** to avoid these problems. It might also be necessary to ensure that all references called by scripts in this plugin are flagged as **persistent**.'
       - lang: de
         text: 'Dieses Plugin ist kein ESM, aber es scheint Navmeshes zu enthalten. Dies kann zu Problemen mit der NPC-Pfadfindung führen. Es wird empfohlen, dieses Plugin als **ESM** zu kennzeichnen, um diese Probleme zu vermeiden. Es könnte auch notwendig sein, sicherzustellen, dass alle Referenzen, die von Skripten in diesem Plugin aufgerufen werden, als **persistent** gekennzeichnet sind.'
 
