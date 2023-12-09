@@ -454,8 +454,12 @@ common:
     content:
       - lang: en
         text: 'This plugin isn''t an ESM, but it appears to contain navmeshes. This can lead to problems with NPC pathfinding. It is recommended to flag this plugin as **ESM** to avoid these problems. It might also be necessary to ensure that all references called by scripts in this plugin are flagged as **persistent**.'
+      - lang: bg
+        text: 'Тази приставка не е ESM файл, но съдържа навигационни обекти. Това може да причини проблеми с навигацията на компютърните герои. Препоръчва се да отбележите тази приставка като **ESM** файл, за да избегнете тези проблеми. Необходимо е всички препратки от скриптовете да се отбележат като **непроменливи**.'
       - lang: de
         text: 'Dieses Plugin ist kein ESM, aber es scheint Navmeshes zu enthalten. Dies kann zu Problemen mit der NPC-Pfadfindung führen. Es wird empfohlen, dieses Plugin als **ESM** zu kennzeichnen, um diese Probleme zu vermeiden. Es könnte auch notwendig sein, sicherzustellen, dass alle Referenzen, die von Skripten in diesem Plugin aufgerufen werden, als **persistent** gekennzeichnet sind.'
+      - lang: uk_UA
+        text: 'Плагін не є ESM, але може містити навмеші. Це може спричинити проблеми з пошуком шляху персонажами. Радимо позначити плагін як **ESM** для уникнення цих проблем. Також потрібно переконатися, що всі посилання використані в скриптах відмічені як **постійні**.'
 
   - &includesX
     type: say
