@@ -187,7 +187,7 @@ common:
       - lang: sv
         text: 'Det är rekommenderat att du läser det här moddets [kompabilitetsanteckningar]({0}).'
       - lang: uk_UA
-        text: 'Рекомендується прочитати [замітки щодо сумісності]({0}) моду.'
+        text: 'Радимо прочитати [замітки щодо сумісності]({0}) моду.'
       - lang: zh_CN
         text: '建议您阅读这个mod的[兼容性说明]({0})。'
 
@@ -214,8 +214,10 @@ common:
         text: 'Jest rekomendowane żebyś sprawdził następujące kompatybilności patchu kompilacji dla tego moda: {0}'
       - lang: pt_BR
         text: 'É recomendado que você verifique a seguinte compilação do patch de compatibilidade para este mod: {0}'
+      - lang: ru
+        text: 'Рекомендуется проверить следующую коллекцию патчей совместимости для этого мода: {0}'
       - lang: uk_UA
-        text: 'Радимо перевірити наступну колекцію патчів сумісності для цього моду: {0}'
+        text: 'Радимо переглянути наступну колекцію патчів сумісності для цього моду: {0}'
 
   - &compatPatchForX
     type: say
@@ -236,8 +238,10 @@ common:
         text: '{0} の互換性パッチを確認することをお勧めします: {1}'
       - lang: pt_BR
         text: 'É recomendado que você verifique a seguinte compilação do patch de compatibilidade para {0}: {1}'
+      - lang: ru
+        text: 'Рекомендуется проверить следующую коллекцию патчей совместимости для {0}: {1}'
       - lang: uk_UA
-        text: 'Радимо перевірити наступну колекцію патчів сумісності для {0}: {1}'
+        text: 'Радимо переглянути наступну колекцію патчів сумісності для {0}: {1}'
 
   - &corrupt
     type: warn
@@ -296,6 +300,8 @@ common:
         text: 'キャラクター作成後、この Mod を非アクティブにするかアンインストールしてください。'
       - lang: pt_BR
         text: 'Desative e/ou desinstale este mod após a criação do personagem.'
+      - lang: ru
+        text: 'Деактивируйте и/или удалите этот мод после создания персонажа.'
       - lang: uk_UA
         text: 'Деактивуйте та/або видаліть цей мод після створення персонажу.'
 
@@ -397,6 +403,8 @@ common:
         text: 'Ten plik jest przestarzały i nie powinien być już używany.'
       - lang: pt_BR
         text: 'Este arquivo está obsoleto e não deve mais ser usado.'
+      - lang: ru
+        text: 'Этот файл устарел и не должен использоваться.'
       - lang: uk_UA
         text: 'Цей файл застарілий та не має використовуватися.'
 
@@ -419,6 +427,8 @@ common:
         text: 'このプラグインは **{1}** で **{0}** を生成すると無効化される場合があります。'
       - lang: pt_BR
         text: 'Este plugin pode ser desativado após gerar **{0}** com **{1}**.'
+      - lang: ru
+        text: 'Этот плагин может быть отключен после генерации **{0}** с помощью **{1}**.'
       - lang: uk_UA
         text: 'Цей плагін можна вимкнути після створення **{0}** за допомогою **{1}**.'
 
@@ -445,8 +455,10 @@ common:
         text: 'Inny mod wydaje się nadpisywać jeden z podstawowych plików tego moda. Upewnij się, że używasz wersji {0} tego moda lub wersji kompatybilnej, jeśli jest dostępna.'
       - lang: pt_BR
         text: 'Aparentemente outro mod está sobrescrevendo um dos arquivos essenciais deste mod. Por favor certifique-se que você está usando a versão do mod {0} ou uma versão compatível, se disponível.'
+      - lang: ru
+        text: 'Другой мод может переписать один из критических файлов. Пожалуйста, убедитесь, что вы используете версию {0} из этого мода, или совместимую при ее наличии.'
       - lang: uk_UA
-        text: 'Інший мод може переписувати один із критичних файлів. Будь ласка впевніться, що ви використовуєте версію {0} із цього моду, або сумісну за її навності.'
+        text: 'Інший мод може переписувати один із критичних файлів. Будь ласка впевніться, що ви використовуєте версію {0} із цього моду, або сумісну за її наявності.'
 
   # Useful for Fallout 3 and Fallout: New Vegas plugins
   - &flagESM
@@ -458,6 +470,8 @@ common:
         text: 'Тази приставка не е ESM файл, но съдържа навигационни обекти. Това може да причини проблеми с навигацията на компютърните герои. Препоръчва се да отбележите тази приставка като **ESM** файл, за да избегнете тези проблеми. Необходимо е всички препратки от скриптовете да се отбележат като **непроменливи**.'
       - lang: de
         text: 'Dieses Plugin ist kein ESM, aber es scheint Navmeshes zu enthalten. Dies kann zu Problemen mit der NPC-Pfadfindung führen. Es wird empfohlen, dieses Plugin als **ESM** zu kennzeichnen, um diese Probleme zu vermeiden. Es könnte auch notwendig sein, sicherzustellen, dass alle Referenzen, die von Skripten in diesem Plugin aufgerufen werden, als **persistent** gekennzeichnet sind.'
+      - lang: ru
+        text: 'Этот плагин не является ESM, но, судя по всему, содержит навмеши. Это может привести к проблемам с поиском пути NPC. Рекомендуется пометить этот плагин как **ESM**, чтобы избежать этих проблем. Также может потребоваться убедиться, что все ссылки, вызываемые скриптами в этом плагине, помечены как **постоянные**.'
       - lang: uk_UA
         text: 'Плагін не є ESM, але може містити навмеші. Це може спричинити проблеми з пошуком шляху персонажами. Радимо позначити плагін як **ESM** для уникнення цих проблем. Також потрібно переконатися, що всі посилання використані в скриптах відмічені як **постійні**.'
 
@@ -567,7 +581,7 @@ common:
       - lang: ru
         text: 'Используйте этот плагин тольеко если основной квест игры уже выполнен.'
       - lang: uk_UA
-        text: 'Використовуйте цей плагін, лише якщо вже пройдено головний квест гри.'
+        text: 'Використовуйте цей плагін, лише якщо головний квест гри вже пройдено.'
       - lang: zh_CN
         text: '只有在游戏的主要任务完成后才可以使用这个插件。'
 
@@ -832,7 +846,7 @@ common:
       - lang: sv
         text: 'Kan användas med {0} men skulle kräva extra arbete. En Smashed Patch eller Bash Patch borde användas en ensamstående från varandra.'
       - lang: uk_UA
-        text: 'Може бути використаний спільно з {0} але можливо буде потрібна додаткова робота. Smashed Patch або Bash Patch повинні бути використані незалежно один від одного.'
+        text: 'Може бути використаний спільно з {0} але можливо буде потрібна додаткова робота. Smashed Patch або Bash Patch повинні використовуватися незалежно один від одного.'
       - lang: zh_CN
         text: '可以与{0}同时使用，但将需要额外的操作。Smashed Patch或Bash Patch应该彼此独立使用。'
 
@@ -1660,7 +1674,7 @@ common:
       - lang: sv
         text: 'Det verkar som att du inte har den senaste versionen av {0}. Några mods kan kräva funktionalitet tillagd i den senaste versionen av {0} för att fungera.'
       - lang: uk_UA
-        text: 'Можливо, у вас не встановлена остання версія {0}. Робота деяких модів може потребувати функціоналу, доданого в останній версії {0}.'
+        text: 'Можливо, у вас не встановлена остання версія {0}. Деякі моди можуть потребувати функціоналу доданого в останній версії {0}.'
       - lang: zh_CN
         text: '您的{0}似乎不是最新的。有些插件可能需要最新的{0}才能工作。'
 
@@ -1683,6 +1697,8 @@ common:
         text: '{1} から {0} を削除してください。{2} のものを優先させる必要があります。'
       - lang: pt_BR
         text: 'Delete {0} de {1}. A versão de {2} deve ter precedência.'
+      - lang: ru
+        text: 'Удалите {0} из {1}. Версия {2} должна иметь приоритет.'
       - lang: uk_UA
         text: 'Видаліть {0} з {1}. Версія {2} повинна мати пріоритет.'
 
@@ -1832,7 +1848,7 @@ common:
       - lang: sv
         text: 'Denna plugin innehåller [vilda föränringar](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) och kan kräva ytterligare manuell rensning för att inte störa andra moddar. {0}'
       - lang: uk_UA
-        text: 'Плагін містить [дикі правки](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) та може вимагати додаткової ручної чистки, щоб не конфліктувати з іншими модами. {0}'
+        text: 'Плагін містить [дикі зміни](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) та може вимагати додаткової ручної чистки, щоб не конфліктувати з іншими модами. {0}'
       - lang: zh_CN
         text: '这个插件包含[随意编辑](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits)，可能需要额外的手动清理，以免干扰其他mod。{0}'
     subs: [ '' ]
@@ -2092,6 +2108,8 @@ common:
         text: 'Sembra che tu stia utilizzando **{0}**, ma è stato sostitutito. Si raccomanda di usare **{1}** in sostituzione.'
       - lang: pt_BR
         text: 'Parece que você está usando **{0}**, mas ele foi substituído. É recomendável que você use **{1}** em vez disso.'
+      - lang: ru
+        text: 'Похоже, вы используете **{0}**, но его было заменено. Вместо него рекомендуется использовать **{1}**.'
       - lang: uk_UA
         text: 'Здається, ви використовуєте **{0}**, але його було замінено. Радимо використовувати **{1}** замість нього.'
     subs:
