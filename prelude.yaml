@@ -1931,6 +1931,18 @@ common:
         text: '强烈建议不要使用包含已删除navmeshes的mod，因为它们会导致崩溃。**已删除navmeshes**必须手动修正(一个复杂的过程，应该由mod作者完成)。更多关于**已删除navmeshes**的信息已提供[这里](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)。'
 
 ##### Global Anchors #####
+  - &incompatible
+    type: error
+    content:
+      - lang: en
+        text: '{0} is incompatible with {1}, but both are present.'
+      - lang: de
+        text: '{0} ist inkompatibel mit {1}, aber beide sind vorhanden.'
+    subs:
+      - 'non-plugin mod 0'
+      - 'non-plugin mod 1'
+    condition: 'file("NVSE/Plugins/0.dll") and file("NVSE/Plugins/1.dll")'
+
   - &latestLOOTThread
     type: say
     content:
