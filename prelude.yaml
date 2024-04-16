@@ -1936,6 +1936,8 @@ common:
     content:
       - lang: en
         text: '{0} is incompatible with {1}, but both are present.'
+      - lang: bg
+        text: '{0} не е съвместима с {1}, но и двете са налични.'
       - lang: de
         text: '{0} ist inkompatibel mit {1}, aber beide sind vorhanden.'
     subs:
