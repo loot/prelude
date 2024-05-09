@@ -1938,8 +1938,36 @@ common:
         text: '{0} is incompatible with {1}, but both are present.'
       - lang: bg
         text: '{0} не е съвместима с {1}, но и двете са налични.'
+      - lang: da
+        text: '{0} er ikke inkompatibelt med {1}, men begge filer er til stede.'
       - lang: de
         text: '{0} ist inkompatibel mit {1}, aber beide sind vorhanden.'
+      - lang: es
+        text: '{0} es incompatible con {1}, pero ambos se encuentran presentes.'
+      - lang: fi
+        text: '{0} ei ole yhteensopiva lisäosan {1} kanssa, mutta molemmat löydettiin.'
+      - lang: fr
+        text: '{0} est incompatible avec {1}, mais les deux sont présents.'
+      - lang: it
+        text: '{0} è incompatibile con {1}, ma entrambi i file sono presenti.'
+      - lang: ja
+        text: '{0}は{1}と相容れないが、どちらも存在する。'
+      - lang: ko
+        text: '{0}은 {1}과 호환되지 않지만 둘 다 존재합니다.'
+      - lang: pl
+        text: '{0} jest niekompatybilna z {1}, a jest aktywna.'
+      - lang: pt_BR
+        text: '{0} é incompatível com {1}, mas ambos estão presentes.'
+      - lang: pt_PT
+        text: '{0} é incompatível com {1}, mas ambos os ficheiros estão presentes.'
+      - lang: ru
+        text: '{0} несовместим с {1}, но оба они присутствуют.'
+      - lang: sv
+        text: '{0} är inkompatibel med {1}, men bägge finns installerade.'
+      - lang: uk_UA
+        text: '{0} несумісний з {1}, але обидва файли присутні.'
+      - lang: zh_CN
+        text: '{0}与{1}不兼容，但是两者都存在。'
     subs:
       - 'non-plugin mod 0'
       - 'non-plugin mod 1'
