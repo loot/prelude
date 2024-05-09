@@ -1965,7 +1965,7 @@ common:
       - lang: sv
         text: '{0} är inkompatibel med {1}, men bägge finns installerade.'
       - lang: uk_UA
-        text: '{0} несумісний з {1}, але обидва файли присутні.'
+        text: '{0} несумісний з {1}, але обидва присутні.'
       - lang: zh_CN
         text: '{0}与{1}不兼容，但是两者都存在。'
     subs:
