@@ -970,7 +970,7 @@ common:
       - lang: bg
         text: 'Използвате **{0}**, но се изисква кръпка за съвместимост. Тя е налична от инсталационния файл на приставката.'
       - lang: da
-        text: "Det ser ud til, at du bruger **{0}**, men du har ikke aktiveret en kompatibilitetspatch for dette mod. En kompatibilitetspatch er inkluderet i dette plugin''s installationsprogram."
+        text: 'Det ser ud til, at du bruger **{0}**, men du har ikke aktiveret en kompatibilitetspatch for dette mod. En kompatibilitetspatch er inkluderet i dette plugin''s installationsprogram.'
       - lang: de
         text: 'Sie scheinen **{0}** zu nutzen, aber Sie haben keinen Kompatibilitätspatch für diese Mod aktiviert. Ein Kompatibilitätspatch ist enthalten mit dem Installer dieses Plugins.'
       - lang: es
