@@ -2039,6 +2039,16 @@ common:
         text: '强烈建议不要使用包含已删除navmeshes的mod，因为它们会导致崩溃。**已删除navmeshes**必须手动修正(一个复杂的过程，应该由mod作者完成)。更多关于**已删除navmeshes**的信息已提供[这里](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)。'
 
 ##### Global Anchors #####
+  - &filenameExtension
+    type: error
+    content:
+      - lang: en
+        text: '{0} does not support the usage of **{1}** plugins ingame, but your load order contains such plugins. In order to avoid irreversible damage to your game, it is recommended to not use **{1}** plugins.'
+    subs:
+      - 'Game'
+      - 'Filename Extension'
+    condition: 'file("([^\.]+\.esx)")'
+
   - &incompatible
     type: error
     content:
