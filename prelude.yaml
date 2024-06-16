@@ -2044,6 +2044,8 @@ common:
     content:
       - lang: en
         text: '{0} does not support the usage of **{1}** plugins ingame, but your load order contains such plugins. In order to avoid irreversible damage to your game, it is recommended to not use **{1}** plugins.'
+      - lang: de
+        text: '{0} unterstützt nicht die Verwendung von **{1}** Plugins im Spiel, aber Ihre Ladereihenfolge enthält solche Plugins. Um irreversible Schäden an Ihrem Spiel zu vermeiden, wird empfohlen, keine **{1}** Plugins zu verwenden.'
     subs:
       - 'Game'
       - 'Filename Extension'
