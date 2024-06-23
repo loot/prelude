@@ -2051,6 +2051,15 @@ common:
         text: '强烈建议不要使用包含已删除navmeshes的mod，因为它们会导致崩溃。**已删除navmeshes**必须手动修正(一个复杂的过程，应该由mod作者完成)。更多关于**已删除navmeshes**的信息已提供[这里](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial)。'
 
 ##### Global Anchors #####
+  - &changeUnsupported
+    type: say
+    content:
+      - lang: en
+        text: 'Changing the type of an existing plugin isn''t supported. Additional details are provided [here]({0}).'
+      - lang: de
+        text: 'Das Ändern des Typs eines bestehenden Plugins wird nicht unterstützt. Weitere Einzelheiten sind [hier]({0}) zu finden.'
+    subs: [ 'https://loot.github.io/docs/help/Changing-Plugin-Types-In-Starfield.html' ]
+
   - &filenameExtension
     type: error
     content:
