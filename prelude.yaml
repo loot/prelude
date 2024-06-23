@@ -1489,6 +1489,18 @@ common:
       - lang: zh_CN
         text: '如果您添加、删除或更新修改了WRLD/CELL记录的插件时，记得使用**xLODGen**更新此模块。'
 
+  # Subs can be Full Master, Medium Master or Small Master
+  - &unsupportedChangeVerified
+    type: warn
+    content:
+      - lang: en
+        text: 'This plugin has been changed from **{0}** to **{1}**.'
+      - lang: de
+        text: 'Dieses Plugin wurde von **{0}** zu **{1}** geändert.'
+    subs:
+      - 'Previous Type'
+      - 'Type'
+
   - &useBashTweakInstead
     type: say
     content:
