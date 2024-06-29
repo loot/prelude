@@ -659,6 +659,16 @@ common:
       - lang: zh_CN
         text: '**{0}**必须重新分配给**{1}**。'
 
+  - &mismatchedFormIDs
+    type: error
+    content:
+      - lang: en
+        text: 'This plugin is a **{0}**, but it contains FormIDs that do not match this type of Master. Using this plugin would have unpredictable consequences for your game and is therefore not recommended.'
+      - lang: de
+        text: 'Dieses Plugin ist ein **{0}**, aber es enthält FormIDs, die nicht zu diesem Typ von Master passen. Die Verwendung dieses Plugins würde unvorhersehbare Folgen für Ihr Spiel haben und wird daher nicht empfohlen.'
+    subs:
+      - 'Master Type'
+
   - &missingRequirementXforY
     type: warn
     content:
