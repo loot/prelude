@@ -58,3 +58,7 @@ versionUpToDateX: Ваш {0} оновлено.
 versionXIncY: Встановлена у вас версія {0} несумісна з вашою версією {1}.
 versionXofYorGreaterRequired: Потрібна версія **{0}** або вище **{1}**.
 wildEdits: Плагін містить [дикі зміни](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) та може вимагати додаткової ручної чистки, щоб не конфліктувати з іншими модами. {0}
+filenameExtension: ''
+changeUnsupported: ''
+mismatchedFormIDs: ''
+unsupportedChangeVerified: ''
