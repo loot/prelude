@@ -52,3 +52,13 @@ versionUpToDateX: Twój {0} jest aktualny.
 versionXIncY: Twoja zainstalowana wersja {0} nie jest kompatybilna z twoją wersją {1}.
 versionXofYorGreaterRequired: Wymaga wersji **{0}** lub lepszej od **{1}**.
 wildEdits: Ta wtyczka zawiera [dzikie edycje](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) i może wymagać dodatkowego ręcznego czyszczenia aby nie kolidować z innymi modami. {0}
+unsupportedChangeVerified: ''
+filenameExtension: ''
+flagESM: ''
+mismatchedFormIDs: ''
+disableAfterGeneratingXwithY: ''
+supersede: ''
+compatPatchForX: ''
+changeUnsupported: ''
+deactivateAfterCharacterCreation: ''
+versionPrecedence: ''
