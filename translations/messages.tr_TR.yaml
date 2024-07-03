@@ -58,3 +58,7 @@ versionUpToDateX: '{0} güncel.'
 versionXIncY: Yüklü olan {0} sürümü, {1} sürümü ile uyumlu değil.
 versionXofYorGreaterRequired: '**{1}** için **{0}** veya daha yüksek bir sürüm gereklidir.'
 wildEdits: Bu eklenti [wild edits](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) içerir ve diğer modlarla çakışmaması için ek manuel temizlik gerekebilir. {0}
+unsupportedChangeVerified: ''
+filenameExtension: ''
+mismatchedFormIDs: ''
+changeUnsupported: ''
