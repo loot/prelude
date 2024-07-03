@@ -57,3 +57,8 @@ versionUpToDateX: '{0} on ajan tasalla.'
 versionXIncY: Lisäosien {0} ja {1} asennetut versiot eivät ole yhteensopivat toistensa kanssa.
 versionXofYorGreaterRequired: Vaatii version **{0}** tai uudemman lisäosasta **{1}**
 wildEdits: Tämä lisäosa sisältää [tarkoituksettomia muutoksia](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits). Manuaalinen puhdistaminen voi olla tarpeen yhteensopivuuden takaamiseksi. {0}
+unsupportedChangeVerified: ''
+flagESM: ''
+changeUnsupported: ''
+filenameExtension: ''
+mismatchedFormIDs: ''
