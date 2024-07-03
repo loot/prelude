@@ -48,3 +48,17 @@ versionUpToDateX: O seu {0} está atualizado.
 versionXIncY: A sua versão instalada de {0} não é compatível com a sua versão de {1}.
 versionXofYorGreaterRequired: Necessita a versão **{0}** ou maior de **{1}**.
 wildEdits: Este plugin contém [edições selvagens](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits). Pode requerer limpeza manual adicional de forma a não interferir com outros mods. {0}
+filenameExtension: ''
+deactivateAfterCharacterCreation: ''
+unsupportedChangeVerified: ''
+compatPatch: ''
+deprecated: ''
+mismatchedFormIDs: ''
+changeUnsupported: ''
+compatPatchForX: ''
+disableAfterGeneratingXwithY: ''
+essentialFiles: ''
+flagESM: ''
+patchOutdated: ''
+versionPrecedence: ''
+supersede: ''
