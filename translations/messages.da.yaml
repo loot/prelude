@@ -51,3 +51,14 @@ versionUpToDateX: Din {0} er opdateret.
 versionXIncY: Din installerede version af {0} er ikke kompatibel med din version af {1}.
 versionXofYorGreaterRequired: Kræver version **{0}** eller en højere version af **{1}**.
 wildEdits: Dette plugin indeholder [ukontrollerede redigeringer](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) og kan behøve yderligere manuel oprydning for ikke at forstyrre andre mods. {0}
+mismatchedFormIDs: ''
+changeUnsupported: ''
+compatPatchForX: ''
+filenameExtension: ''
+deactivateAfterCharacterCreation: ''
+unsupportedChangeVerified: ''
+disableAfterGeneratingXwithY: ''
+deprecated: ''
+flagESM: ''
+supersede: ''
+versionPrecedence: ''
