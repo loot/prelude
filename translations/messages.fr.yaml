@@ -56,3 +56,9 @@ versionUpToDateX: '{0} est à jour.'
 versionXIncY: La version installée de {0} n'est pas compatible avec votre version de {1}.
 versionXofYorGreaterRequired: Requiert la version **{0}** ou supérieure de **{1}**.
 wildEdits: Ce plugin contient des [wild edits](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) et peut avoir besoin de nettoyage manuel additionel afin de ne pas interférer avec d'autres mods. {0}
+unsupportedChangeVerified: ''
+changeUnsupported: ''
+filenameExtension: ''
+mismatchedFormIDs: ''
+flagESM: ''
+supersede: ''
