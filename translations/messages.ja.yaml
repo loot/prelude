@@ -56,3 +56,9 @@ versionUpToDateX: '{0} は最新版です。'
 versionXIncY: インストールされている {0} は使用中のバージョンの {1} との互換性がありません。
 versionXofYorGreaterRequired: バージョン **{0}** 以上の **{1}** が必要です。
 wildEdits: このプラグインには [Wild Edit](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits)（不用意な編集）が含まれています。他の Mod に干渉しないようにするには、追加で手動クリーニングを行う必要があるでしょう。{0}
+mismatchedFormIDs: ''
+changeUnsupported: ''
+filenameExtension: ''
+unsupportedChangeVerified: ''
+flagESM: ''
+supersede: ''
