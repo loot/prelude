@@ -48,3 +48,17 @@ versionUpToDateX: 您的{0}是最新的。
 versionXIncY: 您安装的{0}版本与{1}版本不兼容。
 versionXofYorGreaterRequired: 需要 **{1}** 的 **{0}** 或更高版本。
 wildEdits: 这个插件包含[随意编辑](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits)，可能需要额外的手动清理，以免干扰其他mod。{0}
+changeUnsupported: ''
+filenameExtension: ''
+mismatchedFormIDs: ''
+compatPatch: ''
+unsupportedChangeVerified: ''
+compatPatchForX: ''
+deactivateAfterCharacterCreation: ''
+disableAfterGeneratingXwithY: ''
+essentialFiles: ''
+deprecated: ''
+patchOutdated: ''
+flagESM: ''
+versionPrecedence: ''
+supersede: ''
