@@ -29,3 +29,5 @@ py scripts/import-translations.py
 ```
 
 The scripts make assumptions about the formatting and layout of entries in `prelude.yaml`, so it's worth double-checking their changes.
+
+A non-translations change.
