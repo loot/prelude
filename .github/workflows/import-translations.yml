@@ -7,7 +7,9 @@ jobs:
     runs-on: ubuntu-20.04
 
     # Only run if the pull request was opened by Weblate's GitHub bot user.
-    if: ${{ github.event.sender.id == 1607653 && github.event.pull_request.maintainer_can_modify == true }}
+    #if: ${{ github.event.sender.id == 1607653 && github.event.pull_request.maintainer_can_modify == true }}
+    # Test with Ortham's account
+    if: ${{ github.event.sender.id ==  2430738 && github.event.pull_request.maintainer_can_modify == true }}
 
     steps:
       - uses: actions/checkout@v4
