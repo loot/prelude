@@ -12,6 +12,8 @@ import yaml
 def get_expected_languages(messages_for_anchor):
     expected_langs = list(messages_for_anchor.keys())
 
+    expected_langs.sort()
+
     # Move en to be the first language.
     en_index = expected_langs.index('en')
     en = expected_langs.pop(en_index)
@@ -56,6 +58,7 @@ with open('prelude.yaml', encoding='utf8') as input:
 
             anchor = match.group(1)
             expected_langs = get_expected_languages(messages[anchor])
+            print(f'Expecting the following languages for anchor {anchor}: {expected_langs}')
             lang = None
 
             index += 1
@@ -64,16 +67,17 @@ with open('prelude.yaml', encoding='utf8') as input:
         match = re.search(r'- lang: ([a-zA-Z_]+)', lines[index])
         if match != None:
             lang = match.group(1)
-            if lang == expected_langs[0]:
+            expected_lang = expected_langs[0]
+            if lang == expected_lang:
                 expected_langs.pop(0)
             else:
-                # Insert the expected language above this one.
+                print(f'Expected an entry for language {expected_lang}, found entry for language {lang}, inserting the expected language before it')
                 match = re.search(r'(\s+)- lang:', lines[index])
                 whitespace = match.group(1)
 
-                text = get_yaml_string(messages[anchor][expected_langs[0]])
+                text = get_yaml_string(messages[anchor][expected_lang])
 
-                new_lang_line = f'{whitespace}- lang: {expected_langs[0]}\n'
+                new_lang_line = f'{whitespace}- lang: {expected_lang}\n'
                 new_text_line = f'{whitespace}  text: {text}\n'
 
                 lines.insert(index, new_text_line)
