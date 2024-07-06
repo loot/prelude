@@ -3,9 +3,11 @@ name: Export translations from prelude
 on:
   pull_request:
     paths: [prelude.yaml]
+  push:
+    paths: [prelude.yaml]
 
 jobs:
-  import:
+  export:
     runs-on: ubuntu-20.04
 
     steps:
@@ -34,6 +36,14 @@ jobs:
           echo 'export PR_HEAD_URL="${{ github.event.pull_request.head.repo.clone_url }}"' > git_vars.sh
           echo 'export PR_HEAD_REF="${{ github.event.pull_request.head.ref }}"' >> git_vars.sh
           echo 'export COMMIT_MESSAGE="Export translations from prelude"' >> git_vars.sh
+        if: ${{ github.event_name == 'pull_request' }}
+
+      - name: Record pull request head data
+        run: |
+          echo 'export PR_HEAD_URL="${{ github.event.push.repository.clone_url }}"' > git_vars.sh
+          echo 'export PR_HEAD_REF="${{ github.event.push.ref }}"' >> git_vars.sh
+          echo 'export COMMIT_MESSAGE="Export translations from prelude"' >> git_vars.sh
+        if: ${{ github.event_name == 'push' }}
 
       - name: Upload data
         uses: actions/upload-artifact@v4
