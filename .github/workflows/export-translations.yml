@@ -38,10 +38,10 @@ jobs:
           echo 'export COMMIT_MESSAGE="Export translations from prelude"' >> git_vars.sh
         if: ${{ github.event_name == 'pull_request' }}
 
-      - name: Record pull request head data
+      - name: Record push head data
         run: |
-          echo 'export PR_HEAD_URL="${{ github.event.push.repository.clone_url }}"' > git_vars.sh
-          echo 'export PR_HEAD_REF="${{ github.event.push.ref }}"' >> git_vars.sh
+          echo 'export PR_HEAD_URL="${{ github.repositoryUrl }}"' > git_vars.sh
+          echo 'export PR_HEAD_REF="${{ github.ref }}"' >> git_vars.sh
           echo 'export COMMIT_MESSAGE="Export translations from prelude"' >> git_vars.sh
         if: ${{ github.event_name == 'push' }}
 
