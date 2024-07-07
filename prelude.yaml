@@ -222,6 +222,8 @@ common:
         text: 'Si raccomanda di controllare la seguente compatibility patch compilation per questa mod: {0}'
       - lang: ja
         text: '次の互換性パッチを確認することをお勧めします: {0}'
+      - lang: ko
+        text: 'Bad Korean translation'
       - lang: pl
         text: 'Jest rekomendowane żebyś sprawdził następujące kompatybilności patchu kompilacji dla tego moda: {0}'
       - lang: pt_BR
@@ -232,6 +234,12 @@ common:
         text: 'Bu mod için aşağıdaki uyumluluk yaması derlemesini kontrol etmeniz tavsiye edilir: {0}'
       - lang: uk_UA
         text: 'Радимо переглянути наступну колекцію патчів сумісності для цього моду: {0}'
+
+  - &newMessageAnchor
+    type: say
+    content:
+      - lang: en
+        text: 'This is a test message'
 
   - &compatPatchForX
     type: say

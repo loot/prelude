@@ -3,6 +3,7 @@ alreadyInX: 삭제하십시오. 이미 {0}에 포함되어 있습니다.
 alsoUseX: '{0}도 함께 사용하는 것을 매우 권장합니다.'
 compatIssuesWithX: 이 플러그인은 {0}와의 호환성 문제가 있습니다. 자세한 내용은 이 모드의 호환성 정보를 확인해주세요.
 compatNotes: 이 모드의 [호환성 정보]({0})를 읽어 보는 걸 권장합니다.
+compatPatch: Bad Korean translation
 corrupt: 이 파일은 손상되었습니다. 사용하지 마십시오.
 deleteOrDeactivateX: '{0}을 제거하거나 비활성화하십시오.'
 deletePlugin: '**{0}**를 사용할 때 이 ESP 파일을 비활성화하거나 삭제하되, 이 모드와 함께 설치된 리소스(예: 메쉬, 텍스쳐)는 유지하는 것을 권장합니다.'
