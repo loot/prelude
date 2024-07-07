@@ -239,7 +239,7 @@ common:
     type: say
     content:
       - lang: en
-        text: 'This is a test message. Modify prelude'
+        text: 'This is a test message. Modify prelude again'
 
   - &compatPatchForX
     type: say
