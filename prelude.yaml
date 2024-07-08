@@ -2249,6 +2249,19 @@ common:
       - 'your game'
     condition: 'file("NVSE/Plugins/nvac.dll")'
 
+  - &pluginEnabler
+    type: warn
+    content:
+      - lang: en
+        text: 'You have installed {0}, but since {1} version {2} this is no longer needed.'
+      - lang: de
+        text: 'Sie haben {0} installiert, aber seit {1} Version {2} wird dies nicht mehr benötigt.'
+    subs:
+      - 'Plugin Enabler'
+      - 'Game'
+      - 'Game Version'
+    condition: 'file("xSE/Plugins/xPluginsTxtEnabler.dll")'
+
   - &scriptExtenderMissing
     type: error
     content:
