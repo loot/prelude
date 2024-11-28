@@ -678,6 +678,8 @@ common:
     content:
       - lang: en
         text: 'This plugin is a **{0}**, but it contains FormIDs that do not match this type of Master. Using this plugin would have unpredictable consequences for your game and is therefore not recommended.'
+      - lang: bg
+        text: 'Тази приставка е **{0}**, но съдържа „FormID“, който не съвпада с типа на основната. Използването на тази приставка може да причини непредвидими последици за Вашата игра и не се препоръчва.'
       - lang: de
         text: 'Dieses Plugin ist ein **{0}**, aber es enthält FormIDs, die nicht zu diesem Typ von Master passen. Die Verwendung dieses Plugins würde unvorhersehbare Folgen für Ihr Spiel haben und wird daher nicht empfohlen.'
       - lang: uk_UA
@@ -1521,6 +1523,8 @@ common:
     content:
       - lang: en
         text: 'This plugin has been changed from **{0}** to **{1}**.'
+      - lang: bg
+        text: 'Тази приставка е променена от **{0}** на **{1}**.'
       - lang: de
         text: 'Dieses Plugin wurde von **{0}** zu **{1}** geändert.'
       - lang: uk_UA
@@ -2086,6 +2090,8 @@ common:
     content:
       - lang: en
         text: 'Changing the type of an existing plugin isn''t supported. Additional details are provided [here]({0}).'
+      - lang: bg
+        text: 'Промяната на типа на съществуваща приставка не се поддържа. Повече информация може да намерите [тук]({0}).'
       - lang: de
         text: 'Das Ändern des Typs eines bestehenden Plugins wird nicht unterstützt. Weitere Einzelheiten sind [hier]({0}) zu finden.'
       - lang: uk_UA
@@ -2097,6 +2103,8 @@ common:
     content:
       - lang: en
         text: '{0} does not support the usage of **{1}** plugins ingame, but your load order contains such plugins. In order to avoid irreversible damage to your game, it is recommended to not use **{1}** plugins.'
+      - lang: bg
+        text: '{0} не поддържа използването на **{1}** приставки, но Вашият ред за зареждане съдържа такива приставки. Препоръчва се да не използвате **{1}** приставки, за да избегнете непоправими щети на Вашата игра.'
       - lang: de
         text: '{0} unterstützt nicht die Verwendung von **{1}** Plugins im Spiel, aber Ihre Ladereihenfolge enthält solche Plugins. Um irreversible Schäden an Ihrem Spiel zu vermeiden, wird empfohlen, keine **{1}** Plugins zu verwenden.'
       - lang: uk_UA
