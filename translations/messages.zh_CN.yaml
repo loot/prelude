@@ -48,3 +48,14 @@ versionUpToDateX: 您的{0}是最新的。
 versionXIncY: 您安装的{0}版本与{1}版本不兼容。
 versionXofYorGreaterRequired: 需要 **{1}** 的 **{0}** 或更高版本。
 wildEdits: 这个插件包含[随意编辑](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits)，可能需要额外的手动清理，以免干扰其他mod。{0}
+supersede: 您似乎正在使用 **{0}**，但它已受到取代。推荐您使用 **{1}**。
+pluginEnabler: 您已安装 {0}，但自 {1} 版本 {2} 后不再需要。
+filenameExtension: '{0} 不支持游戏内使用 **{1}** 插件，但您的加载顺序包含此种插件。要避免不可逆的游戏损坏，推荐您不使用这 **{1}** 个插件。'
+compatPatch: 推荐您检查以下适用于此模组的兼容补丁： {0}
+changeUnsupported: 不支持更改现有插件类型。附加信息请参阅[此处]({0})。
+unsupportedChangeVerified: 此插件已从 **{0}** 更改为 **{1}**。
+deactivateAfterCharacterCreation: 在角色创建完成后取消激活并（或）卸载此模组。
+deprecated: 此文件已废弃且不应再使用。
+disableAfterGeneratingXwithY: 此插件可在用 **{1}** 产生 **{0}** 后禁用。
+essentialFiles: 其它模组似乎覆盖了此模组的某些重要文件。请确保您正在使用此模组的 {0} 版本或兼容版本（如可用）。
+versionPrecedence: 从 {1} 内删除 {0}。 {2} 的版本必须优先。
