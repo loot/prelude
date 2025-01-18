@@ -59,3 +59,4 @@ deprecated: 此文件已废弃且不应再使用。
 disableAfterGeneratingXwithY: 此插件可在用 **{1}** 产生 **{0}** 后禁用。
 essentialFiles: 其它模组似乎覆盖了此模组的某些重要文件。请确保您正在使用此模组的 {0} 版本或兼容版本（如可用）。
 versionPrecedence: 从 {1} 内删除 {0}。 {2} 的版本必须优先。
+patchOutdated: 此补丁已过期且可能不兼容已补丁模组的最新版本。
