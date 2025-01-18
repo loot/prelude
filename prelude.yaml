@@ -34,6 +34,8 @@ common:
         text: 'Удалите. Уже включено в {0}.'
       - lang: sv
         text: 'Ta bort. Redan inkluderat i {0}.'
+      - lang: ta
+        text: 'நீக்கு. ஏற்கனவே {0} இல் சேர்க்கப்பட்டுள்ளது.'
       - lang: tr_TR
         text: 'Sil. Zaten {0} içinde yer alıyor.'
       - lang: uk_UA
@@ -74,6 +76,8 @@ common:
         text: 'Удалите. Уже включено в {0} или исправлено иным образом.'
       - lang: sv
         text: 'Ta bort. Redan inkluderat eller fixat i {0}.'
+      - lang: ta
+        text: 'நீக்கு. ஏற்கனவே சேர்க்கப்பட்டுள்ளது அல்லது {0} இல் சரி செய்யப்பட்டது.'
       - lang: tr_TR
         text: 'Sil. Zaten {0} içinde yer alıyor veya başka bir şekilde düzeltildi.'
       - lang: uk_UA
@@ -114,6 +118,8 @@ common:
         text: 'Настоятельно рекомендуется также использовать {0}.'
       - lang: sv
         text: 'Det är rekommenderat att du också använder {0}.'
+      - lang: ta
+        text: 'நீங்கள் {0} ஐப் பயன்படுத்த பரிந்துரைக்கப்படுகிறது.'
       - lang: tr_TR
         text: '{0} kullanmanız şiddetle tavsiye edilir.'
       - lang: uk_UA
@@ -154,6 +160,8 @@ common:
         text: 'У этого плагина есть проблемы совместимости с {0}. Для получения дополнительной информации прочтите заметки о совместимости этого мода.'
       - lang: sv
         text: 'Det här pluginet är inte helt kompatibelt med {0}. För mer information, läs det här moddets kompatibilitetsanteckningar.'
+      - lang: ta
+        text: 'இந்தச் சொருகி {0} உடன் பொருந்தக்கூடிய சிக்கல்களைக் கொண்டுள்ளது. மேலும் தகவலுக்கு, இந்த மோடின் பொருந்தக்கூடிய குறிப்புகளைப் படியுங்கள்.'
       - lang: tr_TR
         text: 'Bu eklenti {0} ile uyumluluk sorunları yaşıyor. Daha fazla bilgi için bu modun uyumluluk notlarını okuyun.'
       - lang: uk_UA
@@ -194,6 +202,8 @@ common:
         text: 'Рекомендуется прочесть [заметки о совместимости]({0}) мода.'
       - lang: sv
         text: 'Det är rekommenderat att du läser det här moddets [kompatibilitetsanteckningar]({0}).'
+      - lang: ta
+        text: 'இந்த மோடின் [பொருந்தக்கூடிய குறிப்புகள்]({0}) ஐப் படிக்கப் பரிந்துரைக்கப்படுகிறது.'
       - lang: tr_TR
         text: 'Bu mod için [Uyumluluk Notları]({0}) okumanız tavsiye edilir.'
       - lang: uk_UA
@@ -230,10 +240,14 @@ common:
         text: 'É recomendado que verifique a seguinte compilação do patch de compatibilidade para este mod: {0}'
       - lang: ru
         text: 'Рекомендуется проверить следующую коллекцию патчей совместимости для этого мода: {0}'
+      - lang: ta
+        text: 'இந்த மோடிற்கான பின்வரும் பொருந்தக்கூடிய ஒட்டு தொகுப்பை சரிபார்க்க பரிந்துரைக்கப்படுகிறது: {0}'
       - lang: tr_TR
         text: 'Bu mod için aşağıdaki uyumluluk yaması derlemesini kontrol etmeniz tavsiye edilir: {0}'
       - lang: uk_UA
         text: 'Радимо переглянути наступну колекцію патчів сумісності для цього моду: {0}'
+      - lang: zh_CN
+        text: '推荐您检查以下适用于此模组的兼容补丁： {0}'
 
   - &compatPatchForX
     type: say
@@ -260,6 +274,8 @@ common:
         text: 'É recomendado que verifique a seguinte compilação do patch de compatibilidade para {0}: {1}'
       - lang: ru
         text: 'Рекомендуется проверить следующую коллекцию патчей совместимости для {0}: {1}'
+      - lang: ta
+        text: '{0}: {1}க்கான பின்வரும் பொருந்தக்கூடிய ஒட்டு தொகுப்பைச் சரிபார்க்க பரிந்துரைக்கப்படுகிறது'
       - lang: tr_TR
         text: '{0} için aşağıdaki uyumluluk yaması derlemesini kontrol etmeniz önerilir: {1}'
       - lang: uk_UA
@@ -298,6 +314,8 @@ common:
         text: 'Файл испорчен и не должен использоваться.'
       - lang: sv
         text: 'Denna fil är korrupt och borde inte användas.'
+      - lang: ta
+        text: 'இந்த கோப்பு ஊழல் நிறைந்தது மற்றும் பயன்படுத்தக்கூடாது.'
       - lang: tr_TR
         text: 'Bu dosya bozuk, kullanılmamalıdır.'
       - lang: uk_UA
@@ -330,10 +348,14 @@ common:
         text: 'Desative e/ou desinstale este mod após a criação da personagem.'
       - lang: ru
         text: 'Деактивируйте и/или удалите этот мод после создания персонажа.'
+      - lang: ta
+        text: 'கதாபாத்திரத்தை உருவாக்கிய பிறகு இந்த மோட் செயலிழக்க மற்றும்/அல்லது நிறுவல் நீக்கவும்.'
       - lang: tr_TR
         text: 'Karakter oluşturulduktan sonra bu modu devre dışı bırakın ve/veya kaldırın.'
       - lang: uk_UA
         text: 'Деактивуйте та/або видаліть цей мод після створення персонажу.'
+      - lang: zh_CN
+        text: '在角色创建完成后取消激活并（或）卸载此模组。'
 
   - &deleteOrDeactivateX
     type: error
@@ -368,6 +390,8 @@ common:
         text: 'Отключите или удалите. {0}'
       - lang: sv
         text: 'Ta bort eller avaktivera. {0}'
+      - lang: ta
+        text: 'நீக்கு அல்லது செயலிழக்கச் செய்யுங்கள். {0}'
       - lang: tr_TR
         text: 'Sil veya devre dışı bırak. {0}'
       - lang: uk_UA
@@ -409,6 +433,8 @@ common:
         text: 'Пока используется **{0}**, рекомендуется отключить или удалить esp этого мода, но оставить установленные ресурсы (меши, текстуры и тд).'
       - lang: sv
         text: 'När du använder **{0}** är det rekommenderat att du avaktiverar eller tar bort denna ESP-fil, men behåll resurserna (meshar och texturer) installerade med denna mod.'
+      - lang: ta
+        text: '**{0}** ஐப் பயன்படுத்தும்போது, இந்த எச்பி கோப்பை செயலிழக்கச் செய்ய அல்லது நீக்கப் பரிந்துரைக்கப்படுகிறது, ஆனால் இந்த மோடுடன் நிறுவப்பட்ட வளங்களை (எ.கா. மெச்கள், அமைப்புகள்) வைக்கவும்.'
       - lang: tr_TR
         text: '**{0}** kullanırken, bu ESP dosyasını devre dışı bırakmanız veya silmeniz, ancak bu mod ile kurulan kaynakları (örneğin, meshler, dokular) saklamanız tavsiye edilir.'
       - lang: uk_UA
@@ -443,10 +469,14 @@ common:
         text: 'Este ficheiro é obsoleto e já não deve ser usado.'
       - lang: ru
         text: 'Этот файл устарел и не должен использоваться.'
+      - lang: ta
+        text: 'இந்த கோப்பு நீக்கப்பட்டது, இனி பயன்படுத்தப்படக்கூடாது.'
       - lang: tr_TR
         text: 'Bu dosya artık kullanılmıyor ve kullanılmamalıdır.'
       - lang: uk_UA
         text: 'Цей файл застарілий та не має використовуватися.'
+      - lang: zh_CN
+        text: '此文件已废弃且不应再使用。'
 
   - &disableAfterGeneratingXwithY
     type: say
@@ -473,10 +503,14 @@ common:
         text: 'Este plugin pode ser desativado após gerar **{0}** com **{1}**.'
       - lang: ru
         text: 'Этот плагин может быть отключен после генерации **{0}** с помощью **{1}**.'
+      - lang: ta
+        text: '**{1}** உடன் **{0}** உருவாக்கியபிறகு இந்தச் சொருகி முடக்கப்படலாம்.'
       - lang: tr_TR
         text: 'Bu eklenti, **{1}** ile **{0}** oluşturulduktan sonra devre dışı bırakılabilir.'
       - lang: uk_UA
         text: 'Цей плагін можна вимкнути після створення **{0}** за допомогою **{1}**.'
+      - lang: zh_CN
+        text: '此插件可在用 **{1}** 产生 **{0}** 后禁用。'
 
   - &essentialFiles
     type: warn
@@ -507,10 +541,14 @@ common:
         text: 'Aparentemente outro mod está a sobrescrever um dos ficheiros essenciais deste mod. Por favor certifique-se que usa a versão do mod {0} ou uma versão compatível, se disponível.'
       - lang: ru
         text: 'Другой мод может переписать один из критических файлов. Пожалуйста, убедитесь, что вы используете версию {0} из этого мода, или совместимую при ее наличии.'
+      - lang: ta
+        text: 'மற்றொரு மோட் இந்த மோடின் அத்தியாவசிய கோப்புகளில் ஒன்றை மேலெழுதும் என்று தெரிகிறது. இந்த மோடின் பதிப்பின் {0} அல்லது கிடைத்தால் இணக்கமான பதிப்பைப் பயன்படுத்துகிறீர்கள் என்பதை உறுதிப்படுத்தவும்.'
       - lang: tr_TR
         text: 'Başka bir mod, bu modun temel dosyalarından birini üzerine yazıyor gibi görünüyor. Lütfen bu modun {0} sürümünü veya uyumlu bir sürümü kullanıp kullanmadığınızı kontrol edin.'
       - lang: uk_UA
         text: 'Інший мод може переписувати один із критичних файлів. Будь ласка впевніться, що ви використовуєте версію {0} із цього моду, або сумісну за її наявності.'
+      - lang: zh_CN
+        text: '其它模组似乎覆盖了此模组的某些重要文件。请确保您正在使用此模组的 {0} 版本或兼容版本（如可用）。'
 
   # Useful for Fallout 3 and Fallout: New Vegas plugins
   - &flagESM
@@ -530,6 +568,8 @@ common:
         text: 'Este plugin não é um ESM, mas parece conter navmeshes. Isso pode levar a problemas com o Pathfinding NPC. Recomenda-se a marcar este plugin como **ESM** para evitar esses problemas. Também pode ser necessário garantir que todas as referências chamadas por scripts neste plugin são sinalizadas como **persistent***.'
       - lang: ru
         text: 'Этот плагин не является ESM, но, судя по всему, содержит навмеши. Это может привести к проблемам с поиском пути NPC. Рекомендуется пометить этот плагин как **ESM**, чтобы избежать этих проблем. Также может потребоваться убедиться, что все ссылки, вызываемые скриптами в этом плагине, помечены как **постоянные**.'
+      - lang: ta
+        text: 'இந்தச் சொருகி ஒரு ESM அல்ல, ஆனால் அதில் நவ்மேச்கள் இருப்பதாகத் தெரிகிறது. இது NPC பாத்ஃபைண்டிங் சிக்கல்களுக்கு வழிவகுக்கும். இந்தச் சிக்கல்களைத் தவிர்க்க இந்தச் சொருகி **ESM** எனக் கொடியிட பரிந்துரைக்கப்படுகிறது. இந்தச் சொருகி ச்கிரிப்ட்களால் அழைக்கப்படும் அனைத்து குறிப்புகளும் **தொடர்ச்சியான** எனக் கொடியிடப்படுவதை உறுதிசெய்வதும் அவசியமாக இருக்கலாம்.'
       - lang: tr_TR
         text: 'Bu eklenti bir ESM değil, ancak navmeshler içeriyor gibi görünüyor. Bu, NPC yol bulma sorunlarına neden olabilir. Bu sorunları önlemek için bu eklentiyi **ESM** olarak işaretlemeniz önerilir. Bu eklentideki betikler tarafından çağrılan tüm referansların **kalıcı** olarak işaretlendiğinden emin olmanız da gerekebilir.'
       - lang: uk_UA
@@ -568,6 +608,8 @@ common:
         text: '{0} уже добавлен с этим модом.'
       - lang: sv
         text: '{0} är inluderat med denna mod.'
+      - lang: ta
+        text: '{0} இந்த மோட் மூலம் சேர்க்கப்பட்டுள்ளது.'
       - lang: tr_TR
         text: '{0}, bu mod ile birlikte gelmektedir.'
       - lang: uk_UA
@@ -606,6 +648,8 @@ common:
         text: 'Língua: {0}'
       - lang: ru
         text: 'Язык: {0}'
+      - lang: ta
+        text: 'மொழி: {0}'
       - lang: tr_TR
         text: 'Dil: {0}'
       - lang: uk_UA
@@ -644,6 +688,8 @@ common:
         text: 'Apenas utilize este plugin quando a missão principal do jogo estiver completada.'
       - lang: ru
         text: 'Используйте этот плагин тольеко если основной квест игры уже выполнен.'
+      - lang: ta
+        text: 'விளையாட்டின் முக்கிய தேடல் முடிந்ததும் மட்டுமே இந்த சொருகி பயன்படுத்தவும்.'
       - lang: tr_TR
         text: 'Bu eklentiyi, oyunun ana görevi tamamlandıktan sonra kullanın.'
       - lang: uk_UA
@@ -682,6 +728,8 @@ common:
         text: 'O mestre **{0}** deve ser reatribuído a **{1}**.'
       - lang: ru
         text: '**{0}** необходимо переназначить как **{1}**.'
+      - lang: ta
+        text: '**{0}** மாச்டரை **{1}** க்கு மீண்டும் நியமிக்க வேண்டும்.'
       - lang: tr_TR
         text: '**{0}** master, **{1}** olarak yeniden atanmalıdır.'
       - lang: uk_UA
@@ -706,6 +754,8 @@ common:
         text: 'Este plugin é um **{0}**, mas contém FormIDs que não correspondem a este tipo de Master. Usando este plugin teria consequências imprevisíveis para o seu jogo e, portanto, não é recomendado.'
       - lang: ru
         text: 'Этот плагин является **{0}**, но он содержит FormID, которые не соответствуют этому типу Master. Использование этого плагина может иметь непредсказуемые последствия для вашей игры, поэтому не рекомендуется.'
+      - lang: ta
+        text: 'இந்தச் சொருகி **{0}** ஆகும், ஆனால் அதில் இந்த வகை மாச்டருடன் பொருந்தாத ஃபார்மிட்கள் உள்ளன. இந்தச் சொருகி பயன்படுத்துவது உங்கள் விளையாட்டுக்குக் கணிக்க முடியாத விளைவுகளை ஏற்படுத்தும், எனவே இது பரிந்துரைக்கப்படவில்லை.'
       - lang: uk_UA
         text: 'Цей плагін є **{0}**, але містить невідповідні для цього типу майстру. Використання цього плагіну не рекомендоване через можливі непередбачувані наслідки для вашої гри.'
     subs:
@@ -744,6 +794,8 @@ common:
         text: 'Похоже у вас установлен **{1}**, но некоторые его требования отсутствуют. Убедитесь, что вы правильно установили **{0}**.'
       - lang: sv
         text: 'Det verkar som om du har installerat **{1}**, men några av dess krav är inte uppfyllda. Var vänlig och se till att du har installerat **{0}**.'
+      - lang: ta
+        text: 'நீங்கள் **{1}** நிறுவியிருப்பதாகத் தெரிகிறது, ஆனால் அதன் சில தேவைகள் காணவில்லை என்று தெரிகிறது. நீங்கள் சரியாக நிறுவப்பட்டுள்ளீர்கள் என்பதை உறுதிப்படுத்தவும் **{0}**.'
       - lang: tr_TR
         text: '**{1}** zaten yüklü, ancak bazı gereksinimleri eksik gibi görünüyor. **{0}**''yi doğru bir şekilde yüklediğinizden emin olun.'
       - lang: uk_UA
@@ -784,6 +836,8 @@ common:
         text: 'Некоторые требования этого плагина отсутствуют. Убедитесь, что правильно установили **{0}**.'
       - lang: sv
         text: 'Några av denna plugins behov/krav verkar saknas. Var god och se till att du har installerat **{0}** korrekt.'
+      - lang: ta
+        text: 'இந்தச் சொருகி தேவைகள் சில காணவில்லை. நீங்கள் சரியாக நிறுவப்பட்டுள்ளீர்கள் என்பதை உறுதிப்படுத்தவும் **{0}**.'
       - lang: tr_TR
         text: 'Bu eklentinin bazı gereksinimleri eksik gibi görünüyor. **{0}**''yi doğru bir şekilde yüklediğinizden emin olun.'
       - lang: uk_UA
@@ -824,6 +878,8 @@ common:
         text: 'Этот плагин является мод-ресурсом и не должен использоваться во время игры.'
       - lang: sv
         text: 'Det här pluginet används som en modding resurs och borde inte användas i spelet.'
+      - lang: ta
+        text: 'இந்த சொருகி ஒரு மோடிங் வளமாகும், மேலும் விளையாட்டில் பயன்படுத்தக்கூடாது.'
       - lang: tr_TR
         text: 'Bu eklenti bir modlama kaynağıdır ve oyun içinde kullanılmamalıdır.'
       - lang: uk_UA
@@ -864,6 +920,8 @@ common:
         text: 'Переместите {0} из {1} в {2}.'
       - lang: sv
         text: 'Flytta {0} från {1} till {2}.'
+      - lang: ta
+        text: '{1} இலிருந்து {2}பெறுநருக்கு {0} நகர்த்தவும்.'
       - lang: tr_TR
         text: '{0} dosyasını, {1} klasöründen {2} klasörüne taşı.'
       - lang: uk_UA
@@ -904,6 +962,8 @@ common:
         text: 'Устарело. Обновите до последней версии. {0}'
       - lang: sv
         text: 'Utdaterad. Uppdatera till den senaste versionen. {0}'
+      - lang: ta
+        text: 'வழக்கற்றுப்போன. அண்மைக் கால பதிப்பிற்கு புதுப்பிக்கவும். {0}'
       - lang: tr_TR
         text: 'Güncel değil. En son sürüme güncelleyin. {0}'
       - lang: uk_UA
@@ -945,6 +1005,8 @@ common:
         text: 'Может быть использован совместно с {0} но возможно потребуется дополнительная работа. Smashed Patch или Bash Patch должны быть использованы независимо друг от друга.'
       - lang: sv
         text: 'Kan användas med {0} men skulle kräva extra arbete. En Smashed Patch eller Bash Patch borde användas en ensamstående från varandra.'
+      - lang: ta
+        text: '{0} உடன் பயன்படுத்தலாம், ஆனால் கூடுதல் வேலை தேவைப்படும். நொறுக்கப்பட்ட இணைப்பு அல்லது பாச் ஒட்டு ஒருவருக்கொருவர் சுயாதீனமாகப் பயன்படுத்தப்பட வேண்டும்.'
       - lang: tr_TR
         text: '{0} ile birlikte kullanılabilir ancak ek iş gerektirebilir. Smashed Patch veya Bash Patch birbirinden bağımsız olarak kullanılmalıdır.'
       - lang: uk_UA
@@ -985,6 +1047,8 @@ common:
         text: 'Этот плагин не обязателен.'
       - lang: sv
         text: 'Det här pluginet är valfritt.'
+      - lang: ta
+        text: 'இந்த சொருகி விருப்பமானது.'
       - lang: tr_TR
         text: 'Bu eklenti isteğe bağlıdır.'
       - lang: uk_UA
@@ -1025,6 +1089,8 @@ common:
         text: 'Похоже, что вы используете **{0}**, но его патч совместимости не был включен. Сторонний патч можно найти здесь: {1}'
       - lang: sv
         text: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En patch från en tredje part finns här: {1}.'
+      - lang: ta
+        text: 'நீங்கள் **{0}** ஐப் பயன்படுத்துவதாகத் தெரிகிறது, ஆனால் இந்த மோடிற்கான பொருந்தக்கூடிய இணைப்பை நீங்கள் இயக்கவில்லை. மூன்றாம் தரப்பு இணைப்பு இங்கே கிடைக்கிறது: {1}'
       - lang: tr_TR
         text: '**{0}** kullanıyorsunuz gibi görünüyor, ancak bu mod için bir uyumluluk yaması etkinleştirilmemiş. Üçüncü taraf bir yama burada mevcut: {1}'
       - lang: uk_UA
@@ -1063,6 +1129,8 @@ common:
         text: 'O script de atualização para {0} está disponível aqui: {1}'
       - lang: ru
         text: '{0} скрипт-патчер доступен здесь: {1}'
+      - lang: ta
+        text: '{0} பேட்சர் ச்கிரிப்ட் இங்கே கிடைக்கிறது: {1}'
       - lang: tr_TR
         text: '{0} yaması burada mevcut: {1}'
       - lang: uk_UA
@@ -1103,6 +1171,8 @@ common:
         text: 'Похоже, что вы используете **{0}**, но его патч совместимости не был включен. Патч совместимости можно найти в установщике плагина.'
       - lang: sv
         text: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En kompatibilitetspatch är inkluderad i denna plugins installationsprogram.'
+      - lang: ta
+        text: 'நீங்கள் **{0}** ஐப் பயன்படுத்துவதாகத் தெரிகிறது, ஆனால் இந்த மோடிற்கான பொருந்தக்கூடிய இணைப்பை நீங்கள் இயக்கவில்லை. இந்தச் சொருகி நிறுவியுடன் ஒரு பொருந்தக்கூடிய இணைப்பு சேர்க்கப்பட்டுள்ளது.'
       - lang: tr_TR
         text: '**{0}** kullanıyorsunuz gibi görünüyor, ancak bu mod için bir uyumluluk yaması etkinleştirilmemiş. Bir uyumluluk yaması bu eklentinin yükleyicisi ile birlikte sunulmuştur.'
       - lang: uk_UA
@@ -1139,10 +1209,14 @@ common:
         text: 'Este patch está desatualizado e pode não ser compatível com a versão mais recente do mod corrigido.'
       - lang: ru
         text: 'Патч устарел и может быть несовместим с последней версией пропатченного мода.'
+      - lang: ta
+        text: 'இந்த இணைப்பு காலாவதியானது மற்றும் ஒட்டப்பட்ட மோடின் அண்மைக் கால பதிப்போடு பொருந்தாது.'
       - lang: tr_TR
         text: 'Bu yama güncel değil ve yamalanmış modun en son sürümüyle uyumlu olmayabilir.'
       - lang: uk_UA
         text: 'Патч застарів і може бути несумісним з останньою версією моду.'
+      - lang: zh_CN
+        text: '此补丁已过期且可能不兼容已补丁模组的最新版本。'
 
   - &patchProvided
     type: say
@@ -1177,6 +1251,8 @@ common:
         text: 'Похоже, что вы используете **{0}**, но его патч совместимости не был включен. Патч совместимости можно найти на странице плагина.'
       - lang: sv
         text: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En kompatibilitetspatch finns på denna plugins modsida.'
+      - lang: ta
+        text: 'நீங்கள் **{0}** ஐப் பயன்படுத்துவதாகத் தெரிகிறது, ஆனால் இந்த மோடிற்கான பொருந்தக்கூடிய இணைப்பை நீங்கள் இயக்கவில்லை. இந்தச் சொருகி மோட் பக்கத்தில் ஒரு பொருந்தக்கூடிய இணைப்பு வழங்கப்படுகிறது.'
       - lang: tr_TR
         text: '**{0}** kullanıyorsunuz gibi görünüyor, ancak bu mod için bir uyumluluk yaması etkinleştirilmemiş. Bir uyumluluk yaması bu eklentinin mod sayfasında sağlanmıştır.'
       - lang: uk_UA
@@ -1217,6 +1293,8 @@ common:
         text: 'Требуется патч для полной совместимости с {0}. В настоящее время ничего не доступно для загрузки.'
       - lang: sv
         text: 'En kompatibilitetspatch krävs för att för att göra det moddet fullständigt kompatibelt med {0}. Ingen kompatibilitetspatch finns tillgänglig för nedladdning.'
+      - lang: ta
+        text: 'இந்த மோட் {0} உடன் முழுமையாக இணக்கமாக இருக்க ஒரு இணைப்புத் தேவை. பதிவிறக்கம் செய்ய எதுவும் தற்போது கிடைக்கவில்லை.'
       - lang: tr_TR
         text: 'Bu modun {0} ile tam uyumlu olması için bir yama gereklidir. Şu anda indirilebilecek bir yama yok.'
       - lang: uk_UA
@@ -1257,6 +1335,8 @@ common:
         text: 'Доступно обновление патча: {0}'
       - lang: sv
         text: 'Uppdateringspatch tillgänglig: {0}'
+      - lang: ta
+        text: 'புதுப்பிப்பு இணைப்பு கிடைக்கிறது: {0}'
       - lang: tr_TR
         text: 'Yama Güncellemesi mevcut: {0}'
       - lang: uk_UA
@@ -1297,6 +1377,8 @@ common:
         text: 'Переименуйте этот файл в {0}.'
       - lang: sv
         text: 'Ändra den här filens namn till {0}.'
+      - lang: ta
+        text: 'இந்தக் கோப்பை {0} என மறுபெயரிடுங்கள்.'
       - lang: tr_TR
         text: 'Bu dosyayı {0} olarak yeniden adlandırın.'
       - lang: uk_UA
@@ -1337,6 +1419,8 @@ common:
         text: 'Вам нужно переименовать {0} в {1}, или мод не будет работать.'
       - lang: sv
         text: 'Du behöver byta namn på {0} till {1} för att det här moddet ska fungera.'
+      - lang: ta
+        text: 'நீங்கள் {0} {1}க்கு மறுபெயரிட வேண்டும் அல்லது இந்த மோட் இயங்காது.'
       - lang: tr_TR
         text: '{0} dosyasının adını {1} olarak değiştirmeniz gerekiyor, aksi takdirde bu mod çalışmayacaktır.'
       - lang: uk_UA
@@ -1378,6 +1462,8 @@ common:
         text: '**Mod Configuration Menu** (Меню Настройки Модов) требуется для полного функционирования мода. **MCM** может быть добавлено вместе с {0}.'
       - lang: sv
         text: 'En **Mod-konfigurationsmeny** krävs för att denna mod ska fungera korrekt. En **MCM** kan fås genom att installera {0}.'
+      - lang: ta
+        text: 'இந்த மோட் முழுமையாகச் செயல்பட ஒரு **மோட் உள்ளமைவு பட்டியல்** தேவை. {0} ஐ நிறுவுவதன் மூலம் ஒரு **MCM** ஐ சேர்க்கலாம்.'
       - lang: tr_TR
         text: 'Bu modun tam işlevsel olabilmesi için bir **Mod Configuration Menu** gereklidir. **MCM**, {0} yükleyerek eklenir.'
       - lang: uk_UA
@@ -1418,6 +1504,8 @@ common:
         text: 'Требуются ресурсы (например, меши, текстуры; не плагины) от {0}.'
       - lang: sv
         text: 'Behöver resurser (t.ex. meshar, texturer; inte plugin) från {0}.'
+      - lang: ta
+        text: '{0} இலிருந்து வளங்கள் (எ.கா. மெச்கள், கட்டமைப்புகள்; செருகுநிரல்கள் அல்ல) தேவை.'
       - lang: tr_TR
         text: '{0} kaynaklarına (ör. meshler, dokular; eklentiler hariç) ihtiyaç duyar.'
       - lang: uk_UA
@@ -1458,6 +1546,8 @@ common:
         text: 'Требуется: {0}'
       - lang: sv
         text: 'Kräver: {0}'
+      - lang: ta
+        text: 'தேவை: {0}'
       - lang: tr_TR
         text: 'Gereksinimler: {0}'
       - lang: uk_UA
@@ -1498,6 +1588,8 @@ common:
         text: 'У вас установлен **{0}**. Не забудьте запускать **{1}** каждый раз, когда вы установите или удалите {2}, или любой мод, основанный на {2}.'
       - lang: sv
         text: 'Det verkar som att använder **{0}** installerat. Kom ihåg att köra **{1}** varje gång du har installerat eller avinstallerat {2}, eller en {2}-baserad mod.'
+      - lang: ta
+        text: 'உங்களிடம் **{0}** நிறுவப்பட்டதாகத் தெரிகிறது. **{1}** இயக்க நினைவில் கொள்ளுங்கள் {2}, அல்லது {2} அடிப்படையிலான மோட் நிறுவிய அல்லது நிறுவல் நீக்கப்பட்ட ஒவ்வொரு முறையும்.'
       - lang: tr_TR
         text: '**{0}** yüklü görünüyor. **{1}** her {2} yüklediğinizde veya kaldırdığınızda veyahut da {2} tabanlı bir mod yüklediğinizde çalıştırmayı unutmayın.'
       - lang: uk_UA
@@ -1536,6 +1628,8 @@ common:
         text: 'Se você adicionar, remover, ou atualizar plugins que alterem registos WRLD/CELL, lembre-se de atualizar este módulo com **xLODGen**.'
       - lang: ru
         text: 'Если вы добавляете, удаляете или обновляете плагины, которые изменяют записи WRLD / CELL, не забудьте обновить этот модуль с помощью **xLODGen**.'
+      - lang: ta
+        text: 'WRLD/CELL பதிவுகளை மாற்றும் செருகுநிரல்களை நீங்கள் சேர்த்தால், அகற்று அல்லது புதுப்பித்தால், இந்தத் தொகுதியை **xLODGen** உடன் புதுப்பிக்க நினைவில் கொள்ளுங்கள்.'
       - lang: tr_TR
         text: 'WRLD/CELL kayıtlarını değiştiren eklentiler eklediğinizde, kaldırdığınızda veya güncellediğinizde bu modülü **xLODGen** ile güncellemeyi unutmayın.'
       - lang: uk_UA
@@ -1561,8 +1655,12 @@ common:
         text: 'Este plugin foi alterado de **{0}** a **{1}**.'
       - lang: ru
         text: 'Этот плагин был изменен с **{0}** на **{1}**.'
+      - lang: ta
+        text: 'இந்தச் சொருகி **{0}** இலிருந்து **{1}** ஆக மாற்றப்பட்டுள்ளது.'
       - lang: uk_UA
         text: 'Цей плагін було змінено з **{0}** на **{1}**.'
+      - lang: zh_CN
+        text: '此插件已从 **{0}** 更改为 **{1}**。'
     subs:
       - 'Previous Type'
       - 'Type'
@@ -1600,6 +1698,8 @@ common:
         text: 'Можно использовать Bashed Patch tweak вместо этого плагина. {0}'
       - lang: sv
         text: 'En Bashed Patch Tweak kan användas istället för det här pluginet. {0}'
+      - lang: ta
+        text: 'இந்த சொருகி பதிலாக ஒரு பாச்ட் ஒட்டு மாற்றங்களைப் பயன்படுத்தலாம். {0}'
       - lang: tr_TR
         text: 'Bu eklentinin yerine bir Bashed Patch tweak kullanılabilir. {0}'
       - lang: uk_UA
@@ -1642,6 +1742,8 @@ common:
         text: 'Можно использовать параметры INI-файла вместо этого плагина. {0}'
       - lang: sv
         text: 'En INI Tweak kan användas istället för det här pluginet. {0}'
+      - lang: ta
+        text: 'இந்த சொருகி பதிலாக ஒரு ஐ.என்.ஐ மாற்றத்தைப் பயன்படுத்தலாம். {0}'
       - lang: tr_TR
         text: 'Bu eklentinin yerine bir INI tweak kullanılabilir. {0}'
       - lang: uk_UA
@@ -1683,6 +1785,8 @@ common:
         text: 'Вместо этого используйте {0}.'
       - lang: sv
         text: 'Använd {0} istället.'
+      - lang: ta
+        text: 'அதற்கு பதிலாக {0} பயன்படுத்தவும்.'
       - lang: tr_TR
         text: 'Bunun yerine {0} kullanın.'
       - lang: uk_UA
@@ -1723,6 +1827,8 @@ common:
         text: 'Используйте только один {0}.'
       - lang: sv
         text: 'Använd endast en {0}.'
+      - lang: ta
+        text: 'ஒரு {0} மட்டுமே பயன்படுத்தவும்.'
       - lang: tr_TR
         text: 'Sadece bir {0} kullanın.'
       - lang: uk_UA
@@ -1763,6 +1869,8 @@ common:
         text: 'Используйте версию {0}.'
       - lang: sv
         text: 'Använd version {0}.'
+      - lang: ta
+        text: '{0} பதிப்பைப் பயன்படுத்தவும்.'
       - lang: tr_TR
         text: '{0} sürümünü kullanın.'
       - lang: uk_UA
@@ -1803,6 +1911,8 @@ common:
         text: 'Используйте не-{0} версию.'
       - lang: sv
         text: 'Använd en icke-{0} version.'
+      - lang: ta
+        text: '{0} பதிப்பைப் பயன்படுத்தவும்.'
       - lang: tr_TR
         text: '{0} olmayan sürümü kullanın.'
       - lang: uk_UA
@@ -1843,6 +1953,8 @@ common:
         text: 'Возможно у вас не установлена последняя версия {0}. Для работы некоторых модов может требоваться функционал, добавленный в последней версии {0}.'
       - lang: sv
         text: 'Det verkar som att du inte har den senaste versionen av {0}. Några mods kan kräva funktionalitet tillagd i den senaste versionen av {0} för att fungera.'
+      - lang: ta
+        text: '{0} இன் அண்மைக் கால பதிப்பு உங்களிடம் இல்லை என்று தோன்றுகிறது. சில மோட்களுக்கு வேலை செய்ய {0}இன் அண்மைக் கால பதிப்பில் சேர்க்கப்பட்ட செயல்பாடு தேவைப்படலாம்.'
       - lang: tr_TR
         text: 'Görünüşe göre {0} için en son sürümüne sahip değilsiniz. Bazı modlar çalışabilmek için {0} en son sürümünde eklenen işlevselliği gerektirebilir.'
       - lang: uk_UA
@@ -1875,10 +1987,14 @@ common:
         text: 'Apague {0} de {1}. A versão de {2} deve ter precedência.'
       - lang: ru
         text: 'Удалите {0} из {1}. Версия {2} должна иметь приоритет.'
+      - lang: ta
+        text: '{1} இலிருந்து {0} ஐ நீக்கு. {2} இன் பதிப்பு முன்னுரிமை பெற வேண்டும்.'
       - lang: tr_TR
         text: '{1} içerisinden {0} silin. {2} sürümü öncelikli olmalıdır.'
       - lang: uk_UA
         text: 'Видаліть {0} з {1}. Версія {2} повинна мати пріоритет.'
+      - lang: zh_CN
+        text: '从 {1} 内删除 {0}。 {2} 的版本必须优先。'
 
   - &versionUpToDateX
     type: say
@@ -1913,6 +2029,8 @@ common:
         text: 'Ваш {0} обновлен.'
       - lang: sv
         text: 'Din {0} är uppdaterad.'
+      - lang: ta
+        text: 'உங்கள் {0} புதுப்பித்த நிலையில் உள்ளது.'
       - lang: tr_TR
         text: '{0} güncel.'
       - lang: uk_UA
@@ -1953,6 +2071,8 @@ common:
         text: 'Установленная у вас версия {0} несовместима с вашей версией {1}.'
       - lang: sv
         text: 'Din installerade version av {0} är inte kombatibel med din version av {1}.'
+      - lang: ta
+        text: '{0} இன் உங்கள் நிறுவப்பட்ட பதிப்பு உங்கள் {1} பதிப்போடு பொருந்தாது.'
       - lang: tr_TR
         text: 'Yüklü olan {0} sürümü, {1} sürümü ile uyumlu değil.'
       - lang: uk_UA
@@ -1991,6 +2111,8 @@ common:
         text: 'Necessita a versão **{0}** ou maior de **{1}**.'
       - lang: ru
         text: 'Нужна версия **{0}** или выше **{1}**.'
+      - lang: ta
+        text: 'பதிப்பு **{0}** அல்லது அதற்கு மேற்பட்ட **{1}** தேவை.'
       - lang: tr_TR
         text: '**{1}** için **{0}** veya daha yüksek bir sürüm gereklidir.'
       - lang: uk_UA
@@ -2031,6 +2153,8 @@ common:
         text: 'Плагин содержит [дикие правки](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) и может потребовать дополнительной ручной чистки, чтобы не кофликтовать с другими модами. {0}'
       - lang: sv
         text: 'Denna plugin innehåller [vilda föränringar](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) och kan kräva ytterligare manuell rensning för att inte störa andra moddar. {0}'
+      - lang: ta
+        text: 'இந்த சொருகி [காட்டு திருத்தங்கள்](https://tes5edit.github.io/docs/7-mod-cleaning-and- error- checking.html#wildedits) மற்றும் பிற MODS உடன் தலையிடாமல் கூடுதல் கையேடு தூய்மை தேவைப்படலாம். {0}'
       - lang: tr_TR
         text: 'Bu eklenti [wild edits](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) içerir ve diğer modlarla çakışmaması için ek manuel temizlik gerekebilir. {0}'
       - lang: uk_UA
@@ -2073,6 +2197,8 @@ common:
         text: 'Руководство по очистке модов с помощью xEdit можно найти [здесь](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: sv
         text: 'En guide till att rensa plugins med xEdit finns [här](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
+      - lang: ta
+        text: 'xEdit ஐப் பயன்படுத்தி செருகுநிரல்களை தூய்மை செய்வதற்கான வழிகாட்டியை [இங்கே](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods) காணலாம்.'
       - lang: tr_TR
         text: 'xEdit kullanarak eklentileri temizleme kılavuzunu [burada](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods) bulabilirsiniz.'
       - lang: uk_UA
@@ -2113,6 +2239,8 @@ common:
         text: 'Настоятельно не рекомендуется использовать моды с **удаленными навмешами** т.к. известно, что они вызывают вылеты. **Удаленные навмеши** должны быть исправлены вручную (сложный процесс, который должен быть выполнен автором мода). Больше информации о **удаленных навмешах** можно найти [здесь](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: sv
         text: 'Det är starkt rekommenderat att inte använda mods som innehåller **Borttagna navmeshes** eftersom de kan orsaka krascher. **Borttagna navmeshes** måste korrigeras manuellt (en komplex process som borde göras av modskaparen). Mer information om **Borttagna navmeshes** hittar du [här](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
+      - lang: ta
+        text: '* நீக்கப்பட்ட நவ்மேச்கள்** கொண்ட மோட்சைப் பயன்படுத்த வேண்டாம் என்று கடுமையாகப் பரிந்துரைக்கப்படுகிறது, ஏனெனில் அவை செயலிழப்புகளை ஏற்படுத்தும் என்று அறியப்படுகிறது. **நீக்கப்பட்ட நவ்மேச்கள்** கைமுறையாகச் சரிசெய்யப்பட வேண்டும் (மோட் ஆசிரியரால் செய்யப்பட வேண்டிய ஒரு சிக்கலான செயல்முறை). **நீக்கப்பட்ட நவ்மேச்கள்** பற்றிய கூடுதல் தகவல்கள் [இங்கே](https://www.creationkit/index.php?title=Fixing_Navmesh_Deletion_Tutorial) வழங்கப்பட்டுள்ளன.'
       - lang: tr_TR
         text: '**Silinmiş navmeshler** içeren modları kullanmamanız şiddetle tavsiye edilir çünkü hatalara neden oldukları bilinmektedir. **Silinmiş navmeshler** manuel olarak düzeltilmelidir (mod yazarı tarafından yapılması gereken karmaşık bir işlem). **Silinmiş navmeshler** hakkında daha fazla bilgiyi [burada](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial) bulabilirsiniz.'
       - lang: uk_UA
@@ -2138,8 +2266,12 @@ common:
         text: 'Alterar o tipo de um plugin existente não é suportado. Detalhes adicionais são fornecidos [aqui]({0}).'
       - lang: ru
         text: 'Изменение типа существующего плагина не поддерживается. Дополнительная информация представлена [here]({0}).'
+      - lang: ta
+        text: 'ஏற்கனவே உள்ள சொருகி வகையை மாற்றுவது ஆதரிக்கப்படவில்லை. கூடுதல் விவரங்கள் வழங்கப்படுகின்றன [இங்கே]({0}).'
       - lang: uk_UA
         text: 'Зміна типу існуючого плагіна не підтримується. Додаткова інформація доступна [тут]({0}).'
+      - lang: zh_CN
+        text: '不支持更改现有插件类型。附加信息请参阅[此处]({0})。'
     subs: [ 'https://loot.github.io/docs/help/Changing-Plugin-Types-In-Starfield.html' ]
 
   - &filenameExtension
@@ -2159,8 +2291,12 @@ common:
         text: '{0} não suporta o uso de plugins **{1}*** no jogo, mas a sua ordem de carga contém esses plugins. Para evitar danos irreversíveis ao seu jogo, recomenda-se não usar * plugins.'
       - lang: ru
         text: '{0} не поддерживает использование плагинов **{1}** в игре, но ваш порядок загрузки содержит такие плагины. Во избежание необратимого повреждения вашей игры рекомендуется не использовать плагины **{1}**.'
+      - lang: ta
+        text: '{0} **{1}** செருகுநிரல்களின் பயன்பாட்டை ஆதரிக்காது, ஆனால் உங்கள் சுமை வரிசையில் அத்தகைய செருகுநிரல்கள் உள்ளன. உங்கள் விளையாட்டுக்கு மாற்ற முடியாத சேதத்தைத் தவிர்ப்பதற்காக, **{1}** செருகுநிரல்களைப் பயன்படுத்த வேண்டாம் என்று பரிந்துரைக்கப்படுகிறது.'
       - lang: uk_UA
         text: '{0} не підтримує використання **{1}** плагінів у грі, але ваш набір модів має подібні файли. Радимо не користуватися **{1}** плагінами задля уникнення невідворотного пошкодження вашої гри.'
+      - lang: zh_CN
+        text: '{0} 不支持游戏内使用 **{1}** 插件，但您的加载顺序包含此种插件。要避免不可逆的游戏损坏，推荐您不使用这 **{1}** 个插件。'
     subs:
       - 'Game'
       - 'Filename Extension'
@@ -2199,6 +2335,8 @@ common:
         text: '{0} несовместим с {1}, но оба они присутствуют.'
       - lang: sv
         text: '{0} är inkompatibel med {1}, men bägge finns installerade.'
+      - lang: ta
+        text: '{0} {1} உடன் பொருந்தாது, ஆனால் இரண்டும் உள்ளன.'
       - lang: tr_TR
         text: '{0}, {1} ile uyumsuzdur, ancak her ikisi de halihazırda var.'
       - lang: uk_UA
@@ -2243,6 +2381,8 @@ common:
         text: '[Обсуждение LOOT "(Eng)"]({0}).'
       - lang: sv
         text: '[Senaste LOOT-tråd]({0}).'
+      - lang: ta
+        text: '[சமீபத்திய கொள்ளை நூல்]({0}).'
       - lang: tr_TR
         text: '[Son LOOT Konusu]({0}).'
       - lang: uk_UA
@@ -2282,6 +2422,8 @@ common:
         text: 'O NVAC está instalado em **NVSE/Plugins** porém precisa ser movido para **{0}/Plugins** para que o {0} o reconheça para o {1}.'
       - lang: ru
         text: 'NVAC установлен в **NVSE/Plugins**, но его необходимо переместить в **{0}/Plugins**, чтобы {0} использовал его для {1}.'
+      - lang: ta
+        text: 'NVAC **NVSE/Plugins** இன் கீழ் நிறுவப்பட்டுள்ளது, ஆனால் {1} பெறுநருக்கு எடுக்க {0}க்கு **{0}/Plugins** க்கு நகர்த்தப்பட வேண்டும்.'
       - lang: tr_TR
         text: 'NVAC **NVSE/Plugins** altına kurulmuş ancak {0} tarafından {1} için alınabilmesi için **{0}/Plugins** altına taşınmalıdır.'
       - lang: uk_UA
@@ -2308,8 +2450,12 @@ common:
         text: 'Você instalou {0}, mas desde {1} versão {2} isso não é mais necessário.'
       - lang: ru
         text: 'Вы установили {0}, но, с тех пор как {1} имеет версию {2}, он больше не нужен.'
+      - lang: ta
+        text: 'நீங்கள் {0} நிறுவியுள்ளீர்கள், ஆனால் {1} பதிப்பு {2} இது இனி தேவையில்லை.'
       - lang: uk_UA
         text: 'Ви встановили {0}, але з версії {2} {1} це вже непотрібно.'
+      - lang: zh_CN
+        text: '您已安装 {0}，但自 {1} 版本 {2} 后不再需要。'
     subs:
       - 'Plugin Enabler'
       - 'Game'
@@ -2349,6 +2495,8 @@ common:
         text: 'У вас установлен {0} плагин, но {0} не найден! Смотрите страницу загрузки: {1}.'
       - lang: sv
         text: 'Du har installerat an {0} plugin men {0} kunde inte hittas! Läs mer på {0}:s nedladdningssisda: {1}.'
+      - lang: ta
+        text: 'நீங்கள் ஒரு {0} சொருகி நிறுவியுள்ளீர்கள், ஆனால் {0} கண்டுபிடிக்கப்படவில்லை! {0} பதிவிறக்கப் பக்கத்தைக் காண்க: {1}.'
       - lang: tr_TR
         text: '{0} eklentisi yüklenmiş ancak {0} bulunamadı! {0} indirme sayfasına bakın: {1}.'
       - lang: uk_UA
@@ -2392,6 +2540,8 @@ common:
         text: 'Похоже, что у вас установлен **{0}**, но требуемые скрипты отсутствуют. Убедитесь, что правильно установили скрипты включенные в установочный архив **{1}**.'
       - lang: sv
         text: 'Det verkar som att du har installerat **{0}**, men de script som det kräver verkar saknas. Var god att se till att du har installerat de script som bifogas med installationsarkivet **{1}** på ett korrekt sätt.'
+      - lang: ta
+        text: 'நீங்கள் **{0}** நிறுவியிருப்பதாகத் தெரிகிறது, ஆனால் அதன் தேவையான ச்கிரிப்ட்கள் காணவில்லை என்று தெரிகிறது. **{1}** நிறுவல் காப்பகத்துடன் தொகுக்கப்பட்ட ச்கிரிப்ட்களை நீங்கள் சரியாக நிறுவியுள்ளீர்கள் என்பதை உறுதிப்படுத்தவும்.'
       - lang: tr_TR
         text: 'Görünüşe göre **{0}** yüklemişsiniz, ancak gerekli betikler eksik görünüyor. Lütfen **{1}** kurulum arşiviyle birlikte gelen betikleri doğru bir şekilde kurduğunuzdan emin olun.'
       - lang: uk_UA
@@ -2424,6 +2574,8 @@ common:
         text: 'Parece que usa **{0}**, mas esse foi substituído. É recomendável que use **{1}** em ao invés.'
       - lang: ru
         text: 'Похоже, вы используете **{0}**, но его было заменено. Вместо него рекомендуется использовать **{1}**.'
+      - lang: ta
+        text: 'நீங்கள் **{0}** ஐப் பயன்படுத்துவதாகத் தெரிகிறது, ஆனால் அது முறியடிக்கப்பட்டுள்ளது. அதற்குப் பதிலாக **{1}** ஐப் பயன்படுத்தப் பரிந்துரைக்கப்படுகிறது.'
       - lang: tr_TR
         text: '**{0}** kullanıyor gibi görünüyorsunuz, ancak bu artık geçersiz. Bunun yerine **{1}** kullanmanız tavsiye edilir.'
       - lang: uk_UA

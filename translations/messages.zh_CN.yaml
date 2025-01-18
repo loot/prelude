@@ -1,11 +1,18 @@
 alreadyInOrFixedByX: 删除。在{0}中已包含或修复。
 alreadyInX: 删除。已包含在{0}中。
 alsoUseX: 强烈建议您使用{0}。
+changeUnsupported: 不支持更改现有插件类型。附加信息请参阅[此处]({0})。
 compatIssuesWithX: 这个插件与{0}有兼容性问题。欲了解更多信息，请阅读这个mod的兼容性说明。
 compatNotes: 建议您阅读这个mod的[兼容性说明]({0})。
+compatPatch: 推荐您检查以下适用于此模组的兼容补丁： {0}
 corrupt: 该文件已损坏，不应使用。
+deactivateAfterCharacterCreation: 在角色创建完成后取消激活并（或）卸载此模组。
 deleteOrDeactivateX: 删除或禁用。{0}
 deletePlugin: 当使用**{0}**时，建议您禁用或删除这个ESP文件，但保留与此mod一起安装的资源(如网格，纹理等)。
+deprecated: 此文件已废弃且不应再使用。
+disableAfterGeneratingXwithY: 此插件可在用 **{1}** 产生 **{0}** 后禁用。
+essentialFiles: 其它模组似乎覆盖了此模组的某些重要文件。请确保您正在使用此模组的 {0} 版本或兼容版本（如可用）。
+filenameExtension: '{0} 不支持游戏内使用 **{1}** 插件，但您的加载顺序包含此种插件。要避免不可逆的游戏损坏，推荐您不使用这 **{1}** 个插件。'
 includesX: '{0}已包含在这个mod中。'
 incompatible: '{0}与{1}不兼容，但是两者都存在。'
 languageX: '语言: {0}'
@@ -22,10 +29,12 @@ onlyUseSmashOrBash: 可以与{0}同时使用，但将需要额外的操作。Sma
 optional: 这个插件是可选的。
 patch3rdParty: 您似乎使用了**{0}**，但没有启用这个mod的兼容性补丁。第三方补丁可以在这里找到:{1}
 patchIncluded: 您似乎使用了**{0}**，但没有启用这个mod的兼容性补丁。这个插件的安装程序中包含了该补丁。
+patchOutdated: 此补丁已过期且可能不兼容已补丁模组的最新版本。
 patchProvided: 您似乎使用了**{0}**，但没有启用这个mod的兼容性补丁。这个插件的mod页面提供了该补丁。
 patchUnavailable: 需要一个补丁来使这个mod与{0}完全兼容。目前没有可供下载的。
 patchUpdateAvailable: 可用的更新补丁:{0}
 patcherScriptAvailable: '{0}的补丁在这里: {1}'
+pluginEnabler: 您已安装 {0}，但自 {1} 版本 {2} 后不再需要。
 quickClean: xEdit的清洁插件指南可以在[这里](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods)找到。
 renameFile: 将此文件重命名为{0}。
 renameXtoY: 你需要把{0}重命名为{1}，否则这个mod将不起作用。
@@ -37,6 +46,7 @@ runAnimFramework: 您安装了**{0}**。每次安装或卸载{2}，以及基于{
 runxLODGen: 如果您添加、删除或更新修改了WRLD/CELL记录的插件时，记得使用**xLODGen**更新此模块。
 scriptExtenderMissing: 您已经安装了{0}插件，但是未发现{0}！请查看{0}的下载页面:{1}。
 scriptExtenderRequiredScripts: 看起来您已经安装了**{0}**，但它需要的脚本似乎缺失了。请确保您已正确安装**{1}**中附带的脚本。
+unsupportedChangeVerified: 此插件已从 **{0}** 更改为 **{1}**。
 useBashTweakInstead: 可以使用一个Bashed Patch来代替这个插件。{0}
 useINITweakInstead: 可以使用一个INI调整来代替这个插件。{0}
 useInstead: 使用{0}代替。
@@ -44,6 +54,7 @@ useOnlyOneX: 只使用一个{0}。
 useVersion: 使用{0}版本。
 useVersionNon: 使用{0}以外的版本。
 versionOldX: 您的{0}似乎不是最新的。有些插件可能需要最新的{0}才能工作。
+versionPrecedence: 从 {1} 内删除 {0}。 {2} 的版本必须优先。
 versionUpToDateX: 您的{0}是最新的。
 versionXIncY: 您安装的{0}版本与{1}版本不兼容。
 versionXofYorGreaterRequired: 需要 **{1}** 的 **{0}** 或更高版本。
