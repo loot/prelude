@@ -49,3 +49,5 @@ versionOldX: Det verkar som att du inte har den senaste versionen av {0}. Några
 versionUpToDateX: Din {0} är uppdaterad.
 versionXIncY: Din installerade version av {0} är inte kombatibel med din version av {1}.
 wildEdits: Denna plugin innehåller [vilda föränringar](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) och kan kräva ytterligare manuell rensning för att inte störa andra moddar. {0}
+deprecated: Den här filen är markerad för att inte längre användas.
+filenameExtension: '{0} stöder inte användningen av **{1}* plugins i spelet, men din laddningsordning innehåller sådana plugins. För att undvika oåterkalleliga skador på ditt spel rekommenderas det att inte använda **{1}** plugins.'
