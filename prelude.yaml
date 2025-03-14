@@ -477,6 +477,8 @@ common:
         text: 'Este ficheiro é obsoleto e já não deve ser usado.'
       - lang: ru
         text: 'Этот файл устарел и не должен использоваться.'
+      - lang: sv
+        text: 'Den här filen är markerad för att inte längre användas.'
       - lang: ta
         text: 'இந்த கோப்பு நீக்கப்பட்டது, இனி பயன்படுத்தப்படக்கூடாது.'
       - lang: tr_TR
@@ -660,6 +662,8 @@ common:
         text: 'Língua: {0}'
       - lang: ru
         text: 'Язык: {0}'
+      - lang: sv
+        text: 'Språk: {0}'
       - lang: ta
         text: 'மொழி: {0}'
       - lang: tr_TR
@@ -700,6 +704,8 @@ common:
         text: 'Apenas utilize este plugin quando a missão principal do jogo estiver completada.'
       - lang: ru
         text: 'Используйте этот плагин тольеко если основной квест игры уже выполнен.'
+      - lang: sv
+        text: 'Använd endast denna plugin när spelets huvudmål har slutförts.'
       - lang: ta
         text: 'விளையாட்டின் முக்கிய தேடல் முடிந்ததும் மட்டுமே இந்த சொருகி பயன்படுத்தவும்.'
       - lang: tr_TR
@@ -2307,6 +2313,8 @@ common:
         text: '{0} não suporta o uso de plugins **{1}*** no jogo, mas a sua ordem de carga contém esses plugins. Para evitar danos irreversíveis ao seu jogo, recomenda-se não usar * plugins.'
       - lang: ru
         text: '{0} не поддерживает использование плагинов **{1}** в игре, но ваш порядок загрузки содержит такие плагины. Во избежание необратимого повреждения вашей игры рекомендуется не использовать плагины **{1}**.'
+      - lang: sv
+        text: '{0} stöder inte användningen av **{1}* plugins i spelet, men din laddningsordning innehåller sådana plugins. För att undvika oåterkalleliga skador på ditt spel rekommenderas det att inte använda **{1}** plugins.'
       - lang: ta
         text: '{0} **{1}** செருகுநிரல்களின் பயன்பாட்டை ஆதரிக்காது, ஆனால் உங்கள் சுமை வரிசையில் அத்தகைய செருகுநிரல்கள் உள்ளன. உங்கள் விளையாட்டுக்கு மாற்ற முடியாத சேதத்தைத் தவிர்ப்பதற்காக, **{1}** செருகுநிரல்களைப் பயன்படுத்த வேண்டாம் என்று பரிந்துரைக்கப்படுகிறது.'
       - lang: uk_UA
