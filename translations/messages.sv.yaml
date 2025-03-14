@@ -10,8 +10,10 @@ corrupt: Denna fil är korrupt och borde inte användas.
 deactivateAfterCharacterCreation: Avaktivera och/eller avinstallera denna mod efter du skapat din karaktär.
 deleteOrDeactivateX: Ta bort eller avaktivera. {0}
 deletePlugin: När du använder **{0}** är det rekommenderat att du avaktiverar eller tar bort denna ESP-fil, men behåll resurserna (meshar och texturer) installerade med denna mod.
+deprecated: Den här filen är markerad för att inte längre användas.
 disableAfterGeneratingXwithY: Detta plugin kan inaktiveras efter att ha genererat **{0}** med **{1}**.
 essentialFiles: En annan mod verkar skriva över en av denna mods viktiga filer. Se till att du använder denna mods version av {0} eller en kompatibel version om den är tillgänglig.
+filenameExtension: '{0} stöder inte användningen av **{1}* plugins i spelet, men din laddningsordning innehåller sådana plugins. För att undvika oåterkalleliga skador på ditt spel rekommenderas det att inte använda **{1}** plugins.'
 includesX: '{0} är inluderat med denna mod.'
 incompatible: '{0} är inkompatibel med {1}, men bägge finns installerade.'
 languageX: 'Språk: {0}'
@@ -49,5 +51,3 @@ versionOldX: Det verkar som att du inte har den senaste versionen av {0}. Några
 versionUpToDateX: Din {0} är uppdaterad.
 versionXIncY: Din installerade version av {0} är inte kombatibel med din version av {1}.
 wildEdits: Denna plugin innehåller [vilda föränringar](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) och kan kräva ytterligare manuell rensning för att inte störa andra moddar. {0}
-deprecated: Den här filen är markerad för att inte längre användas.
-filenameExtension: '{0} stöder inte användningen av **{1}* plugins i spelet, men din laddningsordning innehåller sådana plugins. För att undvika oåterkalleliga skador på ditt spel rekommenderas det att inte använda **{1}** plugins.'
