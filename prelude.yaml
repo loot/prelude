@@ -2472,6 +2472,8 @@ common:
         text: 'Has instalado {0}, pero desde {1} la versión {2} ya no es necesaria.'
       - lang: pt_BR
         text: 'Você instalou {0}, mas desde {1} versão {2} isso não é mais necessário.'
+      - lang: pt_PT
+        text: 'Instalou {0}, mas desde {1} versão {2} já não é necessário.'
       - lang: ru
         text: 'Вы установили {0}, но, с тех пор как {1} имеет версию {2}, он больше не нужен.'
       - lang: ta
