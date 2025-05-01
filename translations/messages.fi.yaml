@@ -24,7 +24,6 @@ moddingPlugin: Tämä lisäosa on tarkoitettu lisäosien kehittäjille eikä sit
 moveNVAC: NVAC on asennettu kansioon **NVSE/Plugins**. Se on siirrettävä kansioon **{0}/Plugins**, jotta {0} voi käyttää sitä peliin {1}.
 moveXFromYToZ: Siirrä {0} kansiosta {1} kansioon {2}.
 obsolete: Vanhentunut. Päivitä uusimpaan versioon. {0}
-onlyUseSmashOrBash: Voidaan käyttää samaan aikaan kuin {0}, mutta se vaatii lisätyötä. "Smashed Patch" ja "Bash Patch" tulisi pitää erillään ja käyttää vain yhtä kerrallaan.
 optional: Tämä lisäosa ei ole pakollinen.
 patch3rdParty: 'Käytät lisäosaa **{0}**, muttet ole asentanut yhteensopivuuskorjausta tälle lisäosalle. Kolmannen osapuolen korjaus on saatavilla: {1}'
 patchIncluded: Käytät lisäosaa **{0}**, muttet ole asentanut yhteensopivuuskorjausta tälle lisäosalle. Korjaus on saatavilla tämän lisäosan asennusohjelman kautta.
