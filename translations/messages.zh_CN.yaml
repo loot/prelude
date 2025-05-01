@@ -27,7 +27,6 @@ moddingPlugin: 这个插件是一个mod开发资源，不应该在游戏中使�
 moveNVAC: NVAC安装在**NVSE/Plugins**下，但需要移动到**{0}/Plugins**来让{0}获取{1}。
 moveXFromYToZ: 将{0}从{1}移动到{2}。
 obsolete: 已过时。请升级到最新版本。 {0}
-onlyUseSmashOrBash: 可以与{0}同时使用，但将需要额外的操作。Smashed Patch或Bash Patch应该彼此独立使用。
 optional: 这个插件是可选的。
 patch3rdParty: 您似乎使用了**{0}**，但没有启用这个mod的兼容性补丁。第三方补丁可以在这里找到:{1}
 patchIncluded: 您似乎使用了**{0}**，但没有启用这个mod的兼容性补丁。这个插件的安装程序中包含了该补丁。
