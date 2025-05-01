@@ -20,7 +20,6 @@ moddingPlugin: Dette plugin er en moddingressource og bør ikke bruges i spillet
 moveNVAC: NVAC er installeret under **NVSE/Plugins**, men skal flyttes til **{0}/Plugins** for at {0} kan hente det til {1}.
 moveXFromYToZ: Flyt {0} fra {1} til {2}.
 obsolete: Forældet. Opdatér til den nyeste version. {0}
-onlyUseSmashOrBash: Kan bruges sammen med {0} men det vil kræve ekstra arbejde. Smashed Patch og Bash Patch bør bruges uafhængigt af hinanden.
 optional: Dette plugin er valgfrit.
 patch3rdParty: 'Det ser ud til, at du bruger **{0}**, men du har ikke aktiveret en kompatibilitetspatch for dette mod. En tredjepartspatch er tilgængelig her: {1}'
 patchIncluded: Det ser ud til, at du bruger **{0}**, men du har ikke aktiveret en kompatibilitetspatch for dette mod. En kompatibilitetspatch er inkluderet i dette plugin's installationsprogram.
