@@ -24,7 +24,6 @@ missingRequirementXforY: Det verkar som om du har installerat **{1}**, men någr
 moddingPlugin: Det här pluginet används som en modding resurs och borde inte användas i spelet.
 moveXFromYToZ: Flytta {0} från {1} till {2}.
 obsolete: Utdaterad. Uppdatera till den senaste versionen. {0}
-onlyUseSmashOrBash: Kan användas med {0} men skulle kräva extra arbete. En Smashed Patch eller Bash Patch borde användas en ensamstående från varandra.
 optional: Det här pluginet är valfritt.
 patch3rdParty: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En patch från en tredje part finns här: {1}'
 patchIncluded: Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En kompatibilitetspatch är inkluderad i denna plugins installationsprogram.

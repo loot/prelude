@@ -25,7 +25,6 @@ moddingPlugin: Bu eklenti bir modlama kaynağıdır ve oyun içinde kullanılmam
 moveNVAC: NVAC **NVSE/Plugins** altına kurulmuş ancak {0} tarafından {1} için alınabilmesi için **{0}/Plugins** altına taşınmalıdır.
 moveXFromYToZ: '{0} dosyasını, {1} klasöründen {2} klasörüne taşı.'
 obsolete: Güncel değil. En son sürüme güncelleyin. {0}
-onlyUseSmashOrBash: '{0} ile birlikte kullanılabilir ancak ek iş gerektirebilir. Smashed Patch veya Bash Patch birbirinden bağımsız olarak kullanılmalıdır.'
 optional: Bu eklenti isteğe bağlıdır.
 patch3rdParty: '**{0}** kullanıyorsunuz gibi görünüyor, ancak bu mod için bir uyumluluk yaması etkinleştirilmemiş. Üçüncü taraf bir yama burada mevcut: {1}'
 patchIncluded: '**{0}** kullanıyorsunuz gibi görünüyor, ancak bu mod için bir uyumluluk yaması etkinleştirilmemiş. Bir uyumluluk yaması bu eklentinin yükleyicisi ile birlikte sunulmuştur.'

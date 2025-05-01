@@ -21,7 +21,6 @@ moddingPlugin: Ta wtyczka jest zasobem modowania i nie powinna być używana w g
 moveNVAC: NVAC jest instalowany w **NVSE/Plugins**, ale musi zostać przeniesiony do **{0}/Plugins** dla {0}, aby pobrać go za {1}.
 moveXFromYToZ: Przesuń {0} do {1} do {2}.
 obsolete: Przestarzały. Uaktualnij do ostatniej wersji. {0}
-onlyUseSmashOrBash: Może być używane wraz z {0} ale wymagałoby dodatkowej pracy. Smashed Patch lub Bashed Patch powinien być używany niezależnie jeden od drugiego.
 optional: Ta wtyczka jest opcjonalna.
 patch3rdParty: 'Wygląda na to że używasz **{0}**, ale nie masz aktywnej łatki zgodności dla tego moda. Łatka trzeciej strony jest dostępna tutaj: {1}'
 patchIncluded: Wygląda na to że używasz **{0}**, ale nie masz aktywnej łatki zgodności dla tego moda. Łatka zgodności jest dostarczona wraz z instalatorem tej wtyczki.
