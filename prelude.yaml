@@ -31,7 +31,7 @@ common:
       - lang: pt_PT
         text: 'Apagar. Já incluído em {0}.'
       - lang: ru
-        text: 'Удалите. Уже включено в {0}.'
+        text: 'Удалите. Уже добавлено в {0}.'
       - lang: sv
         text: 'Ta bort. Redan inkluderat i {0}.'
       - lang: ta
@@ -73,7 +73,7 @@ common:
       - lang: pt_PT
         text: 'Apagar. Já incluído ou reparado em {0}.'
       - lang: ru
-        text: 'Удалите. Уже включено в {0} или исправлено иным образом.'
+        text: 'Удалите. Уже добавлено или исправлено иным образом в {0}.'
       - lang: sv
         text: 'Ta bort. Redan inkluderat eller fixat i {0}.'
       - lang: ta
@@ -199,7 +199,7 @@ common:
       - lang: pt_PT
         text: 'É recomendada leitura das [Notas de Compatibilidade]({0}) deste mod.'
       - lang: ru
-        text: 'Рекомендуется прочесть [заметки о совместимости]({0}) мода.'
+        text: 'Рекомендуется прочитать [Примечания о совместимости]({0}) этого мода.'
       - lang: sv
         text: 'Det är rekommenderat att du läser det här moddets [kompatibilitetsanteckningar]({0}).'
       - lang: ta
@@ -353,7 +353,7 @@ common:
       - lang: pt_PT
         text: 'Desative e/ou desinstale este mod após a criação da personagem.'
       - lang: ru
-        text: 'Деактивируйте и/или удалите этот мод после создания персонажа.'
+        text: 'Отключите и/или удалите этот мод после создания персонажа.'
       - lang: sv
         text: 'Avaktivera och/eller avinstallera denna mod efter du skapat din karaktär.'
       - lang: ta
@@ -395,7 +395,7 @@ common:
       - lang: pt_PT
         text: 'Apague ou desative. {0}'
       - lang: ru
-        text: 'Отключите или удалите. {0}'
+        text: 'Удалите или отключите. {0}'
       - lang: sv
         text: 'Ta bort eller avaktivera. {0}'
       - lang: ta
@@ -438,7 +438,7 @@ common:
       - lang: pt_PT
         text: 'Ao utilizar **{0}**, é recomendado que você desative ou apage este ficheiro ESP, mas mantenha os recursos (ex. meshes, texturas) instalados por este mod.'
       - lang: ru
-        text: 'Пока используется **{0}**, рекомендуется отключить или удалить esp этого мода, но оставить установленные ресурсы (меши, текстуры и тд).'
+        text: 'При использовании **{0}** рекомендуется отключить или удалить этот ESP-файл, но оставить ресурсы (например, меши, текстуры), установленные с этим модом.'
       - lang: sv
         text: 'När du använder **{0}** är det rekommenderat att du avaktiverar eller tar bort denna ESP-fil, men behåll resurserna (meshar och texturer) installerade med denna mod.'
       - lang: ta
@@ -476,7 +476,7 @@ common:
       - lang: pt_PT
         text: 'Este ficheiro é obsoleto e já não deve ser usado.'
       - lang: ru
-        text: 'Этот файл устарел и не должен использоваться.'
+        text: 'Этот файл устарел и больше не должен использоваться.'
       - lang: sv
         text: 'Den här filen är markerad för att inte längre användas.'
       - lang: ta
@@ -512,7 +512,7 @@ common:
       - lang: pt_PT
         text: 'Este plugin pode ser desativado após gerar **{0}** com **{1}**.'
       - lang: ru
-        text: 'Этот плагин может быть отключен после генерации **{0}** с помощью **{1}**.'
+        text: 'Этот плагин может быть отключён после генерации **{0}** с помощью **{1}**.'
       - lang: sv
         text: 'Detta plugin kan inaktiveras efter att ha genererat **{0}** med **{1}**.'
       - lang: ta
@@ -552,7 +552,7 @@ common:
       - lang: pt_PT
         text: 'Aparentemente outro mod está a sobrescrever um dos ficheiros essenciais deste mod. Por favor certifique-se que usa a versão do mod {0} ou uma versão compatível, se disponível.'
       - lang: ru
-        text: 'Другой мод может переписать один из критических файлов. Пожалуйста, убедитесь, что вы используете версию {0} из этого мода, или совместимую при ее наличии.'
+        text: 'Другой мод, похоже, перезаписывает один из основных файлов этого мода. Убедитесь, что вы используете версию {0} этого мода или совместимую версию, если она доступна.'
       - lang: sv
         text: 'En annan mod verkar skriva över en av denna mods viktiga filer. Se till att du använder denna mods version av {0} eller en kompatibel version om den är tillgänglig.'
       - lang: ta
@@ -581,7 +581,7 @@ common:
       - lang: pt_PT
         text: 'Este plugin não é um ESM, mas parece conter navmeshes. Isso pode levar a problemas com o Pathfinding NPC. Recomenda-se a marcar este plugin como **ESM** para evitar esses problemas. Também pode ser necessário garantir que todas as referências chamadas por scripts neste plugin são sinalizadas como **persistent***.'
       - lang: ru
-        text: 'Этот плагин не является ESM, но, судя по всему, содержит навмеши. Это может привести к проблемам с поиском пути NPC. Рекомендуется пометить этот плагин как **ESM**, чтобы избежать этих проблем. Также может потребоваться убедиться, что все ссылки, вызываемые скриптами в этом плагине, помечены как **постоянные**.'
+        text: 'Этот плагин не является ESM, но, похоже, содержит навмеши. Это может привести к проблемам с поиском пути у НИП. Рекомендуется пометить этот плагин как **ESM**, чтобы избежать этих проблем. Также может потребоваться убедиться, что все ссылки, вызываемые скриптами в этом плагине, помечены как **постоянные**.'
       - lang: ta
         text: 'இந்தச் சொருகி ஒரு ESM அல்ல, ஆனால் அதில் நவ்மேச்கள் இருப்பதாகத் தெரிகிறது. இது NPC பாத்ஃபைண்டிங் சிக்கல்களுக்கு வழிவகுக்கும். இந்தச் சிக்கல்களைத் தவிர்க்க இந்தச் சொருகி **ESM** எனக் கொடியிட பரிந்துரைக்கப்படுகிறது. இந்தச் சொருகி ச்கிரிப்ட்களால் அழைக்கப்படும் அனைத்து குறிப்புகளும் **தொடர்ச்சியான** எனக் கொடியிடப்படுவதை உறுதிசெய்வதும் அவசியமாக இருக்கலாம்.'
       - lang: tr_TR
@@ -703,7 +703,7 @@ common:
       - lang: pt_PT
         text: 'Apenas utilize este plugin quando a missão principal do jogo estiver completada.'
       - lang: ru
-        text: 'Используйте этот плагин тольеко если основной квест игры уже выполнен.'
+        text: 'Используйте этот плагин только после завершения основного квеста игры.'
       - lang: sv
         text: 'Använd endast denna plugin när spelets huvudmål har slutförts.'
       - lang: ta
@@ -745,7 +745,7 @@ common:
       - lang: pt_PT
         text: 'O mestre **{0}** deve ser reatribuído a **{1}**.'
       - lang: ru
-        text: '**{0}** необходимо переназначить как **{1}**.'
+        text: 'Мастер **{0}** необходимо переназначить на **{1}**.'
       - lang: ta
         text: '**{0}** மாச்டரை **{1}** க்கு மீண்டும் நியமிக்க வேண்டும்.'
       - lang: tr_TR
@@ -771,7 +771,7 @@ common:
       - lang: pt_PT
         text: 'Este plugin é um **{0}**, mas contém FormIDs que não correspondem a este tipo de Master. Usando este plugin teria consequências imprevisíveis para o seu jogo e, portanto, não é recomendado.'
       - lang: ru
-        text: 'Этот плагин является **{0}**, но он содержит FormID, которые не соответствуют этому типу Master. Использование этого плагина может иметь непредсказуемые последствия для вашей игры, поэтому не рекомендуется.'
+        text: 'Этот плагин - **{0}**, но он содержит FormID, которые не соответствуют этому типу мастер-плагина. Использование этого плагина может иметь непредсказуемые последствия для вашей игры и поэтому не рекомендуется.'
       - lang: ta
         text: 'இந்தச் சொருகி **{0}** ஆகும், ஆனால் அதில் இந்த வகை மாச்டருடன் பொருந்தாத ஃபார்மிட்கள் உள்ளன. இந்தச் சொருகி பயன்படுத்துவது உங்கள் விளையாட்டுக்குக் கணிக்க முடியாத விளைவுகளை ஏற்படுத்தும், எனவே இது பரிந்துரைக்கப்படவில்லை.'
       - lang: uk_UA
@@ -811,7 +811,7 @@ common:
       - lang: pt_PT
         text: 'Aparentemente você tem instalado **{1}**, mas alguns de seus requerimentos estão em falta Por favor confirme que você instalou **{0}** corretamente.'
       - lang: ru
-        text: 'Похоже у вас установлен **{1}**, но некоторые его требования отсутствуют. Убедитесь, что вы правильно установили **{0}**.'
+        text: 'Похоже, вы установили **{1}**, но некоторые из его зависимостей, похоже, отсутствуют. Убедитесь, что вы правильно установили **{0}**.'
       - lang: sv
         text: 'Det verkar som om du har installerat **{1}**, men några av dess krav är inte uppfyllda. Var vänlig och se till att du har installerat **{0}**.'
       - lang: ta
@@ -853,7 +853,7 @@ common:
       - lang: pt_PT
         text: 'Alguns dos requerimentos deste plugin estão em falta. Por favor confirme que você instalou **{0}** corretamente.'
       - lang: ru
-        text: 'Некоторые требования этого плагина отсутствуют. Убедитесь, что правильно установили **{0}**.'
+        text: 'Некоторые из зависимостей этого плагина, похоже, отсутствуют. Убедитесь, что вы правильно установили **{0}**.'
       - lang: sv
         text: 'Några av denna plugins behov/krav verkar saknas. Var god och se till att du har installerat **{0}** korrekt.'
       - lang: ta
@@ -895,7 +895,7 @@ common:
       - lang: pt_PT
         text: 'Este plugin é um recurso para a criação de mods e não deve ser usado no jogo.'
       - lang: ru
-        text: 'Этот плагин является мод-ресурсом и не должен использоваться во время игры.'
+        text: 'Этот плагин является ресурсом для моддинга и не должен использоваться в игре.'
       - lang: sv
         text: 'Det här pluginet används som en modding resurs och borde inte användas i spelet.'
       - lang: ta
@@ -979,7 +979,7 @@ common:
       - lang: pt_PT
         text: 'Obsoleto. Atualize para a versão mais recente. {0}'
       - lang: ru
-        text: 'Устарело. Обновите до последней версии. {0}'
+        text: 'Устарел. Обновите до последней версии. {0}'
       - lang: sv
         text: 'Utdaterad. Uppdatera till den senaste versionen. {0}'
       - lang: ta
@@ -1022,7 +1022,7 @@ common:
       - lang: pt_PT
         text: 'Este plugin é opcional.'
       - lang: ru
-        text: 'Этот плагин не обязателен.'
+        text: 'Это опциональный плагин.'
       - lang: sv
         text: 'Det här pluginet är valfritt.'
       - lang: ta
@@ -1064,7 +1064,7 @@ common:
       - lang: pt_PT
         text: 'Você aparenta estar a utilizar **{0}**, mas não ativou o patch de compatibilidade para este mod. Um patch feito por terceiros está disponível aqui: {1}'
       - lang: ru
-        text: 'Похоже, что вы используете **{0}**, но его патч совместимости не был включен. Сторонний патч можно найти здесь: {1}'
+        text: 'Похоже, вы используете **{0}**, но вы не включили патч совместимости для этого мода. Сторонний патч можно найти здесь: {1}'
       - lang: sv
         text: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En patch från en tredje part finns här: {1}'
       - lang: ta
@@ -1106,7 +1106,7 @@ common:
       - lang: pt_PT
         text: 'O script de atualização para {0} está disponível aqui: {1}'
       - lang: ru
-        text: '{0} скрипт-патчер доступен здесь: {1}'
+        text: 'Скрипт патчера {0} доступен здесь: {1}'
       - lang: ta
         text: '{0} பேட்சர் ச்கிரிப்ட் இங்கே கிடைக்கிறது: {1}'
       - lang: tr_TR
@@ -1146,7 +1146,7 @@ common:
       - lang: pt_PT
         text: 'Você aparenta estar a utilizar **{0}**, mas não ativou o patch de compatibilidade para este mod. Um patch de compatibilidade está incluído com o instalador do plugin.'
       - lang: ru
-        text: 'Похоже, что вы используете **{0}**, но его патч совместимости не был включен. Патч совместимости можно найти в установщике плагина.'
+        text: 'Похоже, вы используете **{0}**, но вы не включили патч совместимости для этого мода. Патч совместимости включён в установщик этого плагина.'
       - lang: sv
         text: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En kompatibilitetspatch är inkluderad i denna plugins installationsprogram.'
       - lang: ta
@@ -1186,7 +1186,7 @@ common:
       - lang: pt_PT
         text: 'Este patch está desatualizado e pode não ser compatível com a versão mais recente do mod corrigido.'
       - lang: ru
-        text: 'Патч устарел и может быть несовместим с последней версией пропатченного мода.'
+        text: 'Данный патч устарел и может быть несовместим с последней версией исправленного мода.'
       - lang: ta
         text: 'இந்த இணைப்பு காலாவதியானது மற்றும் ஒட்டப்பட்ட மோடின் அண்மைக் கால பதிப்போடு பொருந்தாது.'
       - lang: tr_TR
@@ -1226,7 +1226,7 @@ common:
       - lang: pt_PT
         text: 'Você aparenta estar a utilizar **{0}**, mas não ativou o patch de compatibilidade para este mod. Um patch de compatibilidade está disponível na página mod deste plugin.'
       - lang: ru
-        text: 'Похоже, что вы используете **{0}**, но его патч совместимости не был включен. Патч совместимости можно найти на странице плагина.'
+        text: 'Похоже, вы используете **{0}**, но вы не включили патч совместимости для этого мода. Патч совместимости имеется на странице этого плагина.'
       - lang: sv
         text: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En kompatibilitetspatch finns på denna plugins modsida.'
       - lang: ta
@@ -1268,7 +1268,7 @@ common:
       - lang: pt_PT
         text: 'Um patch é necessário para fazer este mod ser totalmente compatível com {0}. Atualmente, nenhum está disponível para download.'
       - lang: ru
-        text: 'Требуется патч для полной совместимости с {0}. В настоящее время ничего не доступно для загрузки.'
+        text: 'Для полной совместимости этого мода с {0} требуется патч. В настоящее время ни один из них не доступен для загрузки.'
       - lang: sv
         text: 'En kompatibilitetspatch krävs för att för att göra det moddet fullständigt kompatibelt med {0}. Ingen kompatibilitetspatch finns tillgänglig för nedladdning.'
       - lang: ta
@@ -1352,7 +1352,7 @@ common:
       - lang: pt_PT
         text: 'Renomeie este ficheiro para {0}.'
       - lang: ru
-        text: 'Переименуйте этот файл в {0}.'
+        text: 'Переименуйте этот файл на {0}.'
       - lang: sv
         text: 'Ändra den här filens namn till {0}.'
       - lang: ta
@@ -1394,7 +1394,7 @@ common:
       - lang: pt_PT
         text: 'Você necessita renomear {0} para {1} ou este mod não irá funcionar.'
       - lang: ru
-        text: 'Вам нужно переименовать {0} в {1}, или мод не будет работать.'
+        text: 'Вам нужно переименовать {0} на {1} или этот мод не будет работать.'
       - lang: sv
         text: 'Du behöver byta namn på {0} till {1} för att det här moddet ska fungera.'
       - lang: ta
@@ -1437,7 +1437,7 @@ common:
       - lang: pt_PT
         text: 'Um **Menu de Configuração de Mod** (Mod Configuration Menu) é necessário para este mod funcionar na totalidade. Um **MCM** pode ser adicionado ao instalar {0}.'
       - lang: ru
-        text: '**Mod Configuration Menu** (Меню Настройки Модов) требуется для полного функционирования мода. **MCM** может быть добавлено вместе с {0}.'
+        text: '**Mod Configuration Menu** (Меню Настройки Модов) требуется для полного функционирования этого мода. **MCM** можно добавить, установив {0}.'
       - lang: sv
         text: 'En **Mod-konfigurationsmeny** krävs för att denna mod ska fungera korrekt. En **MCM** kan fås genom att installera {0}.'
       - lang: ta
@@ -1479,7 +1479,7 @@ common:
       - lang: pt_PT
         text: 'Requer recursos (ex: meshes, texturas; não plugins) vindos de {0}.'
       - lang: ru
-        text: 'Требуются ресурсы (например, меши, текстуры; не плагины) от {0}.'
+        text: 'Требуются ресурсы (например, меши, текстуры; не плагины) из {0}.'
       - lang: sv
         text: 'Behöver resurser (t.ex. meshar, texturer; inte plugin) från {0}.'
       - lang: ta
@@ -1563,7 +1563,7 @@ common:
       - lang: pt_PT
         text: 'Você aparenta ter **{0}** instalado. Lembre-se de correr **{1}** cada vez que instale ou desinstale {2}, ou um mod baseado em {2}.'
       - lang: ru
-        text: 'У вас установлен **{0}**. Не забудьте запускать **{1}** каждый раз, когда вы установите или удалите {2}, или любой мод, основанный на {2}.'
+        text: 'Похоже, у вас установлен **{0}**. Не забывайте запускать **{1}** каждый раз, когда вы устанавливаете или удаляете {2} или мод на основе {2}.'
       - lang: sv
         text: 'Det verkar som att använder **{0}** installerat. Kom ihåg att köra **{1}** varje gång du har installerat eller avinstallerat {2}, eller en {2}-baserad mod.'
       - lang: ta
@@ -1632,7 +1632,7 @@ common:
       - lang: pt_PT
         text: 'Este plugin foi alterado de **{0}** a **{1}**.'
       - lang: ru
-        text: 'Этот плагин был изменен с **{0}** на **{1}**.'
+        text: 'Этот плагин был изменён с **{0}** на **{1}**.'
       - lang: ta
         text: 'இந்தச் சொருகி **{0}** இலிருந்து **{1}** ஆக மாற்றப்பட்டுள்ளது.'
       - lang: uk_UA
@@ -1673,7 +1673,7 @@ common:
       - lang: pt_PT
         text: 'Um Bashed Patch modificado pode ser utilizado em vez deste plugin. {0}'
       - lang: ru
-        text: 'Можно использовать Bashed Patch tweak вместо этого плагина. {0}'
+        text: 'Вместо этого плагина можно использовать настройку из Bashed Patch. {0}'
       - lang: sv
         text: 'En Bashed Patch Tweak kan användas istället för det här pluginet. {0}'
       - lang: ta
@@ -1717,7 +1717,7 @@ common:
       - lang: pt_PT
         text: 'Um INI modificado pode ser usado ao invés deste plugin. {0}'
       - lang: ru
-        text: 'Можно использовать параметры INI-файла вместо этого плагина. {0}'
+        text: 'Вместо этого плагина можно использовать настройку INI. {0}'
       - lang: sv
         text: 'En INI Tweak kan användas istället för det här pluginet. {0}'
       - lang: ta
@@ -1928,7 +1928,7 @@ common:
       - lang: pt_PT
         text: 'Aparenta que você não tem a versão mais recente de {0}. Alguns mods podem requerir funcinalidades adicionadas na última versão de {0} para funcionar.'
       - lang: ru
-        text: 'Возможно у вас не установлена последняя версия {0}. Для работы некоторых модов может требоваться функционал, добавленный в последней версии {0}.'
+        text: 'Похоже, у вас не последняя версия {0}. Для работы некоторых модов может потребоваться функционал, добавленный в последней версии {0}.'
       - lang: sv
         text: 'Det verkar som att du inte har den senaste versionen av {0}. Några mods kan kräva funktionalitet tillagd i den senaste versionen av {0} för att fungera.'
       - lang: ta
@@ -2046,7 +2046,7 @@ common:
       - lang: pt_PT
         text: 'A sua versão instalada de {0} não é compatível com a sua versão de {1}.'
       - lang: ru
-        text: 'Установленная у вас версия {0} несовместима с вашей версией {1}.'
+        text: 'Установленная вами версия {0} несовместима с вашей версией {1}.'
       - lang: sv
         text: 'Din installerade version av {0} är inte kombatibel med din version av {1}.'
       - lang: ta
@@ -2128,7 +2128,7 @@ common:
       - lang: pt_PT
         text: 'Este plugin contém [edições selvagens](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits). Pode requerer limpeza manual adicional de forma a não interferir com outros mods. {0}'
       - lang: ru
-        text: 'Плагин содержит [дикие правки](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) и может потребовать дополнительной ручной чистки, чтобы не кофликтовать с другими модами. {0}'
+        text: 'Этот плагин содержит [дикие правки](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) и может потребовать дополнительной ручной очистки, чтобы не мешать работе других модов. {0}'
       - lang: sv
         text: 'Denna plugin innehåller [vilda föränringar](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) och kan kräva ytterligare manuell rensning för att inte störa andra moddar. {0}'
       - lang: ta
@@ -2172,7 +2172,7 @@ common:
       - lang: pt_PT
         text: 'Um guia para limpar plugins utilizando xEdit pode ser encontrado [aqui](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: ru
-        text: 'Руководство по очистке модов с помощью xEdit можно найти [здесь](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
+        text: 'Руководство по очистке плагинов с помощью xEdit можно найти [здесь](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: sv
         text: 'En guide till att rensa plugins med xEdit finns [här](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).'
       - lang: ta
@@ -2214,7 +2214,7 @@ common:
       - lang: pt_PT
         text: 'É fortemente recomandado não utilizar mods que contenham **Navmeshes apagados** sendo que são conhecidos por causar falhas. **Navmeshes apagados** devem ser corrigidos manualmente(Um processo complexo que deve ser feito pelo autor do mod). Mais informação sobre **Navmeshes apagados** está disponível em inglês [aqui] (https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: ru
-        text: 'Настоятельно не рекомендуется использовать моды с **удаленными навмешами** т.к. известно, что они вызывают вылеты. **Удаленные навмеши** должны быть исправлены вручную (сложный процесс, который должен быть выполнен автором мода). Больше информации о **удаленных навмешах** можно найти [здесь](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
+        text: 'Настоятельно рекомендуется не использовать моды, содержащие **удалённые навмеши**, поскольку они, как известно, вызывают сбои. **Удаленные навмеши** должны быть исправлены вручную (сложный процесс, который должен выполняться автором мода). Более подробная информация об **удалённых навмешах** представлена [здесь](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: sv
         text: 'Det är starkt rekommenderat att inte använda mods som innehåller **Borttagna navmeshes** eftersom de kan orsaka krascher. **Borttagna navmeshes** måste korrigeras manuellt (en komplex process som borde göras av modskaparen). Mer information om **Borttagna navmeshes** hittar du [här](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).'
       - lang: ta
@@ -2243,7 +2243,7 @@ common:
       - lang: pt_PT
         text: 'Alterar o tipo de um plugin existente não é suportado. Detalhes adicionais são fornecidos [aqui]({0}).'
       - lang: ru
-        text: 'Изменение типа существующего плагина не поддерживается. Дополнительная информация представлена [here]({0}).'
+        text: 'Изменение типа существующего плагина не поддерживается. Дополнительная информация представлена [здесь]({0}).'
       - lang: sv
         text: 'Att ändra typen för ett befintligt plugin stöds inte. Ytterligare detaljer finns [här]({0}).'
       - lang: ta
@@ -2270,7 +2270,7 @@ common:
       - lang: pt_PT
         text: '{0} não suporta o uso de plugins **{1}*** no jogo, mas a sua ordem de carga contém esses plugins. Para evitar danos irreversíveis ao seu jogo, recomenda-se não usar * plugins.'
       - lang: ru
-        text: '{0} не поддерживает использование плагинов **{1}** в игре, но ваш порядок загрузки содержит такие плагины. Во избежание необратимого повреждения вашей игры рекомендуется не использовать плагины **{1}**.'
+        text: '{0} не поддерживает использование **{1}** плагинов в игре, но ваш порядок загрузки содержит такие плагины. Чтобы избежать необратимого ущерба для вашей игры, рекомендуется не использовать **{1}** плагины.'
       - lang: sv
         text: '{0} stöder inte användningen av **{1}* plugins i spelet, men din laddningsordning innehåller sådana plugins. För att undvika oåterkalleliga skador på ditt spel rekommenderas det att inte använda **{1}** plugins.'
       - lang: ta
@@ -2360,7 +2360,7 @@ common:
       - lang: pt_PT
         text: '[Postagem mais recente do LOOT]({0}).'
       - lang: ru
-        text: '[Обсуждение LOOT "(Eng)"]({0}).'
+        text: '[Последняя тема LOOT]({0}).'
       - lang: sv
         text: '[Senaste LOOT-tråd]({0}).'
       - lang: ta
@@ -2433,7 +2433,7 @@ common:
       - lang: pt_PT
         text: 'Instalou {0}, mas desde {1} versão {2} já não é necessário.'
       - lang: ru
-        text: 'Вы установили {0}, но, с тех пор как {1} имеет версию {2}, он больше не нужен.'
+        text: 'Вы установили {0}, но для {1} начиная с версии {2} это больше не требуется.'
       - lang: ta
         text: 'நீங்கள் {0} நிறுவியுள்ளீர்கள், ஆனால் {1} பதிப்பு {2} இது இனி தேவையில்லை.'
       - lang: uk_UA
@@ -2476,7 +2476,7 @@ common:
       - lang: pt_PT
         text: 'Você instalou an {0} plugin mas o {0} não foi encontrado! Veja a página de download do {0}: {1}.'
       - lang: ru
-        text: 'У вас установлен {0} плагин, но {0} не найден! Смотрите страницу загрузки: {1}.'
+        text: 'Вы установили плагин {0}, но {0} не найден! Смотрите страницу загрузки {0}: {1}.'
       - lang: sv
         text: 'Du har installerat an {0} plugin men {0} kunde inte hittas! Läs mer på {0}:s nedladdningssisda: {1}.'
       - lang: ta
@@ -2521,7 +2521,7 @@ common:
       - lang: pt_PT
         text: 'Você aparenta ter instalado **{0}**, mas os seus scripts necessário estão em falta. Por favor, garanta que tem os devidamente instalados os scripts the acompanham o arquivo de instalação do **{1}**.'
       - lang: ru
-        text: 'Похоже, что у вас установлен **{0}**, но требуемые скрипты отсутствуют. Убедитесь, что правильно установили скрипты включенные в установочный архив **{1}**.'
+        text: 'Похоже, вы установили **{0}**, но требуемые скрипты отсутствуют. Убедитесь, что вы правильно установили скрипты, входящие в архив установки **{1}**.'
       - lang: sv
         text: 'Det verkar som att du har installerat **{0}**, men de script som det kräver verkar saknas. Var god att se till att du har installerat de script som bifogas med installationsarkivet **{1}** på ett korrekt sätt.'
       - lang: ta
@@ -2557,7 +2557,7 @@ common:
       - lang: pt_PT
         text: 'Parece que usa **{0}**, mas esse foi substituído. É recomendável que use **{1}** em ao invés.'
       - lang: ru
-        text: 'Похоже, вы используете **{0}**, но его было заменено. Вместо него рекомендуется использовать **{1}**.'
+        text: 'Похоже, вы используете **{0}**, но он был заменён. Рекомендуется использовать вместо него **{1}**.'
       - lang: ta
         text: 'நீங்கள் **{0}** ஐப் பயன்படுத்துவதாகத் தெரிகிறது, ஆனால் அது முறியடிக்கப்பட்டுள்ளது. அதற்குப் பதிலாக **{1}** ஐப் பயன்படுத்தப் பரிந்துரைக்கப்படுகிறது.'
       - lang: tr_TR
