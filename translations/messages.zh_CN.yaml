@@ -61,3 +61,4 @@ versionUpToDateX: 您的{0}是最新的。
 versionXIncY: 您安装的{0}版本与{1}版本不兼容。
 versionXofYorGreaterRequired: 需要 **{1}** 的 **{0}** 或更高版本。
 wildEdits: 这个插件包含[随意编辑](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits)，可能需要额外的手动清理，以免干扰其他mod。{0}
+flagESM: 此插件非 ESM，但它似乎包含了导航网格（即 Navmeshes）。这可能导致 NPC 寻径问题。推荐您标记此插件为 **ESM** 以避免这些问题。它也可能是确保插件中脚本调用的所有引用均标记为**持久化**所必需的。
