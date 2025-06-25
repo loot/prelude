@@ -588,6 +588,8 @@ common:
         text: 'Bu eklenti bir ESM değil, ancak navmeshler içeriyor gibi görünüyor. Bu, NPC yol bulma sorunlarına neden olabilir. Bu sorunları önlemek için bu eklentiyi **ESM** olarak işaretlemeniz önerilir. Bu eklentideki betikler tarafından çağrılan tüm referansların **kalıcı** olarak işaretlendiğinden emin olmanız da gerekebilir.'
       - lang: uk_UA
         text: 'Плагін не є ESM, але може містити навмеші. Це може спричинити проблеми з пошуком шляху персонажами. Радимо позначити плагін як **ESM** для уникнення цих проблем. Також потрібно переконатися, що всі посилання використані в скриптах відмічені як **постійні**.'
+      - lang: zh_CN
+        text: '此插件非 ESM，但它似乎包含了导航网格（即 Navmeshes）。这可能导致 NPC 寻径问题。推荐您标记此插件为 **ESM** 以避免这些问题。它也可能是确保插件中脚本调用的所有引用均标记为**持久化**所必需的。'
 
   - &includesX
     type: say
