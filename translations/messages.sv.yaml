@@ -50,3 +50,8 @@ versionOldX: Det verkar som att du inte har den senaste versionen av {0}. Några
 versionUpToDateX: Din {0} är uppdaterad.
 versionXIncY: Din installerade version av {0} är inte kombatibel med din version av {1}.
 wildEdits: Denna plugin innehåller [vilda föränringar](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) och kan kräva ytterligare manuell rensning för att inte störa andra moddar. {0}
+masterReassign: '**{0}** mästaren måste omfördelas till **{1}**.'
+mismatchedFormIDs: Denna plugin är en **{0}*, men den innehåller FormID som inte matchar denna typ av Mästare. Att använda denna plugin skulle ha oförutsägbara konsekvenser för ditt spel och rekommenderas därför inte.
+moveNVAC: NVAC installeras under **NVSE/Plugins** men måste flyttas till **{0}/Plugins** för att hämta den för {1}.
+patchOutdated: Denna patch är utdaterad och kanske inte är kompatibel med den senaste versionen av det patchade moddet.
+patcherScriptAvailable: '{0}-patcharskript tillgängligt här: {1}'
