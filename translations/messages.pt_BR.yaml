@@ -1,5 +1,5 @@
 alreadyInOrFixedByX: Apague. Já incluído ou consertado em {0}.
-alreadyInX: Apague. Já incluído em {0}
+alreadyInX: Apague. Já incluído em {0}.
 alsoUseX: É altamente recomendado que você também use {0}.
 changeUnsupported: Não há suporte para a alteração do tipo de um plugin existente. Detalhes adicionais são fornecidos [aqui]({0}).
 compatIssuesWithX: Este plugin tem problemas de compatibilidade com {0}. Para mais informações, leia as notas de compatibilidade deste mod.
@@ -27,7 +27,7 @@ missingRequirementXforY: Aparentemente você tem instalado **{1}**, mas alguns d
 moddingPlugin: Este plugin é um recurso para a criação de mods e não deve ser usado no jogo.
 moveNVAC: O NVAC está instalado em **NVSE/Plugins** porém precisa ser movido para **{0}/Plugins** para que o {0} o reconheça para o {1}.
 moveXFromYToZ: Mover {0} de {1} para {2}.
-obsolete: Obsoleto. Atualize para a última versão {0}.
+obsolete: Obsoleto. Atualize para a última versão. {0}.
 optional: Este plugin é opcional.
 patch3rdParty: 'Você aparenta estar usando **{0}**, mas não habilitou o patch de compatibilidade para este mod. Um patch feito por terceiros está disponível aqui: {1}'
 patchIncluded: Você aparenta estar usando **{0}**, mas não habilitou o patch de compatibilidade para este mod. Um patch de compatibilidade está incluso com o instalador desse plugin.
