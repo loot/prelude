@@ -19,17 +19,22 @@ incompatible: '{0} är inkompatibel med {1}, men bägge finns installerade.'
 languageX: 'Språk: {0}'
 latestLOOTThread: '[Senaste LOOT-tråd]({0}).'
 mainQuestCompleted: Använd endast denna plugin när spelets huvudmål har slutförts.
+masterReassign: '**{0}** mästaren måste omfördelas till **{1}**.'
+mismatchedFormIDs: Denna plugin är en **{0}**, men den innehåller FormID som inte matchar denna typ av Mästare. Att använda denna plugin skulle ha oförutsägbara konsekvenser för ditt spel och rekommenderas därför inte.
 missingRequirementXforPlugin: Några av denna plugins behov/krav verkar saknas. Var god och se till att du har installerat **{0}** korrekt.
 missingRequirementXforY: Det verkar som om du har installerat **{1}**, men några av dess krav är inte uppfyllda. Var vänlig och se till att du har installerat **{0}**.
 moddingPlugin: Det här pluginet används som en modding resurs och borde inte användas i spelet.
+moveNVAC: NVAC installeras under **NVSE/Plugins** men måste flyttas till **{0}/Plugins** för att hämta den för {1}.
 moveXFromYToZ: Flytta {0} från {1} till {2}.
 obsolete: Utdaterad. Uppdatera till den senaste versionen. {0}
 optional: Det här pluginet är valfritt.
 patch3rdParty: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En patch från en tredje part finns här: {1}'
 patchIncluded: Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En kompatibilitetspatch är inkluderad i denna plugins installationsprogram.
+patchOutdated: Denna patch är utdaterad och kanske inte är kompatibel med den senaste versionen av det patchade moddet.
 patchProvided: Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En kompatibilitetspatch finns på denna plugins modsida.
 patchUnavailable: En kompatibilitetspatch krävs för att för att göra det moddet fullständigt kompatibelt med {0}. Ingen kompatibilitetspatch finns tillgänglig för nedladdning.
 patchUpdateAvailable: 'Uppdateringspatch tillgänglig: {0}'
+patcherScriptAvailable: '{0}-patcharskript tillgängligt här: {1}'
 quickClean: En guide till att rensa plugins med xEdit finns [här](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).
 renameFile: Ändra den här filens namn till {0}.
 renameXtoY: Du behöver byta namn på {0} till {1} för att det här moddet ska fungera.
@@ -50,8 +55,3 @@ versionOldX: Det verkar som att du inte har den senaste versionen av {0}. Några
 versionUpToDateX: Din {0} är uppdaterad.
 versionXIncY: Din installerade version av {0} är inte kombatibel med din version av {1}.
 wildEdits: Denna plugin innehåller [vilda föränringar](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) och kan kräva ytterligare manuell rensning för att inte störa andra moddar. {0}
-masterReassign: '**{0}** mästaren måste omfördelas till **{1}**.'
-mismatchedFormIDs: Denna plugin är en **{0}**, men den innehåller FormID som inte matchar denna typ av Mästare. Att använda denna plugin skulle ha oförutsägbara konsekvenser för ditt spel och rekommenderas därför inte.
-moveNVAC: NVAC installeras under **NVSE/Plugins** men måste flyttas till **{0}/Plugins** för att hämta den för {1}.
-patchOutdated: Denna patch är utdaterad och kanske inte är kompatibel med den senaste versionen av det patchade moddet.
-patcherScriptAvailable: '{0}-patcharskript tillgängligt här: {1}'

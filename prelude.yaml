@@ -27,7 +27,7 @@ common:
       - lang: pl
         text: 'Usuń. Już zawarte w {0}'
       - lang: pt_BR
-        text: 'Apague. Já incluído em {0}'
+        text: 'Apague. Já incluído em {0}.'
       - lang: pt_PT
         text: 'Apagar. Já incluído em {0}.'
       - lang: ru
@@ -748,6 +748,8 @@ common:
         text: 'O mestre **{0}** deve ser reatribuído a **{1}**.'
       - lang: ru
         text: 'Мастер **{0}** необходимо переназначить на **{1}**.'
+      - lang: sv
+        text: '**{0}** mästaren måste omfördelas till **{1}**.'
       - lang: ta
         text: '**{0}** மாச்டரை **{1}** க்கு மீண்டும் நியமிக்க வேண்டும்.'
       - lang: tr_TR
@@ -774,6 +776,8 @@ common:
         text: 'Este plugin é um **{0}**, mas contém FormIDs que não correspondem a este tipo de Master. Usando este plugin teria consequências imprevisíveis para o seu jogo e, portanto, não é recomendado.'
       - lang: ru
         text: 'Этот плагин - **{0}**, но он содержит FormID, которые не соответствуют этому типу мастер-плагина. Использование этого плагина может иметь непредсказуемые последствия для вашей игры и поэтому не рекомендуется.'
+      - lang: sv
+        text: 'Denna plugin är en **{0}**, men den innehåller FormID som inte matchar denna typ av Mästare. Att använda denna plugin skulle ha oförutsägbara konsekvenser för ditt spel och rekommenderas därför inte.'
       - lang: ta
         text: 'இந்தச் சொருகி **{0}** ஆகும், ஆனால் அதில் இந்த வகை மாச்டருடன் பொருந்தாத ஃபார்மிட்கள் உள்ளன. இந்தச் சொருகி பயன்படுத்துவது உங்கள் விளையாட்டுக்குக் கணிக்க முடியாத விளைவுகளை ஏற்படுத்தும், எனவே இது பரிந்துரைக்கப்படவில்லை.'
       - lang: uk_UA
@@ -977,7 +981,7 @@ common:
       - lang: pl
         text: 'Przestarzały. Uaktualnij do ostatniej wersji. {0}'
       - lang: pt_BR
-        text: 'Obsoleto. Atualize para a última versão {0}.'
+        text: 'Obsoleto. Atualize para a última versão. {0}.'
       - lang: pt_PT
         text: 'Obsoleto. Atualize para a versão mais recente. {0}'
       - lang: ru
@@ -1109,6 +1113,8 @@ common:
         text: 'O script de atualização para {0} está disponível aqui: {1}'
       - lang: ru
         text: 'Скрипт патчера {0} доступен здесь: {1}'
+      - lang: sv
+        text: '{0}-patcharskript tillgängligt här: {1}'
       - lang: ta
         text: '{0} பேட்சர் ச்கிரிப்ட் இங்கே கிடைக்கிறது: {1}'
       - lang: tr_TR
@@ -1189,6 +1195,8 @@ common:
         text: 'Este patch está desatualizado e pode não ser compatível com a versão mais recente do mod corrigido.'
       - lang: ru
         text: 'Данный патч устарел и может быть несовместим с последней версией исправленного мода.'
+      - lang: sv
+        text: 'Denna patch är utdaterad och kanske inte är kompatibel med den senaste versionen av det patchade moddet.'
       - lang: ta
         text: 'இந்த இணைப்பு காலாவதியானது மற்றும் ஒட்டப்பட்ட மோடின் அண்மைக் கால பதிப்போடு பொருந்தாது.'
       - lang: tr_TR
@@ -2406,6 +2414,8 @@ common:
         text: 'O NVAC está instalado em **NVSE/Plugins** porém precisa ser movido para **{0}/Plugins** para que o {0} o reconheça para o {1}.'
       - lang: ru
         text: 'NVAC установлен в **NVSE/Plugins**, но его необходимо переместить в **{0}/Plugins**, чтобы {0} использовал его для {1}.'
+      - lang: sv
+        text: 'NVAC installeras under **NVSE/Plugins** men måste flyttas till **{0}/Plugins** för att hämta den för {1}.'
       - lang: ta
         text: 'NVAC **NVSE/Plugins** இன் கீழ் நிறுவப்பட்டுள்ளது, ஆனால் {1} பெறுநருக்கு எடுக்க {0}க்கு **{0}/Plugins** க்கு நகர்த்தப்பட வேண்டும்.'
       - lang: tr_TR
