@@ -18,9 +18,9 @@ includesX: '{0} är inluderat med denna mod.'
 incompatible: '{0} är inkompatibel med {1}, men bägge finns installerade.'
 languageX: 'Språk: {0}'
 latestLOOTThread: '[Senaste LOOT-tråd]({0}).'
-mainQuestCompleted: Använd endast denna insticksmodul när spelets huvudmål har slutförts.
+mainQuestCompleted: Använd endast denna insticksmodul när spelets huvuduppdrag har slutförts.
 masterReassign: '**{0}** mästaren måste omfördelas till **{1}**.'
-mismatchedFormIDs: Denna plugin är en **{0}**, men den innehåller FormID som inte matchar denna typ av Mästare. Att använda denna plugin skulle ha oförutsägbara konsekvenser för ditt spel och rekommenderas därför inte.
+mismatchedFormIDs: Denna insticksmodul är en **{0}**, men innehåller FormID som inte matchar denna typ av Mästare. Att använda denna insticksmodul skulle ha oförutsägbara konsekvenser för ditt spel och rekommenderas därför inte.
 missingRequirementXforPlugin: Några av denna plugins behov/krav verkar saknas. Var god och se till att du har installerat **{0}** korrekt.
 missingRequirementXforY: Det verkar som om du har installerat **{1}**, men några av dess krav är inte uppfyllda. Var vänlig och se till att du har installerat **{0}**.
 moddingPlugin: Det här pluginet används som en modding resurs och borde inte användas i spelet.
