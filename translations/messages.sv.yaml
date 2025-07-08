@@ -1,52 +1,55 @@
 alreadyInOrFixedByX: Ta bort. Redan inkluderat eller fixat i {0}.
 alreadyInX: Ta bort. Redan inkluderat i {0}.
 alsoUseX: Det är rekommenderat att du också använder {0}.
-changeUnsupported: Att ändra typen för ett befintligt plugin stöds inte. Ytterligare detaljer finns [här]({0}).
-compatIssuesWithX: Det här pluginet är inte helt kompatibelt med {0}. För mer information, läs det här moddets kompatibilitetsanteckningar.
+changeUnsupported: Att ändra typen för en befintligt insticksmodul stöds inte. Ytterligare detaljer finns [här]({0}).
+compatIssuesWithX: Denna insticksmodul är inte helt kompatibelt med {0}. För mer information, läs det här moddets kompatibilitetsanteckningar.
 compatNotes: Det är rekommenderat att du läser det här moddets [kompatibilitetsanteckningar]({0}).
 compatPatch: 'Det rekommenderas att du kontrollerar följande kompatibilitet patch sammanställning för denna mod: {0}'
 compatPatchForX: 'Det rekommenderas att du kontrollerar följande kompatibilitet patch sammanställning för {0}: {1}'
 corrupt: Denna fil är korrupt och borde inte användas.
 deactivateAfterCharacterCreation: Avaktivera och/eller avinstallera denna mod efter du skapat din karaktär.
 deleteOrDeactivateX: Ta bort eller avaktivera. {0}
-deletePlugin: När du använder **{0}** är det rekommenderat att du avaktiverar eller tar bort denna ESP-fil, men behåll resurserna (meshar och texturer) installerade med denna mod.
+deletePlugin: När du använder **{0}** är det rekommenderat att du avaktiverar eller tar bort denna ESP-fil, men behåll resurserna (meshar och texturer) installerade med detta mod.
 deprecated: Den här filen är markerad för att inte längre användas.
-disableAfterGeneratingXwithY: Detta plugin kan inaktiveras efter att ha genererat **{0}** med **{1}**.
+disableAfterGeneratingXwithY: Denna insticksmodul kan inaktiveras efter att ha genererat **{0}** med **{1}**.
 essentialFiles: En annan mod verkar skriva över en av denna mods viktiga filer. Se till att du använder denna mods version av {0} eller en kompatibel version om den är tillgänglig.
-filenameExtension: '{0} stöder inte användningen av **{1}* plugins i spelet, men din laddningsordning innehåller sådana plugins. För att undvika oåterkalleliga skador på ditt spel rekommenderas det att inte använda **{1}** plugins.'
+filenameExtension: '{0} stöder inte användningen av **{1}**-insticksmoduler i spelet, men din laddningsordning innehåller sådana insticksmoduler. För att undvika oåterkalleliga skador på ditt spel rekommenderas det att inte använda **{1}**-insticksmoduler.'
 includesX: '{0} är inluderat med denna mod.'
 incompatible: '{0} är inkompatibel med {1}, men bägge finns installerade.'
 languageX: 'Språk: {0}'
 latestLOOTThread: '[Senaste LOOT-tråd]({0}).'
-mainQuestCompleted: Använd endast denna plugin när spelets huvudmål har slutförts.
+mainQuestCompleted: Använd endast denna insticksmodul när spelets huvuduppdrag har slutförts.
 masterReassign: '**{0}** mästaren måste omfördelas till **{1}**.'
-mismatchedFormIDs: Denna plugin är en **{0}**, men den innehåller FormID som inte matchar denna typ av Mästare. Att använda denna plugin skulle ha oförutsägbara konsekvenser för ditt spel och rekommenderas därför inte.
-missingRequirementXforPlugin: Några av denna plugins behov/krav verkar saknas. Var god och se till att du har installerat **{0}** korrekt.
+mismatchedFormIDs: Denna insticksmodul är en **{0}**, men innehåller FormID som inte matchar denna typ av Mästare. Att använda denna insticksmodul skulle ha oförutsägbara konsekvenser för ditt spel och rekommenderas därmed inte.
+missingRequirementXforPlugin: Några av denna insticksmoduls krav verkar saknas. Var god och se till att du har installerat **{0}** korrekt.
 missingRequirementXforY: Det verkar som om du har installerat **{1}**, men några av dess krav är inte uppfyllda. Var vänlig och se till att du har installerat **{0}**.
-moddingPlugin: Det här pluginet används som en modding resurs och borde inte användas i spelet.
+moddingPlugin: Denna insticksmodul används som en moddningsresurs och borde inte användas i spelet.
 moveNVAC: NVAC installeras under **NVSE/Plugins** men måste flyttas till **{0}/Plugins** för att hämta den för {1}.
 moveXFromYToZ: Flytta {0} från {1} till {2}.
 obsolete: Utdaterad. Uppdatera till den senaste versionen. {0}
-optional: Det här pluginet är valfritt.
+optional: Denna insticksmodul är valfri.
 patch3rdParty: 'Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En patch från en tredje part finns här: {1}'
-patchIncluded: Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En kompatibilitetspatch är inkluderad i denna plugins installationsprogram.
+patchIncluded: Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för detta mod. En kompatibilitetspatch inkluderas i denna insticksmoduls installationsprogram.
 patchOutdated: Denna patch är utdaterad och kanske inte är kompatibel med den senaste versionen av det patchade moddet.
-patchProvided: Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En kompatibilitetspatch finns på denna plugins modsida.
+patchProvided: Det verkar som att du använder **{0}**, men du har inte aktiverat en kompatibilitetspatch för denna mod. En kompatibilitetspatch finns på denna insticksmoduls modsida.
 patchUnavailable: En kompatibilitetspatch krävs för att för att göra det moddet fullständigt kompatibelt med {0}. Ingen kompatibilitetspatch finns tillgänglig för nedladdning.
 patchUpdateAvailable: 'Uppdateringspatch tillgänglig: {0}'
 patcherScriptAvailable: '{0}-patcharskript tillgängligt här: {1}'
-quickClean: En guide till att rensa plugins med xEdit finns [här](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).
+pluginEnabler: Du har installerat {0}, men sedan {1} version {2} behövs inte detta längre.
+quickClean: En guide till att rensa insticksmoduler med xEdit finns [här](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).
 renameFile: Ändra den här filens namn till {0}.
 renameXtoY: Du behöver byta namn på {0} till {1} för att det här moddet ska fungera.
 reqManualFix: Det är starkt rekommenderat att inte använda mods som innehåller **Borttagna navmeshes** eftersom de kan orsaka krascher. **Borttagna navmeshes** måste korrigeras manuellt (en komplex process som borde göras av modskaparen). Mer information om **Borttagna navmeshes** hittar du [här](https://www.creationkit.com/index.php?title=Fixing_Navmesh_Deletion_Tutorial).
 requiresMCM_X: En **Mod-konfigurationsmeny** krävs för att denna mod ska fungera korrekt. En **MCM** kan fås genom att installera {0}.
-requiresResources: Behöver resurser (t.ex. meshar, texturer; inte plugin) från {0}.
+requiresResources: Behöver resurser (t.ex. meshar, texturer; inte insticksmoduler) från {0}.
 requiresX: 'Kräver: {0}'
 runAnimFramework: Det verkar som att använder **{0}** installerat. Kom ihåg att köra **{1}** varje gång du har installerat eller avinstallerat {2}, eller en {2}-baserad mod.
-scriptExtenderMissing: 'Du har installerat an {0} plugin men {0} kunde inte hittas! Läs mer på {0}:s nedladdningssisda: {1}.'
+runxLODGen: Om du lägger till, tar bort eller uppdaterar insticksmoduler som ändrar WRLD/CELL-poster, kom ihåg att uppdatera denna modul med **xLODGen**.
+scriptExtenderMissing: 'Du har installerat en {0}-insticksmodul, men {0} kunde inte hittas! Läs mer på {0}:s nedladdningssisda: {1}.'
 scriptExtenderRequiredScripts: Det verkar som att du har installerat **{0}**, men de script som det kräver verkar saknas. Var god att se till att du har installerat de script som bifogas med installationsarkivet **{1}** på ett korrekt sätt.
-useBashTweakInstead: En Bashed Patch Tweak kan användas istället för det här pluginet. {0}
-useINITweakInstead: En INI Tweak kan användas istället för det här pluginet. {0}
+unsupportedChangeVerified: Denna insticksmodul har ändrats från **{0}** till **{1}**.
+useBashTweakInstead: En Bashed Patch Tweak kan användas istället för denna insticksmodul. {0}
+useINITweakInstead: En INI Tweak kan användas istället för denna insticksmodul. {0}
 useInstead: Använd {0} istället.
 useOnlyOneX: Använd endast en {0}.
 useVersion: Använd version {0}.
@@ -54,4 +57,4 @@ useVersionNon: Använd en icke-{0} version.
 versionOldX: Det verkar som att du inte har den senaste versionen av {0}. Några mods kan kräva funktionalitet tillagd i den senaste versionen av {0} för att fungera.
 versionUpToDateX: Din {0} är uppdaterad.
 versionXIncY: Din installerade version av {0} är inte kombatibel med din version av {1}.
-wildEdits: Denna plugin innehåller [vilda föränringar](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) och kan kräva ytterligare manuell rensning för att inte störa andra moddar. {0}
+wildEdits: Denna insticksmodul innehåller [vilda förändringar](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) och kan kräva ytterligare manuell rensning för att inte störa andra moddar. {0}
