@@ -56,3 +56,9 @@ versionUpToDateX: '{0} on ajan tasalla.'
 versionXIncY: Lisäosien {0} ja {1} asennetut versiot eivät ole yhteensopivat toistensa kanssa.
 versionXofYorGreaterRequired: Vaati **{1}**:n version **{0}** tai uudemman.
 wildEdits: Tämä lisäosa sisältää [tarkoituksettomia muutoksia](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits). Manuaalinen puhdistaminen voi olla tarpeen yhteensopivuuden takaamiseksi. {0}
+changeUnsupported: Olemassa olevan laajennuksen tyypin vaihtamista ei tueta. Lisätietoja on [tässä]({0}).
+filenameExtension: '{0} ei tue **{1}**-liitännäisten käyttöä pelissä, mutta lataustilauksesi sisältää sellaisia liitännäisiä. Jotta vältät peruuttamattomat vauriot pelillesi, on suositeltavaa olla käyttämättä **{1}**-liitännäisiä.'
+flagESM: Tämä liitännäinen ei ole ESM, mutta se näyttää sisältävän navmeshejä. Tämä voi johtaa ongelmiin NPC-polkujen etsinnässä. On suositeltavaa merkitä tämä lisäosa **ESM:ksi** näiden ongelmien välttämiseksi. Voi myös olla tarpeen varmistaa, että kaikki tämän lisäosan komentosarjojen kutsumat viittaukset merkitään **pysyviksi**.
+mismatchedFormIDs: Tämä liitännäinen on **{0}**, mutta se sisältää FormID-tunnuksia, jotka eivät vastaa tätä Master-tyyppiä. Tämän lisäosan käytöllä olisi arvaamattomia seurauksia pelillesi, joten sitä ei suositella.
+pluginEnabler: Olet asentanut {0}:n, mutta {1} versiosta {2}, tätä ei enää tarvita.
+unsupportedChangeVerified: Tämä liitännäinen on muutettu **{0}**:sta **{1}**:ksi.
