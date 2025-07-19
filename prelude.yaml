@@ -576,6 +576,8 @@ common:
         text: 'Dieses Plugin ist kein ESM, aber es scheint Navmeshes zu enthalten. Dies kann zu Problemen mit der NPC-Pfadfindung führen. Es wird empfohlen, dieses Plugin als **ESM** zu kennzeichnen, um diese Probleme zu vermeiden. Es könnte auch notwendig sein, sicherzustellen, dass alle Referenzen, die von Skripten in diesem Plugin aufgerufen werden, als **persistent** gekennzeichnet sind.'
       - lang: es
         text: 'Este plugin no es un ESM, pero parece contener navmeshes. Esto puede provocar problemas con el pathfinding de los NPCs. Se recomienda marcar este plugin como **ESM** para evitar estos problemas. También puede ser necesario asegurarse de que todas las referencias invocadas por scripts en este plugin están marcadas como **persistentes**.'
+      - lang: fi
+        text: 'Tämä liitännäinen ei ole ESM, mutta se näyttää sisältävän navmeshejä. Tämä voi johtaa ongelmiin NPC-polkujen etsinnässä. On suositeltavaa merkitä tämä lisäosa **ESM:ksi** näiden ongelmien välttämiseksi. Voi myös olla tarpeen varmistaa, että kaikki tämän lisäosan komentosarjojen kutsumat viittaukset merkitään **pysyviksi**.'
       - lang: pt_BR
         text: 'Esse plugin não é um ESM, mas parece conter navmeshes. Isso pode levar a problemas com a localização de NPCs. Recomenda-se marcar esse plugin como **ESM** para evitar esses problemas. Também pode ser necessário garantir que todas as referências chamadas por scripts nesse plugin sejam marcadas como **persistentes**.'
       - lang: pt_PT
@@ -770,6 +772,8 @@ common:
         text: 'Dieses Plugin ist ein **{0}**, aber es enthält FormIDs, die nicht zu diesem Typ von Master passen. Die Verwendung dieses Plugins würde unvorhersehbare Folgen für Ihr Spiel haben und wird daher nicht empfohlen.'
       - lang: es
         text: 'Este plugin es un **{0}**, pero contiene FormIDs que no coinciden con este tipo de Master. El uso de este plugin tendría consecuencias impredecibles para su juego y por lo tanto no se recomienda.'
+      - lang: fi
+        text: 'Tämä liitännäinen on **{0}**, mutta se sisältää FormID-tunnuksia, jotka eivät vastaa tätä Master-tyyppiä. Tämän lisäosan käytöllä olisi arvaamattomia seurauksia pelillesi, joten sitä ei suositella.'
       - lang: pt_BR
         text: 'Esse plugin é um **{0}**, mas contém FormIDs que não correspondem a esse tipo de Mestre. O uso desse plugin teria consequências imprevisíveis para seu jogo e, portanto, não é recomendado.'
       - lang: pt_PT
@@ -1639,6 +1643,8 @@ common:
         text: 'Dieses Plugin wurde von **{0}** zu **{1}** geändert.'
       - lang: es
         text: 'Este plugin ha cambiado de **{0}** a **{1}**.'
+      - lang: fi
+        text: 'Tämä liitännäinen on muutettu **{0}**:sta **{1}**:ksi.'
       - lang: pt_BR
         text: 'Esse plugin foi alterado de **{0}** para **{1}**.'
       - lang: pt_PT
@@ -2252,6 +2258,8 @@ common:
         text: 'Das Ändern des Typs eines bestehenden Plugins wird nicht unterstützt. Weitere Einzelheiten sind [hier]({0}) zu finden.'
       - lang: es
         text: 'No es posible cambiar el tipo de un plugin existente. Se proporcionan detalles adicionales [aquí]({0}).'
+      - lang: fi
+        text: 'Olemassa olevan laajennuksen tyypin vaihtamista ei tueta. Lisätietoja on [tässä]({0}).'
       - lang: pt_BR
         text: 'Não há suporte para a alteração do tipo de um plugin existente. Detalhes adicionais são fornecidos [aqui]({0}).'
       - lang: pt_PT
@@ -2279,6 +2287,8 @@ common:
         text: '{0} unterstützt nicht die Verwendung von **{1}** Plugins im Spiel, aber Ihre Ladereihenfolge enthält solche Plugins. Um irreversible Schäden an Ihrem Spiel zu vermeiden, wird empfohlen, keine **{1}** Plugins zu verwenden.'
       - lang: es
         text: '{0} no soporta el uso de **{1}** plugins en el juego, pero su orden de carga contiene dichos plugins. Para evitar daños irreversibles en el juego, se recomienda no utilizar plugins **{1}**.'
+      - lang: fi
+        text: '{0} ei tue **{1}**-liitännäisten käyttöä pelissä, mutta lataustilauksesi sisältää sellaisia liitännäisiä. Jotta vältät peruuttamattomat vauriot pelillesi, on suositeltavaa olla käyttämättä **{1}**-liitännäisiä.'
       - lang: pt_BR
         text: '{0} não é compatível com o uso de plugins **{1}** no jogo, mas sua ordem de carregamento contém esses plugins. Para evitar danos irreversíveis ao seu jogo, é recomendável não usar plugins **{1}**.'
       - lang: pt_PT
@@ -2444,6 +2454,8 @@ common:
         text: 'Sie haben {0} installiert, aber seit {1} Version {2} wird dies nicht mehr benötigt.'
       - lang: es
         text: 'Has instalado {0}, pero desde {1} la versión {2} ya no es necesaria.'
+      - lang: fi
+        text: 'Olet asentanut {0}:n, mutta {1} versiosta {2}, tätä ei enää tarvita.'
       - lang: pt_BR
         text: 'Você instalou {0}, mas desde {1} versão {2} isso não é mais necessário.'
       - lang: pt_PT
