@@ -1,6 +1,7 @@
 alreadyInOrFixedByX: Poista. {0} sisältää jo tämän muutoksen tai korjauksen.
 alreadyInX: Poista. {0} sisältää jo tämän.
 alsoUseX: On suotavaa käyttää myös lisäosaa {0}.
+changeUnsupported: Olemassa olevan laajennuksen tyypin vaihtamista ei tueta. Lisätietoja on [tässä]({0}).
 compatIssuesWithX: Tämä lisäosa ei ole täysin yhteensopiva lisäosan {0} kanssa. Lisätietoja löydät lisäosan yhteensopivuushuomautuksista.
 compatNotes: On suotavaa lukea lisäosan [yhteensopivuushuomautukset]({0}).
 compatPatch: 'On suotavaa katsoa myös tämä kokoelma lisäosan yhteensopivuuskorjauksia: {0}'
@@ -12,12 +13,15 @@ deletePlugin: '**{0}** ollessa käytössä on suotavaa jättää ESP-tiedosto po
 deprecated: Tämä tiedosto on poistumassa ja sen käyttäminen pitäisi lopettaa.
 disableAfterGeneratingXwithY: Tämä lisäosa voidaan poistaa käytöstä, kun **{0}** on luotu käyttäen **{1}**.
 essentialFiles: Toinen lisäosa on kirjoittanut yhden tämän lisäosan kriittisen tiedoston päälle. Varmistathan, että käytössä on tämän lisäosan {0} tai muutoin yhteensopiva versio.
+filenameExtension: '{0} ei tue **{1}**-liitännäisten käyttöä pelissä, mutta lataustilauksesi sisältää sellaisia liitännäisiä. Jotta vältät peruuttamattomat vauriot pelillesi, on suositeltavaa olla käyttämättä **{1}**-liitännäisiä.'
+flagESM: Tämä liitännäinen ei ole ESM, mutta se näyttää sisältävän navmeshejä. Tämä voi johtaa ongelmiin NPC-polkujen etsinnässä. On suositeltavaa merkitä tämä lisäosa **ESM:ksi** näiden ongelmien välttämiseksi. Voi myös olla tarpeen varmistaa, että kaikki tämän lisäosan komentosarjojen kutsumat viittaukset merkitään **pysyviksi**.
 includesX: '{0} on tässä lisäosassa.'
 incompatible: '{0} ei ole yhteensopiva lisäosan {1} kanssa, mutta molemmat löydettiin.'
 languageX: 'Kieli: {0}'
 latestLOOTThread: '[LOOTin keskustelupalsta]({0}).'
 mainQuestCompleted: Käytä tätä lisäosaa vasta päätarinan jälkeen.
 masterReassign: Tiedoston **{0}** tilalle tulee vaihtaa **{1}**.
+mismatchedFormIDs: Tämä liitännäinen on **{0}**, mutta se sisältää FormID-tunnuksia, jotka eivät vastaa tätä Master-tyyppiä. Tämän lisäosan käytöllä olisi arvaamattomia seurauksia pelillesi, joten sitä ei suositella.
 missingRequirementXforPlugin: Osa tämän lisäosan vaatimuksista puuttuu. Varmista, että **{0}** on asennettu oikein.
 missingRequirementXforY: '**{1}** on asennettu, mutta osa sen vaatimista lisäosista puuttuu. Varmista, että **{0}** on oikein asennettu.'
 moddingPlugin: Tämä lisäosa on tarkoitettu lisäosien kehittäjille eikä sitä tule käyttää pelaamiseen.
@@ -32,6 +36,7 @@ patchProvided: Käytät lisäosaa **{0}**, muttet ole asentanut yhteensopivuusko
 patchUnavailable: Yhteensopivuus lisäosan {0} kanssa vaatii yhteensopivuuskorjauksen, mutta korjausta ei tällä hetkellä ole saatavilla.
 patchUpdateAvailable: 'Päivitys saatavilla: {0}'
 patcherScriptAvailable: '{0} korjauskoodi on saatavilla: {1}'
+pluginEnabler: Olet asentanut {0}:n, mutta {1} versiosta {2}, tätä ei enää tarvita.
 quickClean: Ohjeet lisäosien puhdistamiseen xEditillä löytyvät [tästä linkistä](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#ThreeEasyStepstocleanMods).
 renameFile: Uudelleennimeä tiedosto nimelle {0}.
 renameXtoY: '{0} on uudelleennimettävä nimelle {1} tämän lisäosan toimimiseksi.'
@@ -44,6 +49,7 @@ runxLODGen: Jos lisäät, poistat tai päivität lisäosia, jotka muokkaavat WRL
 scriptExtenderMissing: 'Olet asentanut {0}-lisäosan, mutta {0} ei ole asennettu! Katso {0}:n lataussivu: {1}.'
 scriptExtenderRequiredScripts: '**{0}** on asennettu, mutta sen vaatimat skriptit puuttuvat. Tarkista, että olet asentanut **{1}**:n mukana tulleet skriptitiedostot.'
 supersede: Vaikuttaa siltä, että **{0}** on käytössä, mutta se on korvattu uudemmalla. Sen sijaan on suositeltavaa käyttää **{1}**.
+unsupportedChangeVerified: Tämä liitännäinen on muutettu **{0}**:sta **{1}**:ksi.
 useBashTweakInstead: Tämän lisäosan sijaan voidaan käyttää "Bashed Patch"-pohjaista muokkausta. {0}
 useINITweakInstead: Tämän lisäosan sijaan voidaan muokata INI-tiedostoa. {0}
 useInstead: Käytä tämän sijaan lisäosaa {0}.
