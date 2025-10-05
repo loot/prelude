@@ -446,7 +446,7 @@ common:
       - lang: tr_TR
         text: '**{0}** kullanırken, bu ESP dosyasını devre dışı bırakmanız veya silmeniz, ancak bu mod ile kurulan kaynakları (örneğin, meshler, dokular) saklamanız tavsiye edilir.'
       - lang: uk_UA
-        text: 'Поки використовується **{0}**, радимо відключити чи деактивувати esp цього моду, але залишити встановлені ресурси (меші, текстури і тп).'
+        text: 'Поки використовується **{0}**, радимо відключити чи деактивувати esp цього моду, але залишити встановлені ресурси (меші, текстури тощо).'
       - lang: zh_CN
         text: '当使用**{0}**时，建议您禁用或删除这个ESP文件，但保留与此mod一起安装的资源(如网格，纹理等)。'
 
