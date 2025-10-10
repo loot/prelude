@@ -23,16 +23,19 @@ jobs:
             libicu74 \
             libtbb12
 
-      - name: Install metadata validator
+      - name: Install metadata validator v0.26.1
         run: |
           wget https://github.com/loot/metadata-validator/releases/download/0.26.1/metadata-validator-0.26.1-0-g23e0aa1_0.26.1-Linux.tar.xz -O - | tar -xJ --strip-components=1
           ln -s libloot.so.0.26.1 libloot.so.0
+
+      - name: Install metadata validator v0.28.2
+        run: wget https://github.com/loot/metadata-validator/releases/download/0.28.2/metadata-validator-0.28.2-Linux.tar.xz -O - | tar -xJ
 
       - name: Install parser
         run: npm install -g js-yaml
 
       - name: Run js-yaml to check YAML parsing
-        run: js-yaml $GITHUB_WORKSPACE/prelude.yaml > /dev/null
+        run: js-yaml prelude.yaml > /dev/null
 
       - name: Run metadata validator against each game's masterlist
         run: |
@@ -53,5 +56,8 @@ jobs:
           for game in "${games[@]}"
           do
             wget --no-verbose -O masterlist.yaml https://raw.githubusercontent.com/loot/$game/v0.26/masterlist.yaml
-            ./metadata_validator masterlist.yaml $GITHUB_WORKSPACE/prelude.yaml
+
+            ./metadata_validator masterlist.yaml prelude.yaml
+
+            ./metadata-validator-0.28.2-Linux/metadata_validator masterlist.yaml prelude.yaml
           done
