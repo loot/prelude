@@ -61,4 +61,4 @@ versionPrecedence: '{1} இலிருந்து {0} ஐ நீக்கு. 
 versionUpToDateX: உங்கள் {0} புதுப்பித்த நிலையில் உள்ளது.
 versionXIncY: '{0} இன் உங்கள் நிறுவப்பட்ட பதிப்பு உங்கள் {1} பதிப்போடு பொருந்தாது.'
 versionXofYorGreaterRequired: பதிப்பு **{0}** அல்லது அதற்கு மேற்பட்ட **{1}** தேவை.
-wildEdits: இந்த சொருகி [காட்டு திருத்தங்கள்](https://tes5edit.github.io/docs/7-mod-cleaning-and- error- checking.html#wildedits) மற்றும் பிற MODS உடன் தலையிடாமல் கூடுதல் கையேடு தூய்மை தேவைப்படலாம். {0}
+wildEdits: இந்தச் சொருகி [காட்டு திருத்தங்கள்](https://tes5edit.github.io/docs/7-mod-cleaning-and- error- checking.html#wildedits) மற்றும் பிற சொருகி உடன் தலையிடாமல் கூடுதல் கையேடு தூய்மை தேவைப்படலாம். {0}

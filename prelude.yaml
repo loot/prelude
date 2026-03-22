@@ -2152,7 +2152,7 @@ common:
       - lang: sv
         text: 'Denna insticksmodul innehåller [vilda förändringar](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) och kan kräva ytterligare manuell rensning för att inte störa andra moddar. {0}'
       - lang: ta
-        text: 'இந்த சொருகி [காட்டு திருத்தங்கள்](https://tes5edit.github.io/docs/7-mod-cleaning-and- error- checking.html#wildedits) மற்றும் பிற MODS உடன் தலையிடாமல் கூடுதல் கையேடு தூய்மை தேவைப்படலாம். {0}'
+        text: 'இந்தச் சொருகி [காட்டு திருத்தங்கள்](https://tes5edit.github.io/docs/7-mod-cleaning-and- error- checking.html#wildedits) மற்றும் பிற சொருகி உடன் தலையிடாமல் கூடுதல் கையேடு தூய்மை தேவைப்படலாம். {0}'
       - lang: tr_TR
         text: 'Bu eklenti [wild edits](https://tes5edit.github.io/docs/7-mod-cleaning-and-error-checking.html#WildEdits) içerir ve diğer modlarla çakışmaması için ek manuel temizlik gerekebilir. {0}'
       - lang: uk_UA
