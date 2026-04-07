@@ -119,7 +119,7 @@ common:
       - lang: sv
         text: 'Det är rekommenderat att du också använder {0}.'
       - lang: ta
-        text: 'நீங்கள் {0} ஐப் பயன்படுத்த பரிந்துரைக்கப்படுகிறது.'
+        text: 'நீங்கள் {0} ஐப் பயன்படுத்தப் பரிந்துரைக்கப்படுகிறது.'
       - lang: tr_TR
         text: '{0} kullanmanız şiddetle tavsiye edilir.'
       - lang: uk_UA
@@ -243,7 +243,7 @@ common:
       - lang: sv
         text: 'Det rekommenderas att du kontrollerar följande kompatibilitet patch sammanställning för denna mod: {0}'
       - lang: ta
-        text: 'இந்த மோடிற்கான பின்வரும் பொருந்தக்கூடிய ஒட்டு தொகுப்பை சரிபார்க்க பரிந்துரைக்கப்படுகிறது: {0}'
+        text: 'இந்த மோடிற்கான பின்வரும் பொருந்தக்கூடிய ஒட்டு தொகுப்பைச் சரிபார்க்க பரிந்துரைக்கப்படுகிறது: {0}'
       - lang: tr_TR
         text: 'Bu mod için aşağıdaki uyumluluk yaması derlemesini kontrol etmeniz tavsiye edilir: {0}'
       - lang: uk_UA
@@ -279,7 +279,7 @@ common:
       - lang: sv
         text: 'Det rekommenderas att du kontrollerar följande kompatibilitet patch sammanställning för {0}: {1}'
       - lang: ta
-        text: '{0}: {1}க்கான பின்வரும் பொருந்தக்கூடிய ஒட்டு தொகுப்பைச் சரிபார்க்க பரிந்துரைக்கப்படுகிறது'
+        text: '{0}க்கான பின்வரும் பொருந்தக்கூடிய ஒட்டு தொகுப்பைச் சரிபார்க்க பரிந்துரைக்கப்படுகிறது: {1}'
       - lang: tr_TR
         text: '{0} için aşağıdaki uyumluluk yaması derlemesini kontrol etmeniz önerilir: {1}'
       - lang: uk_UA
@@ -321,7 +321,7 @@ common:
       - lang: sv
         text: 'Denna fil är korrupt och borde inte användas.'
       - lang: ta
-        text: 'இந்த கோப்பு ஊழல் நிறைந்தது மற்றும் பயன்படுத்தக்கூடாது.'
+        text: 'இந்தக் கோப்புத் தவறுகள் நிறைந்தது மற்றும் பயன்படுத்தக் கூடாது.'
       - lang: tr_TR
         text: 'Bu dosya bozuk, kullanılmamalıdır.'
       - lang: uk_UA
@@ -357,7 +357,7 @@ common:
       - lang: sv
         text: 'Avaktivera och/eller avinstallera denna mod efter du skapat din karaktär.'
       - lang: ta
-        text: 'கதாபாத்திரத்தை உருவாக்கிய பிறகு இந்த மோட் செயலிழக்க மற்றும்/அல்லது நிறுவல் நீக்கவும்.'
+        text: 'கதாபாத்திரத்தை உருவாக்கியபிறகு இந்த மோட் செயலிழக்க மற்றும்/அல்லது நிறுவல் நீக்கவும்.'
       - lang: tr_TR
         text: 'Karakter oluşturulduktan sonra bu modu devre dışı bırakın ve/veya kaldırın.'
       - lang: uk_UA
@@ -480,7 +480,7 @@ common:
       - lang: sv
         text: 'Den här filen är markerad för att inte längre användas.'
       - lang: ta
-        text: 'இந்த கோப்பு நீக்கப்பட்டது, இனி பயன்படுத்தப்படக்கூடாது.'
+        text: 'இந்தக் கோப்பு நீக்கப்பட்டது, இனி பயன்படுத்தப்படக் கூடாது.'
       - lang: tr_TR
         text: 'Bu dosya artık kullanılmıyor ve kullanılmamalıdır.'
       - lang: uk_UA
@@ -516,7 +516,7 @@ common:
       - lang: sv
         text: 'Denna insticksmodul kan inaktiveras efter att ha genererat **{0}** med **{1}**.'
       - lang: ta
-        text: '**{1}** உடன் **{0}** உருவாக்கியபிறகு இந்தச் சொருகி முடக்கப்படலாம்.'
+        text: '**{0}** உடன் **{1}** உருவாக்கியபிறகு இந்தச் சொருகி முடக்கப்படலாம்.'
       - lang: tr_TR
         text: 'Bu eklenti, **{1}** ile **{0}** oluşturulduktan sonra devre dışı bırakılabilir.'
       - lang: uk_UA
@@ -585,7 +585,7 @@ common:
       - lang: ru
         text: 'Этот плагин не является ESM, но, похоже, содержит навмеши. Это может привести к проблемам с поиском пути у НИП. Рекомендуется пометить этот плагин как **ESM**, чтобы избежать этих проблем. Также может потребоваться убедиться, что все ссылки, вызываемые скриптами в этом плагине, помечены как **постоянные**.'
       - lang: ta
-        text: 'இந்தச் சொருகி ஒரு ESM அல்ல, ஆனால் அதில் நவ்மேச்கள் இருப்பதாகத் தெரிகிறது. இது NPC பாத்ஃபைண்டிங் சிக்கல்களுக்கு வழிவகுக்கும். இந்தச் சிக்கல்களைத் தவிர்க்க இந்தச் சொருகி **ESM** எனக் கொடியிட பரிந்துரைக்கப்படுகிறது. இந்தச் சொருகி ச்கிரிப்ட்களால் அழைக்கப்படும் அனைத்து குறிப்புகளும் **தொடர்ச்சியான** எனக் கொடியிடப்படுவதை உறுதிசெய்வதும் அவசியமாக இருக்கலாம்.'
+        text: 'இந்தச் சொருகி ஒரு இஎச்எம் அல்ல, ஆனால் அதில் நவ்மேச்கள் இருப்பதாகத் தெரிகிறது. இது NPC பாத்ஃபைண்டிங் சிக்கல்களுக்கு வழிவகுக்கும். இந்தச் சிக்கல்களைத் தவிர்க்க இந்தச் சொருகி **ESM** எனக் கொடியிட பரிந்துரைக்கப்படுகிறது. இந்தச் சொருகி ச்கிரிப்ட்களால் அழைக்கப்படும் அனைத்து குறிப்புகளும் **தொடர்ச்சியான** எனக் கொடியிடப்படுவதை உறுதிசெய்வதும் அவசியமாக இருக்கலாம்.'
       - lang: tr_TR
         text: 'Bu eklenti bir ESM değil, ancak navmeshler içeriyor gibi görünüyor. Bu, NPC yol bulma sorunlarına neden olabilir. Bu sorunları önlemek için bu eklentiyi **ESM** olarak işaretlemeniz önerilir. Bu eklentideki betikler tarafından çağrılan tüm referansların **kalıcı** olarak işaretlendiğinden emin olmanız da gerekebilir.'
       - lang: uk_UA
@@ -711,7 +711,7 @@ common:
       - lang: sv
         text: 'Använd endast denna insticksmodul när spelets huvuduppdrag har slutförts.'
       - lang: ta
-        text: 'விளையாட்டின் முக்கிய தேடல் முடிந்ததும் மட்டுமே இந்த சொருகி பயன்படுத்தவும்.'
+        text: 'விளையாட்டின் முக்கிய தேடல் முடிந்த பிறகு மட்டுமே இந்தச் சொருகி பயன்படுத்தவும்.'
       - lang: tr_TR
         text: 'Bu eklentiyi, oyunun ana görevi tamamlandıktan sonra kullanın.'
       - lang: uk_UA
@@ -753,7 +753,7 @@ common:
       - lang: sv
         text: '**{0}** mästaren måste omfördelas till **{1}**.'
       - lang: ta
-        text: '**{0}** மாச்டரை **{1}** க்கு மீண்டும் நியமிக்க வேண்டும்.'
+        text: '**{0}** தலைவன் **{1}** க்கு மீண்டும் நியமிக்க வேண்டும்.'
       - lang: tr_TR
         text: '**{0}** master, **{1}** olarak yeniden atanmalıdır.'
       - lang: uk_UA
@@ -909,7 +909,7 @@ common:
       - lang: sv
         text: 'Denna insticksmodul används som en moddningsresurs och borde inte användas i spelet.'
       - lang: ta
-        text: 'இந்த சொருகி ஒரு மோடிங் வளமாகும், மேலும் விளையாட்டில் பயன்படுத்தக்கூடாது.'
+        text: 'இந்தச் சொருகி ஒரு மோடிங் வளமாகும், மேலும் விளையாட்டில் பயன்படுத்தக் கூடாது.'
       - lang: tr_TR
         text: 'Bu eklenti bir modlama kaynağıdır ve oyun içinde kullanılmamalıdır.'
       - lang: uk_UA
@@ -2298,7 +2298,7 @@ common:
       - lang: sv
         text: '{0} stöder inte användningen av **{1}**-insticksmoduler i spelet, men din laddningsordning innehåller sådana insticksmoduler. För att undvika oåterkalleliga skador på ditt spel rekommenderas det att inte använda **{1}**-insticksmoduler.'
       - lang: ta
-        text: '{0} **{1}** செருகுநிரல்களின் பயன்பாட்டை ஆதரிக்காது, ஆனால் உங்கள் சுமை வரிசையில் அத்தகைய செருகுநிரல்கள் உள்ளன. உங்கள் விளையாட்டுக்கு மாற்ற முடியாத சேதத்தைத் தவிர்ப்பதற்காக, **{1}** செருகுநிரல்களைப் பயன்படுத்த வேண்டாம் என்று பரிந்துரைக்கப்படுகிறது.'
+        text: '{0} செருகுநிரல்களின் **{1}** பயன்பாட்டை ஆதரிக்காது, ஆனால் உங்கள் ஏற்று வரிசையில் அத்தகைய செருகுநிரல்கள் உள்ளன. உங்கள் விளையாட்டுக்கு மாற்ற முடியாத சேதத்தைத் தவிர்ப்பதற்காக, **{1}** செருகுநிரல்களைப் பயன்படுத்த வேண்டாம் என்று பரிந்துரைக்கப்படுகிறது.'
       - lang: uk_UA
         text: '{0} не підтримує використання **{1}** плагінів у грі, але ваш набір модів має подібні файли. Радимо не користуватися **{1}** плагінами задля уникнення невідворотного пошкодження вашої гри.'
       - lang: zh_CN
@@ -2388,7 +2388,7 @@ common:
       - lang: sv
         text: '[Senaste LOOT-tråd]({0}).'
       - lang: ta
-        text: '[சமீபத்திய கொள்ளை நூல்]({0}).'
+        text: '[அண்மைகால கொள்ளை நூல்]({0}).'
       - lang: tr_TR
         text: '[Son LOOT Konusu]({0}).'
       - lang: uk_UA
