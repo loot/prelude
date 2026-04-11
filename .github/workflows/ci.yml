@@ -18,7 +18,7 @@ jobs:
       - name: Set up Node
         uses: actions/setup-node@v6
         with:
-          node-version: 22
+          node-version: 24
 
       - name: Install metadata validator v${{ env.VALIDATOR_VERSION }}
         run: wget https://github.com/loot/metadata-validator/releases/download/${{ env.VALIDATOR_VERSION }}/metadata-validator-${{ env.VALIDATOR_VERSION }}-Linux.tar.xz -O - | tar -xJ --strip-components=1
