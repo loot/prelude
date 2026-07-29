@@ -524,6 +524,12 @@ common:
       - lang: zh_CN
         text: '此插件可在用 **{1}** 产生 **{0}** 后禁用。'
 
+  - &doNotCleanOBME
+    type: say
+    content:
+      - lang: en
+        text: 'Do not clean. TES4Edit does not support OBME and may remove records containing OBME data when cleaning.'
+
   - &essentialFiles
     type: warn
     content:
