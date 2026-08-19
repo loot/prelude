@@ -529,6 +529,8 @@ common:
     content:
       - lang: en
         text: 'Do not clean. TES4Edit does not support OBME and may remove records containing OBME data when cleaning.'
+      - lang: de
+        text: 'Nicht säubern. TES4Edit unterstützt OBME nicht und entfernt bei der Säuberung möglicherweise Datensätze, die OBME-Daten enthalten.'
 
   - &essentialFiles
     type: warn
